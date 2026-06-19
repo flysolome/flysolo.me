@@ -21,6 +21,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 *,
@@ -85,6 +86,7 @@ body > header.pagewidth {
 .fs-nav__links {
   flex-wrap: wrap;
   justify-content: flex-end;
+  max-width: 100%;
 }
 
 .fs-nav__links a,
@@ -124,10 +126,11 @@ main#home > .section-title {
 .fs-site {
   color: var(--fs-text);
   overflow: hidden;
+  max-width: 100vw;
 }
 
 .fs-shell {
-  width: min(calc(100% - 2rem), var(--fs-max));
+  width: min(calc(100vw - 2rem), var(--fs-max));
   margin: 0 auto;
 }
 
@@ -284,6 +287,7 @@ main#home > .section-title {
 }
 
 .fs-hero h1 {
+  width: 100%;
   max-width: 760px;
   font-size: clamp(2.55rem, 5.4vw, 5rem);
   overflow-wrap: anywhere;
@@ -565,14 +569,35 @@ article#main-article,
     gap: 0.75rem;
   }
 
+  .fs-shell {
+    width: calc(100vw - 2rem);
+  }
+
   .fs-hero {
     min-height: auto;
     padding-top: 3.5rem;
   }
 
   .fs-hero h1 {
-    font-size: clamp(2.35rem, 10.5vw, 3.15rem);
+    max-width: 100%;
+    font-size: clamp(2.2rem, 9.8vw, 2.9rem);
     line-height: 1.08;
+  }
+
+  .fs-hero__lead {
+    max-width: 100%;
+  }
+
+  .fs-proof {
+    flex-wrap: nowrap;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    overflow-x: auto;
+    padding: 0 1rem 0.25rem;
+  }
+
+  .fs-proof span {
+    flex: 0 0 auto;
   }
 
   .fs-actions,
