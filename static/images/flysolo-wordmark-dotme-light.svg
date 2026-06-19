@@ -1,0 +1,15 @@
+<svg width="940" height="220" viewBox="0 0 940 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">FlySolo.me Wordmark</title>
+  <desc id="desc">FlySolo.me wordmark with wing icon.</desc>
+  <defs>
+    <linearGradient id="flysoloGradient" x1="32" y1="54" x2="180" y2="166" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+  <rect x="32" y="54" width="160" height="36" rx="12" fill="url(#flysoloGradient)"/>
+  <rect x="32" y="98" width="112" height="36" rx="12" fill="url(#flysoloGradient)"/>
+  <rect x="32" y="142" width="64" height="36" rx="12" fill="url(#flysoloGradient)"/>
+  <text x="232" y="142" font-family="Inter, Geist, Manrope, Arial, sans-serif" font-size="86" font-weight="750" fill="#0B1220" letter-spacing="-3">FlySolo</text>
+  <text x="584" y="142" font-family="Inter, Geist, Manrope, Arial, sans-serif" font-size="60" font-weight="650" fill="#94A3B8" letter-spacing="-2">.me</text>
+</svg>

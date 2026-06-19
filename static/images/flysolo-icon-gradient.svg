@@ -1,0 +1,13 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">FlySolo Icon</title>
+  <desc id="desc">A minimalist wing mark with a hidden F shape.</desc>
+  <defs>
+    <linearGradient id="flysoloGradient" x1="96" y1="128" x2="416" y2="384" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+  <rect x="96" y="128" width="320" height="72" rx="24" fill="url(#flysoloGradient)"/>
+  <rect x="96" y="220" width="224" height="72" rx="24" fill="url(#flysoloGradient)"/>
+  <rect x="96" y="312" width="128" height="72" rx="24" fill="url(#flysoloGradient)"/>
+</svg>

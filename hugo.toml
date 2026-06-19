@@ -1,0 +1,162 @@
+baseURL = "https://flysolo.me/"
+languageCode = "en-us"
+title = "FlySolo"
+theme = ["hugo-brewm", "hugo-book"]
+enableRobotsTXT = true
+disablePathToLower = true
+
+[params]
+  description = "FlySolo helps senior Dutch tech freelancers turn leads into professional proposals, defensible rates, signed contracts, invoices, and payment follow-up."
+  keywords = ["FlySolo", "freelancer operating system", "AI proposals", "Dutch freelancers", "ZZP", "DevOps freelancer", "cloud architect", "security consultant", "Moneybird", "freelance proposal", "pricing intelligence"]
+  images = "/images/flysolo.png"
+  extMeta = false
+  DisableFootBar = false
+
+  primaryColor = "#4F46E5"
+  secondaryColor = "#14B8A6"
+  accentColor = "#38BDF8"
+  backgroundColor = "#0B1220"
+  textColor = "#F9FAFB"
+
+  customCSS = ["css/custom.css"]
+  BookTheme = "dark"
+  BookToC = true
+  BookLogo = "images/flysolo-icon-gradient.svg"
+  BookFavicon = "images/flysolo-favicon.svg"
+  BookSection = "wiki"
+  BookSearch = true
+  BookComments = false
+  BookRepo = ""
+  BookEditLink = ""
+  BookDateFormat = "January 2, 2006"
+  unifiedFooter = true
+  copyright = "FlySolo"
+
+[params.author]
+  name = "FlySolo"
+  email = "hello@flysolo.me"
+
+[params.favicon]
+  ico = "/images/flysolo-favicon.svg"
+  png = "/images/flysolo-app-icon-dark.svg"
+  apple = "/images/flysolo-app-icon-dark.svg"
+
+[params.logo]
+  logoMark = "/images/flysolo-icon-gradient.svg"
+  logoMarkDark = "/images/flysolo-icon-gradient.svg"
+  logoType = false
+
+[params.socialCard]
+  enable = true
+  opengraph = false
+  twitter = false
+  images = "/images/flysolo.png"
+
+[params.seo]
+  siteName = "FlySolo"
+  title = "FlySolo - AI deal workflow for freelancers"
+  description = "From lead to signed contract, invoice, and payment. Built first for senior Dutch tech freelancers."
+  image = "/images/flysolo.png"
+
+[params.home]
+  disableSlide = true
+  disableListing = true
+
+[params.posts]
+  share = false
+  related = false
+  noIndent = false
+  justifying = false
+
+[params.search]
+  enable = false
+
+[params.typeface]
+  webSafe = false
+  localHost = false
+  serif = "Cormorant"
+  sans = "Montserrat"
+
+[[menu.main]]
+  name = "Features"
+  url = "/#features"
+  weight = 1
+
+[[menu.main]]
+  name = "Workflow"
+  url = "/#workflow"
+  weight = 2
+
+[[menu.main]]
+  name = "Pricing"
+  url = "/#pricing"
+  weight = 3
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 4
+
+[[menu.main]]
+  name = "Wiki"
+  url = "/wiki/"
+  weight = 5
+
+[[menu.main]]
+  name = "Join Beta"
+  url = "/#join"
+  weight = 6
+
+[[menu.after]]
+  name = "Home"
+  url = "https://flysolo.me/"
+  weight = 10
+
+[[menu.after]]
+  name = "Blog"
+  url = "https://flysolo.me/blog/"
+  weight = 20
+
+[[menu.after]]
+  name = "Wiki"
+  url = "https://flysolo.me/wiki/"
+  weight = 30
+
+[[menu.after]]
+  name = "Contact"
+  url = "mailto:hello@flysolo.me"
+  weight = 40
+
+[[menu.footer]]
+  identifier = "contact"
+  name = "Contact"
+  url = "mailto:hello@flysolo.me"
+  pre = "envelope"
+  weight = 5
+
+[[menu.footer]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog/"
+  pre = "newspaper"
+  weight = 10
+
+[[menu.footer]]
+  identifier = "wiki"
+  name = "Wiki"
+  url = "/wiki/"
+  pre = "book"
+  weight = 20
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+
+[module]
+  [[module.imports]]
+    path = 'github.com/hugomods/icons/vendors/bootstrap'
+  [[module.imports]]
+    path = 'github.com/hugomods/icons/vendors/font-awesome'
