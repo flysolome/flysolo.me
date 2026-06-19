@@ -23,6 +23,12 @@ html {
   scroll-behavior: smooth;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   background:
     radial-gradient(circle at 18% 8%, rgba(79, 70, 229, 0.22), transparent 30%),
@@ -130,7 +136,7 @@ main#home > .section-title {
   min-height: min(820px, calc(100vh - 64px));
   display: flex;
   align-items: center;
-  padding: clamp(4rem, 8vw, 7rem) 0;
+  padding: clamp(3rem, 7vw, 5.5rem) 0;
   isolation: isolate;
   overflow: hidden;
 }
@@ -201,9 +207,9 @@ main#home > .section-title {
 
 .fs-brand img {
   display: block;
-  width: min(260px, 72vw);
+  width: min(220px, 70vw);
   height: auto;
-  margin-bottom: clamp(2rem, 4vw, 3rem);
+  margin-bottom: clamp(1.5rem, 3vw, 2.25rem);
 }
 
 .fs-lang {
@@ -261,7 +267,7 @@ main#home > .section-title {
 .fs-hero h1 {
   max-width: 760px;
   font-size: clamp(2.55rem, 5.4vw, 5rem);
-  overflow-wrap: normal;
+  overflow-wrap: anywhere;
 }
 
 .fs-hero__lead {
@@ -546,8 +552,12 @@ article#main-article,
   }
 
   .fs-hero h1 {
-    font-size: clamp(2.4rem, 11vw, 3.25rem);
+    font-size: clamp(2.35rem, 10.5vw, 3.15rem);
     line-height: 1.08;
+  }
+
+  .fs-brand img {
+    width: min(190px, 58vw);
   }
 
   .fs-actions,
