@@ -11,4 +11,4 @@ weight: 20
 - Integreer voordat je bouwt
 - Focus op de lead-to-payment workflow
 - Word nooit boekhoudsoftware
-- Dutch-first, global-ready
+- Vanaf dag één gelokaliseerd, global-ready

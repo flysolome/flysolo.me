@@ -9,11 +9,11 @@ Vroege FlySolo-acquisitie moet niet starten met "AI operating system".
 
 Start met de concrete job:
 
-Van lead naar getekende opdracht, in professioneel Nederlands.
+Van lead naar getekende opdracht, met professionele klantklare taal.
 
 ## Eerste ICP
 
-Senior Nederlandstalige freelance tech professionals:
+Ervaren zelfstandige tech professionals:
 
 - DevOps Engineers
 - Cloud Architects
@@ -23,10 +23,10 @@ Senior Nederlandstalige freelance tech professionals:
 ## Acquisitiekanalen
 
 - Founder-led voorstel- en tariefreviews
-- Nederlandse tech freelancer rate checker
+- Freelance rate checker
 - Opdracht-naar-voorstel-generator
 - Proposal confidence scoring
-- Moneybird-gerichte workflowpagina
+- Factuurworkflowpagina
 - Community proposal teardown sessies
 - Recruiter- en accountant-referralloops
 

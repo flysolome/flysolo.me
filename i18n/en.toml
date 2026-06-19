@@ -17,7 +17,7 @@ other = "Qualified"
 other = "Proposal"
 
 [workflow_card_step_2_state]
-other = "Ready in Dutch"
+other = "Client-ready"
 
 [workflow_card_step_3]
 other = "Pricing"
@@ -35,16 +35,16 @@ other = "Terms drafted"
 other = "Invoice"
 
 [workflow_card_step_5_state]
-other = "Moneybird handoff"
+other = "Invoice handoff"
 
 [hero_eyebrow]
-other = "AI deal workflow for senior Dutch tech freelancers"
+other = "AI deal workflow for independent consultants"
 
 [hero_title]
-other = "Win better freelance deals in Dutch."
+other = "Win better freelance deals."
 
 [hero_lead]
-other = "FlySolo helps freelancers turn messy client briefs into polished proposals, defensible rates, contract-ready terms, Moneybird invoices, and payment follow-up."
+other = "FlySolo helps freelancers turn messy client briefs into polished proposals, defensible rates, contract-ready terms, invoices, and payment follow-up."
 
 [hero_primary]
 other = "Join the beta"
@@ -77,7 +77,7 @@ other = "The commercial gap"
 other = "Freelancers win the work, then rebuild the business flow by hand."
 
 [problem_body_1]
-other = "Leads arrive through email, LinkedIn, recruiters, referrals, and calls. Proposals live in old documents. Pricing happens from gut feel. Contracts are copied from templates. Invoices happen later in Moneybird."
+other = "Leads arrive through email, LinkedIn, recruiters, referrals, and calls. Proposals live in old documents. Pricing happens from gut feel. Contracts are copied from templates. Invoices happen later in separate tools."
 
 [problem_body_2]
 other = "FlySolo connects those moments into one workflow, so a serious lead can become a signed and paid project without scattered tools."
@@ -107,7 +107,7 @@ other = "Contract-ready terms"
 other = "Draft scope, assumptions, payment terms, exclusions, and agreement language for human review."
 
 [feature_4_title]
-other = "Moneybird handoff"
+other = "Invoice handoff"
 
 [feature_4_body]
 other = "Move accepted work into invoice and payment follow-up flows without retyping the same client and project data."

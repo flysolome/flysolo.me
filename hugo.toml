@@ -8,8 +8,8 @@ enableRobotsTXT = true
 disablePathToLower = true
 
 [params]
-  description = "FlySolo helps senior Dutch tech freelancers turn leads into professional proposals, defensible rates, signed contracts, invoices, and payment follow-up."
-  keywords = ["FlySolo", "freelancer operating system", "AI proposals", "Dutch freelancers", "ZZP", "DevOps freelancer", "cloud architect", "security consultant", "Moneybird", "freelance proposal", "pricing intelligence"]
+  description = "FlySolo helps independent consultants and freelancers turn leads into professional proposals, defensible rates, signed contracts, invoices, and payment follow-up."
+  keywords = ["FlySolo", "freelancer operating system", "AI proposals", "independent consultants", "freelancers", "DevOps freelancer", "cloud architect", "security consultant", "freelance proposal", "pricing intelligence", "client workflow"]
   images = "/images/flysolo.png"
   extMeta = false
   DisableFootBar = false
@@ -57,7 +57,7 @@ disablePathToLower = true
 [params.seo]
   siteName = "FlySolo"
   title = "FlySolo - AI deal workflow for freelancers"
-  description = "From lead to signed contract, invoice, and payment. Built first for senior Dutch tech freelancers."
+  description = "From lead to signed contract, invoice, and payment. Built for independent consultants and freelancers."
   image = "/images/flysolo.png"
 
 [params.home]

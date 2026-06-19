@@ -1,6 +1,6 @@
 ---
 title: "FlySolo"
-description: "AI deal workflow for senior Dutch tech freelancers."
+description: "AI deal workflow for independent consultants and freelancers."
 type: "landing"
 sitemap:
   priority: 1.0

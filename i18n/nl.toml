@@ -17,7 +17,7 @@ other = "Gekwalificeerd"
 other = "Voorstel"
 
 [workflow_card_step_2_state]
-other = "Klaar in het Nederlands"
+other = "Klantklaar"
 
 [workflow_card_step_3]
 other = "Prijs"
@@ -35,16 +35,16 @@ other = "Voorwaarden opgesteld"
 other = "Factuur"
 
 [workflow_card_step_5_state]
-other = "Moneybird-overdracht"
+other = "Factuuroverdracht"
 
 [hero_eyebrow]
-other = "AI deal workflow voor senior Nederlandse tech zzp'ers"
+other = "AI deal workflow voor zelfstandige consultants"
 
 [hero_title]
-other = "Win betere freelance deals in het Nederlands."
+other = "Win betere freelance deals."
 
 [hero_lead]
-other = "FlySolo helpt freelancers om rommelige klantbriefings om te zetten in sterke voorstellen, verdedigbare tarieven, contractklare voorwaarden, Moneybird-facturen en betaalopvolging."
+other = "FlySolo helpt freelancers om rommelige klantbriefings om te zetten in sterke voorstellen, verdedigbare tarieven, contractklare voorwaarden, facturen en betaalopvolging."
 
 [hero_primary]
 other = "Meld je aan voor de beta"
@@ -77,7 +77,7 @@ other = "De commerciële kloof"
 other = "Freelancers winnen het werk, maar bouwen de zakelijke flow daarna opnieuw met de hand."
 
 [problem_body_1]
-other = "Leads komen binnen via e-mail, LinkedIn, recruiters, referrals en calls. Voorstellen staan in oude documenten. Tarieven worden vaak op gevoel bepaald. Contracten worden gekopieerd uit templates. Facturen komen later pas in Moneybird."
+other = "Leads komen binnen via e-mail, LinkedIn, recruiters, referrals en calls. Voorstellen staan in oude documenten. Tarieven worden vaak op gevoel bepaald. Contracten worden gekopieerd uit templates. Facturen komen later pas in losse tools."
 
 [problem_body_2]
 other = "FlySolo verbindt die momenten in één workflow, zodat een serieuze lead een getekende en betaalde opdracht kan worden zonder losse tools."
@@ -107,7 +107,7 @@ other = "Contractklare voorwaarden"
 other = "Stel scope, aannames, betalingstermijnen, uitsluitingen en opdrachtafspraken op voor menselijke controle."
 
 [feature_4_title]
-other = "Moneybird-overdracht"
+other = "Factuuroverdracht"
 
 [feature_4_body]
 other = "Zet geaccepteerd werk door naar factuur- en betaalopvolging zonder dezelfde klant- en projectdata opnieuw te typen."

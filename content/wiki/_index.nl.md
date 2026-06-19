@@ -8,7 +8,7 @@ bookCollapseSection: false
 
 FlySolo is het AI operating system voor freelancers.
 
-De eerste markt-wedge is senior Nederlandstalige freelance tech professionals die leads sneller willen omzetten in getekende en betaalde opdrachten.
+De eerste markt-wedge is ervaren zelfstandige tech professionals die leads sneller willen omzetten in getekende en betaalde opdrachten.
 
 ## Kernbelofte
 
@@ -27,5 +27,5 @@ Zet een lead met minimale moeite om in een getekend contract en betaalde opdrach
 - AI prijssuggesties
 - AI contractgeneratie
 - End-to-end workflow
-- Dutch-first uitvoering
-- Moneybird-integratie
+- Gelokaliseerde voorstel- en contracttaal
+- Factuurworkflow-integratie

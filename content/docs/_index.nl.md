@@ -3,7 +3,7 @@ title: "Docs"
 description: "FlySolo product- en businessoverzicht."
 ---
 
-FlySolo is een Dutch-first AI operating system voor freelancers.
+FlySolo is een AI operating system voor zelfstandige consultants en freelancers.
 
 Het helpt zelfstandige professionals minder tijd te besteden aan administratie en meer tijd aan factureerbaar werk.
 
