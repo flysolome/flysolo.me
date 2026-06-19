@@ -136,10 +136,10 @@ main#home > .section-title {
 
 .fs-hero {
   position: relative;
-  min-height: min(820px, calc(100vh - 64px));
+  min-height: min(760px, calc(100vh - 64px));
   display: flex;
   align-items: center;
-  padding: clamp(3rem, 7vw, 5.5rem) 0;
+  padding: clamp(2.5rem, 6vw, 4.75rem) 0;
   isolation: isolate;
   overflow: hidden;
 }
@@ -150,8 +150,8 @@ main#home > .section-title {
   inset: 0;
   z-index: -2;
   background:
-    linear-gradient(90deg, rgba(11, 18, 32, 0.96) 0%, rgba(11, 18, 32, 0.76) 48%, rgba(11, 18, 32, 0.34) 100%),
-    url("/images/flysolo.png") center right 8% / min(460px, 40vw) auto no-repeat;
+    linear-gradient(90deg, rgba(11, 18, 32, 0.96) 0%, rgba(11, 18, 32, 0.72) 52%, rgba(20, 184, 166, 0.16) 100%),
+    repeating-linear-gradient(90deg, rgba(148, 163, 184, 0.05) 0 1px, transparent 1px 84px);
   opacity: 0.72;
 }
 
@@ -594,11 +594,11 @@ article#main-article,
   }
 
   .fs-proof {
-    flex-wrap: nowrap;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    overflow-x: auto;
-    padding: 0 1rem 0.25rem;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+    overflow-x: visible;
+    padding: 0;
   }
 
   .fs-proof span {
