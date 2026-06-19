@@ -5,3 +5,4 @@ resources/
 node_modules/
 themes/**/exampleSite/
 themes/**/.github/
+screenshots/

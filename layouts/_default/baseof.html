@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="{{ .Language.Locale }}" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ or .Description site.Params.description }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ range .AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+  {{ end }}
+  <link rel="icon" href="/images/flysolo-favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}">
+  <meta property="og:description" content="{{ or .Description site.Params.description }}">
+  <meta property="og:image" content="/images/flysolo.png">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="FlySolo">
+  <meta name="twitter:card" content="summary_large_image">
+  {{ $css := resources.Get "css/custom.css" | minify | fingerprint "sha256" }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+</head>
+<body>
+  <header class="fs-nav">
+    <a class="fs-nav__brand" href="{{ if eq .Language.Lang "nl" }}/nl/{{ else }}/{{ end }}" aria-label="FlySolo">
+      <img src="/images/flysolo-icon-gradient.svg" alt="">
+      <span>FlySolo</span>
+    </a>
+    <nav class="fs-nav__links" aria-label="Main">
+      {{ range site.Menus.main }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </header>
+  <main id="{{ .Kind }}">
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="fs-footer">
+    <div class="fs-shell">
+      <span>FlySolo</span>
+      <nav aria-label="Footer">
+        {{ range site.Menus.footer }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

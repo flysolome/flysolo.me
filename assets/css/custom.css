@@ -42,6 +42,58 @@ body > header.pagewidth {
   backdrop-filter: blur(14px);
 }
 
+.fs-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 64px;
+  padding: 0 clamp(1rem, 4vw, 2.5rem);
+  background: rgba(11, 18, 32, 0.84);
+  border-bottom: 1px solid var(--fs-border);
+  backdrop-filter: blur(16px);
+}
+
+.fs-nav__brand,
+.fs-nav__links,
+.fs-footer nav {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.fs-nav__brand {
+  color: var(--fs-text) !important;
+  font-weight: 900;
+  text-decoration: none !important;
+}
+
+.fs-nav__brand img {
+  width: 34px;
+  height: 34px;
+}
+
+.fs-nav__links {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.fs-nav__links a,
+.fs-footer a {
+  color: var(--fs-text-soft) !important;
+  font-size: 0.88rem;
+  font-weight: 750;
+  text-decoration: none !important;
+}
+
+.fs-nav__links a:hover,
+.fs-footer a:hover {
+  color: #99F6E4 !important;
+}
+
 #logo #logotype,
 #logo #logotype__text {
   display: none !important;
@@ -438,6 +490,25 @@ article#main-article,
   padding: clamp(1.25rem, 4vw, 2.5rem);
 }
 
+.fs-footer {
+  border-top: 1px solid var(--fs-border);
+  background: rgba(11, 18, 32, 0.92);
+  color: var(--fs-text-muted);
+  padding: 1.5rem 0;
+}
+
+.fs-footer .fs-shell {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.fs-footer span {
+  color: var(--fs-text);
+  font-weight: 900;
+}
+
 @media (max-width: 980px) {
   .fs-hero::before {
     background: linear-gradient(180deg, rgba(11, 18, 32, 0.98), rgba(17, 24, 39, 0.94));
@@ -457,6 +528,18 @@ article#main-article,
 }
 
 @media (max-width: 640px) {
+  .fs-nav {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+  }
+
+  .fs-nav__links {
+    justify-content: flex-start;
+    gap: 0.75rem;
+  }
+
   .fs-hero {
     min-height: auto;
     padding-top: 3.5rem;
@@ -474,5 +557,10 @@ article#main-article,
 
   .fs-cta {
     grid-template-columns: 1fr;
+  }
+
+  .fs-footer .fs-shell {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
