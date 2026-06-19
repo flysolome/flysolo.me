@@ -6,35 +6,40 @@
     <div class="fs-hero__media" aria-hidden="true">
       <div class="fs-workflow-card">
         <div class="fs-workflow-card__header">
-          <span>Live opportunity</span>
-          <strong>Azure landing zone</strong>
+          <span>{{ i18n "workflow_card_label" }}</span>
+          <strong>{{ i18n "workflow_card_title" }}</strong>
         </div>
         <ol>
-          <li><span>Lead</span><strong>Qualified</strong></li>
-          <li><span>Proposal</span><strong>Ready in Dutch</strong></li>
-          <li><span>Pricing</span><strong>Rate range set</strong></li>
-          <li><span>Contract</span><strong>Terms drafted</strong></li>
-          <li><span>Invoice</span><strong>Moneybird handoff</strong></li>
+          <li><span>{{ i18n "workflow_card_step_1" }}</span><strong>{{ i18n "workflow_card_step_1_state" }}</strong></li>
+          <li><span>{{ i18n "workflow_card_step_2" }}</span><strong>{{ i18n "workflow_card_step_2_state" }}</strong></li>
+          <li><span>{{ i18n "workflow_card_step_3" }}</span><strong>{{ i18n "workflow_card_step_3_state" }}</strong></li>
+          <li><span>{{ i18n "workflow_card_step_4" }}</span><strong>{{ i18n "workflow_card_step_4_state" }}</strong></li>
+          <li><span>{{ i18n "workflow_card_step_5" }}</span><strong>{{ i18n "workflow_card_step_5_state" }}</strong></li>
         </ol>
       </div>
     </div>
     <div class="fs-shell fs-hero__inner">
+      <div class="fs-lang" aria-label="{{ i18n "language_label" }}">
+        {{ range .AllTranslations }}
+          <a href="{{ .RelPermalink }}?lang={{ .Language.Lang }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}"{{ if eq .Language.Lang $.Language.Lang }} aria-current="page"{{ end }}>{{ .Language.Label }}</a>
+        {{ end }}
+      </div>
       <div class="fs-brand">
         <img src="/images/flysolo-wordmark-dotme-light.svg" alt="FlySolo.me">
       </div>
-      <p class="fs-eyebrow">AI deal workflow for senior Dutch tech freelancers</p>
-      <h1>Van lead naar getekende opdracht, in professioneel Nederlands.</h1>
-      <p class="fs-hero__lead">FlySolo helps freelancers turn messy client briefs into polished proposals, defensible rates, contract-ready terms, Moneybird invoices, and payment follow-up.</p>
+      <p class="fs-eyebrow">{{ i18n "hero_eyebrow" }}</p>
+      <h1>{{ i18n "hero_title" }}</h1>
+      <p class="fs-hero__lead">{{ i18n "hero_lead" }}</p>
       <div class="fs-actions">
-        <a class="fs-button fs-button--primary" href="#join">Join the beta</a>
-        <a class="fs-button fs-button--secondary" href="#workflow">See workflow</a>
+        <a class="fs-button fs-button--primary" href="#join">{{ i18n "hero_primary" }}</a>
+        <a class="fs-button fs-button--secondary" href="#workflow">{{ i18n "hero_secondary" }}</a>
       </div>
-      <div class="fs-proof" aria-label="Product focus">
-        <span>Proposal</span>
-        <span>Pricing</span>
-        <span>Contract</span>
-        <span>Invoice</span>
-        <span>Payment</span>
+      <div class="fs-proof" aria-label="{{ i18n "proof_label" }}">
+        <span>{{ i18n "proof_1" }}</span>
+        <span>{{ i18n "proof_2" }}</span>
+        <span>{{ i18n "proof_3" }}</span>
+        <span>{{ i18n "proof_4" }}</span>
+        <span>{{ i18n "proof_5" }}</span>
       </div>
     </div>
   </section>
@@ -42,40 +47,40 @@
   <section class="fs-section" id="problem">
     <div class="fs-shell fs-two-col">
       <div>
-        <p class="fs-kicker">The commercial gap</p>
-        <h2>Freelancers win the work, then rebuild the business flow by hand.</h2>
+        <p class="fs-kicker">{{ i18n "problem_kicker" }}</p>
+        <h2>{{ i18n "problem_title" }}</h2>
       </div>
       <div class="fs-copy">
-        <p>Leads arrive through email, LinkedIn, recruiters, referrals, and calls. Proposals live in old documents. Pricing happens from gut feel. Contracts are copied from templates. Invoices happen later in Moneybird.</p>
-        <p>FlySolo connects those moments into one workflow, so a serious lead can become a signed and paid project without scattered tools.</p>
+        <p>{{ i18n "problem_body_1" }}</p>
+        <p>{{ i18n "problem_body_2" }}</p>
       </div>
     </div>
   </section>
 
   <section class="fs-section fs-section--panel" id="features">
     <div class="fs-shell">
-      <p class="fs-kicker">What FlySolo does</p>
-      <h2>Built around the moment between client interest and paid work.</h2>
+      <p class="fs-kicker">{{ i18n "features_kicker" }}</p>
+      <h2>{{ i18n "features_title" }}</h2>
       <div class="fs-grid fs-grid--features">
         <article class="fs-card">
           <span class="fs-icon">01</span>
-          <h3>Proposal generation</h3>
-          <p>Turn a rough opportunity, recruiter brief, or intake note into a client-ready proposal with clear deliverables and milestones.</p>
+          <h3>{{ i18n "feature_1_title" }}</h3>
+          <p>{{ i18n "feature_1_body" }}</p>
         </article>
         <article class="fs-card">
           <span class="fs-icon">02</span>
-          <h3>Pricing intelligence</h3>
-          <p>Suggest hourly, fixed-price, or retainer ranges with rationale, negotiation room, and confidence signals.</p>
+          <h3>{{ i18n "feature_2_title" }}</h3>
+          <p>{{ i18n "feature_2_body" }}</p>
         </article>
         <article class="fs-card">
           <span class="fs-icon">03</span>
-          <h3>Contract-ready terms</h3>
-          <p>Draft scope, assumptions, payment terms, exclusions, and agreement language for human review.</p>
+          <h3>{{ i18n "feature_3_title" }}</h3>
+          <p>{{ i18n "feature_3_body" }}</p>
         </article>
         <article class="fs-card">
           <span class="fs-icon">04</span>
-          <h3>Moneybird handoff</h3>
-          <p>Move accepted work into invoice and payment follow-up flows without retyping the same client and project data.</p>
+          <h3>{{ i18n "feature_4_title" }}</h3>
+          <p>{{ i18n "feature_4_body" }}</p>
         </article>
       </div>
     </div>
@@ -83,13 +88,13 @@
 
   <section class="fs-section" id="workflow">
     <div class="fs-shell">
-      <p class="fs-kicker">Workflow</p>
-      <h2>One path from lead to payment.</h2>
+      <p class="fs-kicker">{{ i18n "workflow_kicker" }}</p>
+      <h2>{{ i18n "workflow_title" }}</h2>
       <div class="fs-steps">
-        <div><span>1</span><strong>Paste the lead</strong><p>Add a recruiter message, client brief, call notes, or rough project description.</p></div>
-        <div><span>2</span><strong>Generate the proposal</strong><p>Get structure, scope, milestones, deliverables, assumptions, and questions to ask.</p></div>
-        <div><span>3</span><strong>Defend the rate</strong><p>See suggested pricing, confidence band, negotiation range, and underpricing warnings.</p></div>
-        <div><span>4</span><strong>Close the project</strong><p>Create contract-ready terms, collect signature, invoice, and follow up on payment.</p></div>
+        <div><span>1</span><strong>{{ i18n "workflow_1_title" }}</strong><p>{{ i18n "workflow_1_body" }}</p></div>
+        <div><span>2</span><strong>{{ i18n "workflow_2_title" }}</strong><p>{{ i18n "workflow_2_body" }}</p></div>
+        <div><span>3</span><strong>{{ i18n "workflow_3_title" }}</strong><p>{{ i18n "workflow_3_body" }}</p></div>
+        <div><span>4</span><strong>{{ i18n "workflow_4_title" }}</strong><p>{{ i18n "workflow_4_body" }}</p></div>
       </div>
     </div>
   </section>
@@ -97,17 +102,17 @@
   <section class="fs-section fs-section--dark" id="memory">
     <div class="fs-shell fs-two-col">
       <div>
-        <p class="fs-kicker">The moat</p>
-        <h2>Proposal generation is the entry point. Commercial memory is the product.</h2>
+        <p class="fs-kicker">{{ i18n "memory_kicker" }}</p>
+        <h2>{{ i18n "memory_title" }}</h2>
       </div>
       <div class="fs-list">
-        <p>FlySolo should remember how you sell, price, scope, contract, invoice, and follow up.</p>
+        <p>{{ i18n "memory_body" }}</p>
         <ul>
-          <li>Accepted and rejected rates</li>
-          <li>Winning proposal language</li>
-          <li>Client terms and payment behavior</li>
-          <li>Favorite clauses and exclusions</li>
-          <li>Renewal and follow-up timing</li>
+          <li>{{ i18n "memory_1" }}</li>
+          <li>{{ i18n "memory_2" }}</li>
+          <li>{{ i18n "memory_3" }}</li>
+          <li>{{ i18n "memory_4" }}</li>
+          <li>{{ i18n "memory_5" }}</li>
         </ul>
       </div>
     </div>
@@ -115,23 +120,23 @@
 
   <section class="fs-section" id="pricing">
     <div class="fs-shell">
-      <p class="fs-kicker">Pricing</p>
-      <h2>Simple plans for different workflow maturity.</h2>
+      <p class="fs-kicker">{{ i18n "pricing_kicker" }}</p>
+      <h2>{{ i18n "pricing_title" }}</h2>
       <div class="fs-grid fs-grid--pricing">
         <article class="fs-card fs-price">
           <h3>Starter</h3>
           <p class="fs-price__amount">€19<span>/month</span></p>
-          <p>For freelancers testing a faster proposal workflow.</p>
+          <p>{{ i18n "pricing_starter" }}</p>
         </article>
         <article class="fs-card fs-price fs-price--featured">
           <h3>Professional</h3>
           <p class="fs-price__amount">€39<span>/month</span></p>
-          <p>The core plan for proposal, pricing, contract, signature, invoice, and payment workflows.</p>
+          <p>{{ i18n "pricing_professional" }}</p>
         </article>
         <article class="fs-card fs-price">
           <h3>Business</h3>
           <p class="fs-price__amount">€79<span>/month</span></p>
-          <p>For multi-client, multi-template, agency, recruiter, or collaborator workflows.</p>
+          <p>{{ i18n "pricing_business" }}</p>
         </article>
       </div>
     </div>
@@ -141,10 +146,10 @@
     <div class="fs-shell fs-cta">
       <img src="/images/flysolo-icon-gradient.svg" alt="" aria-hidden="true">
       <div>
-        <p class="fs-kicker">Private beta</p>
-        <h2>Bring one real lead. Leave with a stronger proposal.</h2>
-        <p>Early FlySolo onboarding starts with a real opportunity, rate question, or proposal review. No generic demo required.</p>
-        <a class="fs-button fs-button--primary" href="mailto:hello@flysolo.me?subject=FlySolo%20beta">Request beta access</a>
+        <p class="fs-kicker">{{ i18n "cta_kicker" }}</p>
+        <h2>{{ i18n "cta_title" }}</h2>
+        <p>{{ i18n "cta_body" }}</p>
+        <a class="fs-button fs-button--primary" href="mailto:hello@flysolo.me?subject=FlySolo%20beta">{{ i18n "cta_button" }}</a>
       </div>
     </div>
   </section>

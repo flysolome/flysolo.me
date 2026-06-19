@@ -1,5 +1,7 @@
 baseURL = "https://flysolo.me/"
-languageCode = "en-us"
+locale = "en-US"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 title = "FlySolo"
 theme = ["hugo-brewm", "hugo-book"]
 enableRobotsTXT = true
@@ -77,76 +79,140 @@ disablePathToLower = true
   serif = "Cormorant"
   sans = "Montserrat"
 
-[[menu.main]]
-  name = "Features"
-  url = "/#features"
-  weight = 1
+[languages]
+  [languages.en]
+    label = "English"
+    locale = "en-US"
+    title = "FlySolo"
+    weight = 1
 
-[[menu.main]]
-  name = "Workflow"
-  url = "/#workflow"
-  weight = 2
+    [[languages.en.menu.main]]
+      name = "Features"
+      url = "/#features"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Workflow"
+      url = "/#workflow"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Pricing"
+      url = "/#pricing"
+      weight = 3
+    [[languages.en.menu.main]]
+      name = "Blog"
+      url = "/blog/"
+      weight = 4
+    [[languages.en.menu.main]]
+      name = "Wiki"
+      url = "/wiki/"
+      weight = 5
+    [[languages.en.menu.main]]
+      name = "Join Beta"
+      url = "/#join"
+      weight = 6
 
-[[menu.main]]
-  name = "Pricing"
-  url = "/#pricing"
-  weight = 3
+    [[languages.en.menu.after]]
+      name = "Home"
+      url = "https://flysolo.me/"
+      weight = 10
+    [[languages.en.menu.after]]
+      name = "Blog"
+      url = "https://flysolo.me/blog/"
+      weight = 20
+    [[languages.en.menu.after]]
+      name = "Wiki"
+      url = "https://flysolo.me/wiki/"
+      weight = 30
+    [[languages.en.menu.after]]
+      name = "Contact"
+      url = "mailto:hello@flysolo.me"
+      weight = 40
 
-[[menu.main]]
-  name = "Blog"
-  url = "/blog/"
-  weight = 4
+    [[languages.en.menu.footer]]
+      identifier = "contact"
+      name = "Contact"
+      url = "mailto:hello@flysolo.me"
+      pre = "envelope"
+      weight = 5
+    [[languages.en.menu.footer]]
+      identifier = "blog"
+      name = "Blog"
+      url = "/blog/"
+      pre = "newspaper"
+      weight = 10
+    [[languages.en.menu.footer]]
+      identifier = "wiki"
+      name = "Wiki"
+      url = "/wiki/"
+      pre = "book"
+      weight = 20
 
-[[menu.main]]
-  name = "Wiki"
-  url = "/wiki/"
-  weight = 5
+  [languages.nl]
+    label = "Nederlands"
+    locale = "nl-NL"
+    title = "FlySolo"
+    weight = 2
 
-[[menu.main]]
-  name = "Join Beta"
-  url = "/#join"
-  weight = 6
+    [[languages.nl.menu.main]]
+      name = "Functies"
+      url = "/nl/#features"
+      weight = 1
+    [[languages.nl.menu.main]]
+      name = "Workflow"
+      url = "/nl/#workflow"
+      weight = 2
+    [[languages.nl.menu.main]]
+      name = "Prijzen"
+      url = "/nl/#pricing"
+      weight = 3
+    [[languages.nl.menu.main]]
+      name = "Blog"
+      url = "/nl/blog/"
+      weight = 4
+    [[languages.nl.menu.main]]
+      name = "Wiki"
+      url = "/nl/wiki/"
+      weight = 5
+    [[languages.nl.menu.main]]
+      name = "Beta"
+      url = "/nl/#join"
+      weight = 6
 
-[[menu.after]]
-  name = "Home"
-  url = "https://flysolo.me/"
-  weight = 10
+    [[languages.nl.menu.after]]
+      name = "Home"
+      url = "https://flysolo.me/nl/"
+      weight = 10
+    [[languages.nl.menu.after]]
+      name = "Blog"
+      url = "https://flysolo.me/nl/blog/"
+      weight = 20
+    [[languages.nl.menu.after]]
+      name = "Wiki"
+      url = "https://flysolo.me/nl/wiki/"
+      weight = 30
+    [[languages.nl.menu.after]]
+      name = "Contact"
+      url = "mailto:hello@flysolo.me"
+      weight = 40
 
-[[menu.after]]
-  name = "Blog"
-  url = "https://flysolo.me/blog/"
-  weight = 20
-
-[[menu.after]]
-  name = "Wiki"
-  url = "https://flysolo.me/wiki/"
-  weight = 30
-
-[[menu.after]]
-  name = "Contact"
-  url = "mailto:hello@flysolo.me"
-  weight = 40
-
-[[menu.footer]]
-  identifier = "contact"
-  name = "Contact"
-  url = "mailto:hello@flysolo.me"
-  pre = "envelope"
-  weight = 5
-
-[[menu.footer]]
-  identifier = "blog"
-  name = "Blog"
-  url = "/blog/"
-  pre = "newspaper"
-  weight = 10
-
-[[menu.footer]]
-  identifier = "wiki"
-  name = "Wiki"
-  url = "/wiki/"
-  pre = "book"
-  weight = 20
+    [[languages.nl.menu.footer]]
+      identifier = "contact"
+      name = "Contact"
+      url = "mailto:hello@flysolo.me"
+      pre = "envelope"
+      weight = 5
+    [[languages.nl.menu.footer]]
+      identifier = "blog"
+      name = "Blog"
+      url = "/nl/blog/"
+      pre = "newspaper"
+      weight = 10
+    [[languages.nl.menu.footer]]
+      identifier = "wiki"
+      name = "Wiki"
+      url = "/nl/wiki/"
+      pre = "book"
+      weight = 20
 
 [markup]
   [markup.goldmark]

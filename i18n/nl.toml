@@ -1,0 +1,194 @@
+[language_label]
+other = "Taal"
+
+[workflow_card_label]
+other = "Live opdracht"
+
+[workflow_card_title]
+other = "Azure landing zone"
+
+[workflow_card_step_1]
+other = "Lead"
+
+[workflow_card_step_1_state]
+other = "Gekwalificeerd"
+
+[workflow_card_step_2]
+other = "Voorstel"
+
+[workflow_card_step_2_state]
+other = "Klaar in het Nederlands"
+
+[workflow_card_step_3]
+other = "Prijs"
+
+[workflow_card_step_3_state]
+other = "Tariefband bepaald"
+
+[workflow_card_step_4]
+other = "Contract"
+
+[workflow_card_step_4_state]
+other = "Voorwaarden opgesteld"
+
+[workflow_card_step_5]
+other = "Factuur"
+
+[workflow_card_step_5_state]
+other = "Moneybird-overdracht"
+
+[hero_eyebrow]
+other = "AI deal workflow voor senior Nederlandse tech zzp'ers"
+
+[hero_title]
+other = "Van lead naar getekende opdracht, in professioneel Nederlands."
+
+[hero_lead]
+other = "FlySolo helpt freelancers om rommelige klantbriefings om te zetten in sterke voorstellen, verdedigbare tarieven, contractklare voorwaarden, Moneybird-facturen en betaalopvolging."
+
+[hero_primary]
+other = "Meld je aan voor de beta"
+
+[hero_secondary]
+other = "Bekijk workflow"
+
+[proof_label]
+other = "Productfocus"
+
+[proof_1]
+other = "Voorstel"
+
+[proof_2]
+other = "Prijs"
+
+[proof_3]
+other = "Contract"
+
+[proof_4]
+other = "Factuur"
+
+[proof_5]
+other = "Betaling"
+
+[problem_kicker]
+other = "De commerciële kloof"
+
+[problem_title]
+other = "Freelancers winnen het werk, maar bouwen de zakelijke flow daarna opnieuw met de hand."
+
+[problem_body_1]
+other = "Leads komen binnen via e-mail, LinkedIn, recruiters, referrals en calls. Voorstellen staan in oude documenten. Tarieven worden vaak op gevoel bepaald. Contracten worden gekopieerd uit templates. Facturen komen later pas in Moneybird."
+
+[problem_body_2]
+other = "FlySolo verbindt die momenten in één workflow, zodat een serieuze lead een getekende en betaalde opdracht kan worden zonder losse tools."
+
+[features_kicker]
+other = "Wat FlySolo doet"
+
+[features_title]
+other = "Gebouwd rond het moment tussen klantinteresse en betaald werk."
+
+[feature_1_title]
+other = "Voorstelgeneratie"
+
+[feature_1_body]
+other = "Zet een ruwe aanvraag, recruiterbriefing of intake-notitie om in een klantklaar voorstel met duidelijke deliverables en mijlpalen."
+
+[feature_2_title]
+other = "Prijsintelligentie"
+
+[feature_2_body]
+other = "Krijg suggesties voor uurtarief, vaste prijs of retainer met onderbouwing, onderhandelingsruimte en confidence-signalen."
+
+[feature_3_title]
+other = "Contractklare voorwaarden"
+
+[feature_3_body]
+other = "Stel scope, aannames, betalingstermijnen, uitsluitingen en opdrachtafspraken op voor menselijke controle."
+
+[feature_4_title]
+other = "Moneybird-overdracht"
+
+[feature_4_body]
+other = "Zet geaccepteerd werk door naar factuur- en betaalopvolging zonder dezelfde klant- en projectdata opnieuw te typen."
+
+[workflow_kicker]
+other = "Workflow"
+
+[workflow_title]
+other = "Eén pad van lead naar betaling."
+
+[workflow_1_title]
+other = "Plak de lead"
+
+[workflow_1_body]
+other = "Voeg een recruiterbericht, klantbriefing, call-notities of ruwe projectomschrijving toe."
+
+[workflow_2_title]
+other = "Genereer het voorstel"
+
+[workflow_2_body]
+other = "Krijg structuur, scope, mijlpalen, deliverables, aannames en vragen die je moet stellen."
+
+[workflow_3_title]
+other = "Verdedig je tarief"
+
+[workflow_3_body]
+other = "Bekijk prijsadvies, confidence-band, onderhandelingsruimte en waarschuwingen voor onderprijzen."
+
+[workflow_4_title]
+other = "Sluit de opdracht"
+
+[workflow_4_body]
+other = "Maak contractklare voorwaarden, verzamel handtekening, factureer en volg betaling op."
+
+[memory_kicker]
+other = "De moat"
+
+[memory_title]
+other = "Voorstellen genereren is de ingang. Commercieel geheugen is het product."
+
+[memory_body]
+other = "FlySolo moet onthouden hoe jij verkoopt, prijst, scopet, contracteert, factureert en opvolgt."
+
+[memory_1]
+other = "Geaccepteerde en afgewezen tarieven"
+
+[memory_2]
+other = "Winnende voorstelteksten"
+
+[memory_3]
+other = "Klantvoorwaarden en betaalgedrag"
+
+[memory_4]
+other = "Favoriete clausules en uitsluitingen"
+
+[memory_5]
+other = "Verlengings- en opvolgmomenten"
+
+[pricing_kicker]
+other = "Prijzen"
+
+[pricing_title]
+other = "Eenvoudige pakketten voor verschillende workflow-volwassenheid."
+
+[pricing_starter]
+other = "Voor freelancers die een snellere voorstelflow willen testen."
+
+[pricing_professional]
+other = "Het kernpakket voor voorstellen, prijsadvies, contract, handtekening, factuur en betaalopvolging."
+
+[pricing_business]
+other = "Voor multi-client, multi-template, agency-, recruiter- of collaborator-workflows."
+
+[cta_kicker]
+other = "Private beta"
+
+[cta_title]
+other = "Breng één echte lead mee. Vertrek met een sterker voorstel."
+
+[cta_body]
+other = "De vroege FlySolo-onboarding start met een echte kans, tariefvraag of voorstelreview. Geen generieke demo nodig."
+
+[cta_button]
+other = "Vraag beta-toegang aan"

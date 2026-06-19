@@ -1,0 +1,194 @@
+[language_label]
+other = "Language"
+
+[workflow_card_label]
+other = "Live opportunity"
+
+[workflow_card_title]
+other = "Azure landing zone"
+
+[workflow_card_step_1]
+other = "Lead"
+
+[workflow_card_step_1_state]
+other = "Qualified"
+
+[workflow_card_step_2]
+other = "Proposal"
+
+[workflow_card_step_2_state]
+other = "Ready in Dutch"
+
+[workflow_card_step_3]
+other = "Pricing"
+
+[workflow_card_step_3_state]
+other = "Rate range set"
+
+[workflow_card_step_4]
+other = "Contract"
+
+[workflow_card_step_4_state]
+other = "Terms drafted"
+
+[workflow_card_step_5]
+other = "Invoice"
+
+[workflow_card_step_5_state]
+other = "Moneybird handoff"
+
+[hero_eyebrow]
+other = "AI deal workflow for senior Dutch tech freelancers"
+
+[hero_title]
+other = "From lead to signed project, in professional Dutch."
+
+[hero_lead]
+other = "FlySolo helps freelancers turn messy client briefs into polished proposals, defensible rates, contract-ready terms, Moneybird invoices, and payment follow-up."
+
+[hero_primary]
+other = "Join the beta"
+
+[hero_secondary]
+other = "See workflow"
+
+[proof_label]
+other = "Product focus"
+
+[proof_1]
+other = "Proposal"
+
+[proof_2]
+other = "Pricing"
+
+[proof_3]
+other = "Contract"
+
+[proof_4]
+other = "Invoice"
+
+[proof_5]
+other = "Payment"
+
+[problem_kicker]
+other = "The commercial gap"
+
+[problem_title]
+other = "Freelancers win the work, then rebuild the business flow by hand."
+
+[problem_body_1]
+other = "Leads arrive through email, LinkedIn, recruiters, referrals, and calls. Proposals live in old documents. Pricing happens from gut feel. Contracts are copied from templates. Invoices happen later in Moneybird."
+
+[problem_body_2]
+other = "FlySolo connects those moments into one workflow, so a serious lead can become a signed and paid project without scattered tools."
+
+[features_kicker]
+other = "What FlySolo does"
+
+[features_title]
+other = "Built around the moment between client interest and paid work."
+
+[feature_1_title]
+other = "Proposal generation"
+
+[feature_1_body]
+other = "Turn a rough opportunity, recruiter brief, or intake note into a client-ready proposal with clear deliverables and milestones."
+
+[feature_2_title]
+other = "Pricing intelligence"
+
+[feature_2_body]
+other = "Suggest hourly, fixed-price, or retainer ranges with rationale, negotiation room, and confidence signals."
+
+[feature_3_title]
+other = "Contract-ready terms"
+
+[feature_3_body]
+other = "Draft scope, assumptions, payment terms, exclusions, and agreement language for human review."
+
+[feature_4_title]
+other = "Moneybird handoff"
+
+[feature_4_body]
+other = "Move accepted work into invoice and payment follow-up flows without retyping the same client and project data."
+
+[workflow_kicker]
+other = "Workflow"
+
+[workflow_title]
+other = "One path from lead to payment."
+
+[workflow_1_title]
+other = "Paste the lead"
+
+[workflow_1_body]
+other = "Add a recruiter message, client brief, call notes, or rough project description."
+
+[workflow_2_title]
+other = "Generate the proposal"
+
+[workflow_2_body]
+other = "Get structure, scope, milestones, deliverables, assumptions, and questions to ask."
+
+[workflow_3_title]
+other = "Defend the rate"
+
+[workflow_3_body]
+other = "See suggested pricing, confidence band, negotiation range, and underpricing warnings."
+
+[workflow_4_title]
+other = "Close the project"
+
+[workflow_4_body]
+other = "Create contract-ready terms, collect signature, invoice, and follow up on payment."
+
+[memory_kicker]
+other = "The moat"
+
+[memory_title]
+other = "Proposal generation is the entry point. Commercial memory is the product."
+
+[memory_body]
+other = "FlySolo should remember how you sell, price, scope, contract, invoice, and follow up."
+
+[memory_1]
+other = "Accepted and rejected rates"
+
+[memory_2]
+other = "Winning proposal language"
+
+[memory_3]
+other = "Client terms and payment behavior"
+
+[memory_4]
+other = "Favorite clauses and exclusions"
+
+[memory_5]
+other = "Renewal and follow-up timing"
+
+[pricing_kicker]
+other = "Pricing"
+
+[pricing_title]
+other = "Simple plans for different workflow maturity."
+
+[pricing_starter]
+other = "For freelancers testing a faster proposal workflow."
+
+[pricing_professional]
+other = "The core plan for proposal, pricing, contract, signature, invoice, and payment workflows."
+
+[pricing_business]
+other = "For multi-client, multi-template, agency, recruiter, or collaborator workflows."
+
+[cta_kicker]
+other = "Private beta"
+
+[cta_title]
+other = "Bring one real lead. Leave with a stronger proposal."
+
+[cta_body]
+other = "Early FlySolo onboarding starts with a real opportunity, rate question, or proposal review. No generic demo required."
+
+[cta_button]
+other = "Request beta access"

@@ -148,6 +148,34 @@ main#home > .section-title {
   margin-bottom: clamp(2rem, 4vw, 3rem);
 }
 
+.fs-lang {
+  display: inline-flex;
+  gap: 0.35rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  padding: 0.25rem;
+  border: 1px solid var(--fs-border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.fs-lang a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  color: var(--fs-text-soft) !important;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+.fs-lang a[aria-current="page"] {
+  background: var(--fs-accent-soft);
+  color: #99F6E4 !important;
+}
+
 .fs-hero__inner {
   max-width: var(--fs-max);
 }
