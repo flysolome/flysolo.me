@@ -1,40 +1,41 @@
 ---
 title: "FlySolo Wiki"
-description: "Operating notes for the FlySolo product, market, and go-to-market strategy."
+description: "Operating notes for the FlySolo product and workflow."
 bookCollapseSection: false
 ---
 
 # FlySolo Wiki
 
-FlySolo is the Dutch-first AI deal workflow for senior tech freelancers. Otto is the AI agent inside FlySolo.
-
-The first market wedge is senior Dutch-speaking freelance tech professionals in NL/BE who need to turn leads into signed, paid projects faster.
+FlySolo is the AI deal workflow for independent professionals. Otto is the AI agent inside FlySolo.
 
 ## Core Promise
 
-Otto helps turn a real lead into a Dutch proposal, defensible rate, scope check, contract-ready terms, e-signature, Moneybird invoice, and paid project.
+Otto helps turn a real lead into a proposal, defensible rate, scope check, contract-ready terms, e-signature, Moneybird invoice, and paid project.
 
-## Primary Personas
+## Core Work
 
-- [Freelance DevOps Engineers](/devops-engineers/)
-- [Freelance Cloud Architects](/cloud-architects/)
-- [Freelance Security Consultants](/security-consultants/)
-- Senior Software Developers
+- Proposals
+- Rate checks
+- Scope and assumptions
+- Contract-ready terms
+- E-signature next steps
+- Moneybird invoice handoff
+- Payment follow-up
 
 ## Differentiators
 
-- Otto-powered Dutch proposal generation
+- Otto-powered proposal generation
 - Otto-powered pricing suggestions and negotiation ranges
 - Scope and contract risk checks
 - End-to-end workflow
-- Localized proposal and contract language
+- Localized proposal and contract language where needed
 - Moneybird-ready invoice workflow
 
-## Activation And Retention
+## Workflow Memory
 
-Activation is not workspace setup. Activation is a real lead, rate guidance, Dutch proposal or client response, and a next step toward contract, signature, invoice, and payment.
+FlySolo works best when it starts with a real lead, rate guidance, proposal or client response, and a next step toward contract, signature, invoice, and payment.
 
-Retention comes from commercial memory:
+Commercial memory makes the next workflow faster:
 
 - Proposal follow-up reminders
 - Contract unsigned reminders

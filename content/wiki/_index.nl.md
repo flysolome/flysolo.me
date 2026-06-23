@@ -1,40 +1,41 @@
 ---
 title: "FlySolo Wiki"
-description: "Operationele notities voor het FlySolo-product, de markt en go-to-market-strategie."
+description: "Operationele notities voor het FlySolo-product en de workflow."
 bookCollapseSection: false
 ---
 
 # FlySolo Wiki
 
-FlySolo is de Dutch-first AI deal workflow voor senior tech freelancers. Otto is de AI agent in FlySolo.
-
-De eerste markt-wedge is senior Nederlandstalige freelance tech professionals in NL/BE die leads sneller willen omzetten in getekende en betaalde opdrachten.
+FlySolo is de AI deal workflow voor zelfstandige professionals. Otto is de AI agent in FlySolo.
 
 ## Kernbelofte
 
-Otto helpt een echte lead om te zetten in een Nederlands voorstel, verdedigbaar tarief, scope-check, contractklare voorwaarden, e-signature, Moneybird-factuur en betaalde opdracht.
+Otto helpt een echte lead om te zetten in een voorstel, verdedigbaar tarief, scope-check, contractklare voorwaarden, e-signature, Moneybird-factuur en betaalde opdracht.
 
-## Primaire persona's
+## Core werk
 
-- [Freelance DevOps Engineers](/nl/devops-engineers/)
-- [Freelance Cloud Architects](/nl/cloud-architects/)
-- [Freelance Security Consultants](/nl/security-consultants/)
-- Senior Software Developers
+- Voorstellen
+- Tariefchecks
+- Scope en aannames
+- Contractklare voorwaarden
+- E-signature vervolgstappen
+- Moneybird-factuuroverdracht
+- Betaalopvolging
 
 ## Differentiators
 
-- Otto-gestuurde Nederlandse voorstelgeneratie
+- Otto-gestuurde voorstelgeneratie
 - Otto-gestuurde tariefsuggesties en onderhandelingsruimte
 - Scope- en contractrisico-checks
 - End-to-end workflow
-- Gelokaliseerde voorstel- en contracttaal
+- Gelokaliseerde voorstel- en contracttaal waar nodig
 - Moneybird-klare factuurworkflow
 
-## Activatie En Retentie
+## Workflowgeheugen
 
-Activatie is geen workspace-setup. Activatie is een echte lead, tariefadvies, Nederlands voorstel of klantreactie, en een volgende stap richting contract, handtekening, factuur en betaling.
+FlySolo werkt het best wanneer het start met een echte lead, tariefadvies, voorstel of klantreactie, en een volgende stap richting contract, handtekening, factuur en betaling.
 
-Retentie komt uit commercieel geheugen:
+Commercieel geheugen maakt de volgende workflow sneller:
 
 - Voorstelopvolging
 - Herinneringen voor niet-getekende contracten

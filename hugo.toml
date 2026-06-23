@@ -8,8 +8,8 @@ enableRobotsTXT = true
 disablePathToLower = true
 
 [params]
-  description = "FlySolo helps senior Dutch tech freelancers win projects faster from proposal to payment with Otto: Dutch proposals, rate checks, scope control, e-signature, Moneybird invoices, and payment follow-up."
-  keywords = ["FlySolo", "Otto AI agent", "Dutch tech freelancers", "senior freelancers", "ZZP", "DevOps freelancer", "cloud architect", "security consultant", "freelance proposal", "rate checker", "e-signature", "Moneybird", "proposal confidence"]
+  description = "FlySolo helps independent professionals win projects faster from proposal to payment with Otto: proposals, rate checks, scope control, e-signature, Moneybird invoices, and payment follow-up."
+  keywords = ["FlySolo", "Otto AI agent", "freelancers", "independent professionals", "ZZP", "freelance proposal", "rate checker", "scope check", "e-signature", "Moneybird", "proposal confidence"]
   images = "/images/flysolo.png"
   extMeta = false
   DisableFootBar = false
@@ -57,7 +57,7 @@ disablePathToLower = true
 [params.seo]
   siteName = "FlySolo"
   title = "FlySolo - Win freelance projects from proposal to payment"
-  description = "Dutch-first AI deal workflow for senior tech freelancers: proposal, rate check, scope, e-signature, Moneybird invoice, and payment follow-up."
+  description = "AI deal workflow for independent professionals: proposal, rate check, scope, e-signature, Moneybird invoice, and payment follow-up."
   image = "/images/flysolo.png"
 
 [params.home]

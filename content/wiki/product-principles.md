@@ -11,5 +11,5 @@ weight: 20
 - Integrate before building
 - Focus on lead-to-payment workflow
 - Never become accounting software
-- Dutch-first execution, global-ready architecture
+- Localized execution, global-ready architecture
 - Human approval before sending
