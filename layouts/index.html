@@ -80,21 +80,41 @@
       <div class="fs-grid fs-grid--features">
         <article class="fs-card">
           <span class="fs-icon">01</span>
+          <div class="fs-card-graphic fs-card-graphic--proposal" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <h3>{{ i18n "feature_1_title" }}</h3>
           <p>{{ i18n "feature_1_body" }}</p>
         </article>
         <article class="fs-card">
           <span class="fs-icon">02</span>
+          <div class="fs-card-graphic fs-card-graphic--rate" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <h3>{{ i18n "feature_2_title" }}</h3>
           <p>{{ i18n "feature_2_body" }}</p>
         </article>
         <article class="fs-card">
           <span class="fs-icon">03</span>
+          <div class="fs-card-graphic fs-card-graphic--scope" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <h3>{{ i18n "feature_3_title" }}</h3>
           <p>{{ i18n "feature_3_body" }}</p>
         </article>
         <article class="fs-card">
           <span class="fs-icon">04</span>
+          <div class="fs-card-graphic fs-card-graphic--payment" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <h3>{{ i18n "feature_4_title" }}</h3>
           <p>{{ i18n "feature_4_body" }}</p>
         </article>
@@ -122,6 +142,12 @@
         <h2>{{ i18n "memory_title" }}</h2>
       </div>
       <div class="fs-list">
+        <div class="fs-memory-graphic" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <p>{{ i18n "memory_body" }}</p>
         <ul>
           <li>{{ i18n "memory_1" }}</li>
@@ -141,16 +167,19 @@
       <div class="fs-grid fs-grid--pricing">
         <article class="fs-card fs-price">
           <h3>Starter</h3>
+          <div class="fs-plan-meter" aria-hidden="true"><span></span><span></span><span></span></div>
           <p class="fs-price__amount">€19<span>/month</span></p>
           <p>{{ i18n "pricing_starter" }}</p>
         </article>
         <article class="fs-card fs-price fs-price--featured">
           <h3>Professional</h3>
+          <div class="fs-plan-meter fs-plan-meter--pro" aria-hidden="true"><span></span><span></span><span></span></div>
           <p class="fs-price__amount">€39<span>/month</span></p>
           <p>{{ i18n "pricing_professional" }}</p>
         </article>
         <article class="fs-card fs-price">
           <h3>Business</h3>
+          <div class="fs-plan-meter fs-plan-meter--business" aria-hidden="true"><span></span><span></span><span></span></div>
           <p class="fs-price__amount">€79<span>/month</span></p>
           <p>{{ i18n "pricing_business" }}</p>
         </article>

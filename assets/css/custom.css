@@ -625,6 +625,92 @@ main#home > .section-title {
   font-size: 1.1rem;
 }
 
+.fs-card-graphic {
+  position: relative;
+  height: 74px;
+  margin: 1rem 0 1.05rem;
+  border: 1px solid rgba(148, 163, 184, .16);
+  border-radius: var(--fs-radius);
+  background:
+    linear-gradient(135deg, rgba(79, 70, 229, .16), rgba(20, 184, 166, .08)),
+    rgba(255, 255, 255, .025);
+  overflow: hidden;
+}
+
+.fs-card-graphic::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(125, 211, 252, .09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(125, 211, 252, .08) 1px, transparent 1px);
+  background-size: 24px 24px;
+  opacity: .45;
+}
+
+.fs-card-graphic span {
+  position: absolute;
+  display: block;
+  border-radius: 999px;
+  background: rgba(153, 246, 228, .78);
+  box-shadow: 0 0 18px rgba(153, 246, 228, .32);
+}
+
+.fs-card-graphic--proposal span {
+  left: 18px;
+  right: 18px;
+  height: 6px;
+}
+
+.fs-card-graphic--proposal span:nth-child(1) { top: 18px; width: 62%; }
+.fs-card-graphic--proposal span:nth-child(2) { top: 34px; width: 78%; opacity: .7; }
+.fs-card-graphic--proposal span:nth-child(3) { top: 50px; width: 48%; opacity: .48; }
+
+.fs-card-graphic--rate span {
+  bottom: 14px;
+  width: 16%;
+  animation: fs-meter-bounce 3.8s ease-in-out infinite;
+}
+
+.fs-card-graphic--rate span:nth-child(1) { left: 18%; height: 28px; animation-delay: 0s; }
+.fs-card-graphic--rate span:nth-child(2) { left: 42%; height: 42px; animation-delay: .22s; }
+.fs-card-graphic--rate span:nth-child(3) { left: 66%; height: 52px; animation-delay: .44s; }
+
+.fs-card-graphic--scope span {
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(153, 246, 228, .86);
+  background: rgba(11, 18, 32, .72);
+}
+
+.fs-card-graphic--scope span:nth-child(1) { left: 20%; top: 18px; }
+.fs-card-graphic--scope span:nth-child(2) { left: 47%; top: 42px; }
+.fs-card-graphic--scope span:nth-child(3) { left: 75%; top: 22px; }
+
+.fs-card-graphic--scope::after {
+  content: "";
+  position: absolute;
+  left: 22%;
+  right: 20%;
+  top: 36px;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(153, 246, 228, .25), rgba(153, 246, 228, .75), rgba(153, 246, 228, .25));
+  transform: rotate(4deg);
+}
+
+.fs-card-graphic--payment span {
+  width: 38px;
+  height: 24px;
+  border: 1px solid rgba(153, 246, 228, .55);
+  border-radius: 7px;
+  background: rgba(15, 23, 42, .82);
+  animation: fs-card-stack 4.6s ease-in-out infinite;
+}
+
+.fs-card-graphic--payment span:nth-child(1) { left: 20%; top: 20px; animation-delay: 0s; }
+.fs-card-graphic--payment span:nth-child(2) { left: 42%; top: 28px; animation-delay: .25s; }
+.fs-card-graphic--payment span:nth-child(3) { left: 64%; top: 20px; animation-delay: .5s; }
+
 .fs-icon {
   display: inline-flex;
   color: #99F6E4;
@@ -689,6 +775,47 @@ main#home > .section-title {
   list-style: none;
 }
 
+.fs-memory-graphic {
+  position: relative;
+  height: 140px;
+  margin-bottom: 1.25rem;
+  border: 1px solid var(--fs-border);
+  border-radius: var(--fs-radius-lg);
+  background:
+    radial-gradient(circle at center, rgba(20, 184, 166, .2), transparent 32%),
+    linear-gradient(135deg, rgba(79, 70, 229, .16), rgba(125, 211, 252, .06));
+  overflow: hidden;
+}
+
+.fs-memory-graphic::before,
+.fs-memory-graphic::after {
+  content: "";
+  position: absolute;
+  inset: 26px 20%;
+  border: 1px solid rgba(153, 246, 228, .24);
+  border-radius: 50%;
+}
+
+.fs-memory-graphic::after {
+  inset: 42px 32%;
+  border-color: rgba(125, 211, 252, .22);
+}
+
+.fs-memory-graphic span {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #99F6E4;
+  box-shadow: 0 0 18px rgba(153, 246, 228, .48);
+  animation: fs-pulse-node 3.2s ease-in-out infinite;
+}
+
+.fs-memory-graphic span:nth-child(1) { left: 22%; top: 34px; animation-delay: 0s; }
+.fs-memory-graphic span:nth-child(2) { left: 70%; top: 36px; animation-delay: .4s; }
+.fs-memory-graphic span:nth-child(3) { left: 34%; top: 96px; animation-delay: .8s; }
+.fs-memory-graphic span:nth-child(4) { left: 60%; top: 94px; animation-delay: 1.2s; }
+
 .fs-list li {
   position: relative;
   border: 1px solid var(--fs-border);
@@ -716,6 +843,39 @@ main#home > .section-title {
   font-weight: 900;
   margin: 0.6rem 0 1rem;
 }
+
+.fs-plan-meter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .4rem;
+  margin: .85rem 0 1rem;
+}
+
+.fs-plan-meter span {
+  height: 7px;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, .28);
+  overflow: hidden;
+}
+
+.fs-plan-meter span::before {
+  content: "";
+  display: block;
+  width: 58%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #4F46E5, #14B8A6);
+  animation: fs-plan-fill 4.4s ease-in-out infinite;
+}
+
+.fs-plan-meter span:nth-child(2)::before { width: 42%; animation-delay: .2s; }
+.fs-plan-meter span:nth-child(3)::before { width: 26%; animation-delay: .4s; }
+.fs-plan-meter--pro span::before { width: 86%; }
+.fs-plan-meter--pro span:nth-child(2)::before { width: 72%; }
+.fs-plan-meter--pro span:nth-child(3)::before { width: 62%; }
+.fs-plan-meter--business span::before { width: 100%; }
+.fs-plan-meter--business span:nth-child(2)::before { width: 90%; }
+.fs-plan-meter--business span:nth-child(3)::before { width: 82%; }
 
 .fs-price__amount span {
   color: var(--fs-text-muted);
@@ -796,6 +956,21 @@ main#home > .section-title {
   100% { background-position: 220% 50%; }
 }
 
+@keyframes fs-meter-bounce {
+  0%, 100% { transform: scaleY(.86); transform-origin: bottom; }
+  50% { transform: scaleY(1); transform-origin: bottom; }
+}
+
+@keyframes fs-card-stack {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+@keyframes fs-plan-fill {
+  0%, 100% { opacity: .72; }
+  50% { opacity: 1; }
+}
+
 .fs-cta h2 {
   font-size: clamp(2rem, 4vw, 3.3rem);
 }
@@ -841,6 +1016,10 @@ article#main-article,
 
   .fs-steps::before {
     display: none;
+  }
+
+  .fs-card-graphic {
+    max-width: 340px;
   }
 
   .fs-two-col,
@@ -899,6 +1078,14 @@ article#main-article,
     flex: 0 0 auto;
   }
 
+  .fs-card-graphic {
+    height: 68px;
+  }
+
+  .fs-memory-graphic {
+    height: 118px;
+  }
+
   .fs-actions,
   .fs-button {
     width: 100%;
@@ -931,6 +1118,8 @@ article#main-article,
   .fs-workflow-card,
   .fs-brand img,
   .fs-cta img,
+  .fs-card-graphic span,
+  .fs-memory-graphic span,
   .fs-button:hover,
   .fs-card:hover,
   .fs-proof span:hover {
