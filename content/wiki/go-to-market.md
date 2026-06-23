@@ -9,11 +9,11 @@ Early FlySolo acquisition should not lead with "AI operating system".
 
 Lead with the concrete job:
 
-From lead to signed project, with professional client-ready language.
+Van lead naar getekende opdracht, in professioneel Nederlands.
 
 ## Initial ICP
 
-Experienced independent tech professionals:
+Senior Dutch-speaking freelance tech professionals in NL/BE:
 
 - DevOps Engineers
 - Cloud Architects
@@ -23,10 +23,10 @@ Experienced independent tech professionals:
 ## Acquisition Motions
 
 - Founder-led proposal and rate reviews
-- Freelance rate checker
-- Lead to proposal generator
+- Dutch tech freelancer rate checker
+- Opdracht naar voorstel generator
 - Proposal confidence scoring
-- Invoice workflow page
+- Moneybird invoice readiness checker
 - Community proposal teardown sessions
 - Recruiter and accountant referral loops
 

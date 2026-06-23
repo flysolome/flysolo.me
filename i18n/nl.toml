@@ -2,7 +2,7 @@
 other = "Taal"
 
 [workflow_card_label]
-other = "Otto werkt aan"
+other = "Vraag Otto over"
 
 [workflow_card_title]
 other = "Azure landing zone"
@@ -17,37 +17,37 @@ other = "Gekwalificeerd"
 other = "Voorstel"
 
 [workflow_card_step_2_state]
-other = "Klantklaar"
+other = "Nederlands concept klaar"
 
 [workflow_card_step_3]
 other = "Prijs"
 
 [workflow_card_step_3_state]
-other = "Tariefband bepaald"
+other = "Marge beschermd"
 
 [workflow_card_step_4]
 other = "Contract"
 
 [workflow_card_step_4_state]
-other = "Voorwaarden opgesteld"
+other = "Scope gecheckt"
 
 [workflow_card_step_5]
 other = "Factuur"
 
 [workflow_card_step_5_state]
-other = "Factuuroverdracht"
+other = "Moneybird-klaar"
 
 [hero_eyebrow]
-other = "Maak kennis met Otto, de AI deal agent voor zelfstandige consultants"
+other = "Dutch-first AI deal workflow voor senior tech freelancers"
 
 [hero_title]
-other = "Vraag Otto om hulp bij freelance deals."
+other = "Vraag Otto om van lead naar getekende opdracht te gaan."
 
 [hero_lead]
-other = "Vraag Otto om rommelige klantbriefings om te zetten in sterke voorstellen, verdedigbare tarieven, contractklare voorwaarden, facturen en betaalopvolging."
+other = "Plak een echte klantbriefing of recruiterbericht. Otto helpt je professioneel te reageren in het Nederlands met een scherp voorstel, verdedigbaar tarief, scope-check, contractklare voorwaarden, Moneybird-overdracht en betaalopvolging."
 
 [hero_primary]
-other = "Vraag Otto om hulp"
+other = "Vraag Otto over een lead"
 
 [hero_secondary]
 other = "Bekijk workflow"
@@ -59,13 +59,13 @@ other = "Productfocus"
 other = "Voorstel"
 
 [proof_2]
-other = "Prijs"
+other = "Tariefcheck"
 
 [proof_3]
-other = "Contract"
+other = "Scope-risico"
 
 [proof_4]
-other = "Factuur"
+other = "Moneybird"
 
 [proof_5]
 other = "Betaling"
@@ -74,82 +74,82 @@ other = "Betaling"
 other = "De commerciële kloof"
 
 [problem_title]
-other = "Freelancers winnen het werk, maar bouwen de zakelijke flow daarna opnieuw met de hand."
+other = "Senior freelancers krijgen interesse, maar verliezen tijd om er een nette deal van te maken."
 
 [problem_body_1]
-other = "Leads komen binnen via e-mail, LinkedIn, recruiters, referrals en calls. Voorstellen staan in oude documenten. Tarieven worden vaak op gevoel bepaald. Contracten worden gekopieerd uit templates. Facturen komen later pas in losse tools."
+other = "Tech leads komen binnen via e-mail, LinkedIn, recruiters, referrals en calls. Voorstellen staan in oude documenten. Tarieven worden vaak op gevoel bepaald. Scope-risico zit verstopt in vage requirements. Facturen komen later pas in Moneybird of een andere tool."
 
 [problem_body_2]
-other = "Otto verbindt die momenten in FlySolo, zodat een serieuze lead een getekende en betaalde opdracht kan worden zonder losse tools."
+other = "Otto verbindt die momenten in FlySolo, zodat een serieuze lead een professioneel Nederlands voorstel, getekende overeenkomst, factuur en betaalde opdracht kan worden zonder losse tools."
 
 [features_kicker]
 other = "Wat FlySolo doet"
 
 [features_title]
-other = "Otto is gebouwd rond het moment tussen klantinteresse en betaald werk."
+other = "Gebouwd voor het pijnlijke moment tussen klantinteresse en betaald werk."
 
 [feature_1_title]
-other = "Voorstelgeneratie"
+other = "Nederlandse voorstelgeneratie"
 
 [feature_1_body]
-other = "Otto zet een ruwe aanvraag, recruiterbriefing of intake-notitie om in een klantklaar voorstel met duidelijke deliverables en mijlpalen."
+other = "Otto zet een ruwe aanvraag, recruiterbriefing of intake-notitie om in een professioneel Nederlands voorstel met duidelijke deliverables, mijlpalen, aannames en vervolgstappen."
 
 [feature_2_title]
-other = "Prijsintelligentie"
+other = "Tariefzekerheid"
 
 [feature_2_body]
-other = "Otto geeft suggesties voor uurtarief, vaste prijs of retainer met onderbouwing, onderhandelingsruimte en confidence-signalen."
+other = "Otto helpt je de belangrijkste vraag beantwoorden: vraag ik genoeg? Krijg tariefbanden, onderbouwing, onderhandelingsruimte en waarschuwingen voor onderprijzen."
 
 [feature_3_title]
-other = "Contractklare voorwaarden"
+other = "Scope- en contractrisico"
 
 [feature_3_body]
-other = "Otto stelt scope, aannames, betalingstermijnen, uitsluitingen en opdrachtafspraken op voor menselijke controle."
+other = "Otto signaleert vage scope, ontbrekende aannames, zwakke uitsluitingen, betalingstermijnen en contracttaal die menselijke controle nodig heeft."
 
 [feature_4_title]
-other = "Factuuroverdracht"
+other = "Moneybird-klaar"
 
 [feature_4_body]
-other = "Otto zet geaccepteerd werk door naar factuur- en betaalopvolging zonder dezelfde klant- en projectdata opnieuw te typen."
+other = "Otto bereidt geaccepteerd werk voor op factuur- en betaalopvolging, met Moneybird als front-office overdracht zodra de deal gewonnen is."
 
 [workflow_kicker]
 other = "Workflow"
 
 [workflow_title]
-other = "Vraag Otto om de volgende stap van lead naar betaling."
+other = "Vraag Otto om de volgende commerciële stap."
 
 [workflow_1_title]
-other = "Plak de lead"
+other = "Plak een echte lead"
 
 [workflow_1_body]
-other = "Voeg een recruiterbericht, klantbriefing, call-notities of ruwe projectomschrijving toe."
+other = "Voeg een recruiterbericht, klantbriefing, call-notities of ruwe projectomschrijving uit een echte kans toe."
 
 [workflow_2_title]
-other = "Genereer het voorstel"
+other = "Krijg een Nederlands voorstel"
 
 [workflow_2_body]
-other = "Vraag Otto om structuur, scope, mijlpalen, deliverables, aannames en vragen die je moet stellen."
+other = "Vraag Otto om structuur, scope, mijlpalen, deliverables, aannames, vragen die je moet stellen en een professionele reactie."
 
 [workflow_3_title]
 other = "Verdedig je tarief"
 
 [workflow_3_body]
-other = "Vraag Otto om prijsadvies, confidence-band, onderhandelingsruimte en waarschuwingen voor onderprijzen."
+other = "Vraag Otto om prijsadvies, confidence-band, onderhandelingsruimte en waarschuwingen voor onderprijzen bij senior tech werk."
 
 [workflow_4_title]
-other = "Sluit de opdracht"
+other = "Beweeg naar bevestiging"
 
 [workflow_4_body]
-other = "Vraag Otto om contractklare voorwaarden voor te bereiden en beweeg daarna naar handtekening, factuur en betaalopvolging."
+other = "Vraag Otto om voorwaarden, handtekeningstappen, Moneybird-factuurvoorbereiding en betaalopvolging klaar te zetten."
 
 [memory_kicker]
 other = "De moat"
 
 [memory_title]
-other = "Voorstellen genereren is de ingang. Commercieel geheugen is het product."
+other = "Voorstellen genereren is de ingang. Commercieel geheugen is de moat."
 
 [memory_body]
-other = "Otto moet onthouden hoe jij verkoopt, prijst, scopet, contracteert, factureert en opvolgt."
+other = "Otto moet je tarieven, clausules, tone of voice, klanten, gewonnen voorstellen, betalingstermijnen en opvolgmomenten onthouden."
 
 [memory_1]
 other = "Geaccepteerde en afgewezen tarieven"
@@ -170,25 +170,25 @@ other = "Verlengings- en opvolgmomenten"
 other = "Prijzen"
 
 [pricing_title]
-other = "Eenvoudige pakketten voor verschillende workflow-volwassenheid."
+other = "Eenvoudige pakketten voor de workflow van voorstel tot betaling."
 
 [pricing_starter]
-other = "Voor freelancers die Otto willen testen op een snellere voorstelflow."
+other = "Voor freelancers die snellere Nederlandse voorstellen en tariefchecks willen valideren."
 
 [pricing_professional]
-other = "Het kernpakket voor Otto-gestuurde voorstellen, prijsadvies, contract, handtekening, factuur en betaalopvolging."
+other = "Het standaardpakket voor senior tech freelancers: voorstel, tarief, scope, contract, handtekening, Moneybird-overdracht en betaalopvolging."
 
 [pricing_business]
-other = "Voor multi-client, multi-template, agency-, recruiter- of collaborator-workflows."
+other = "Voor high-rate freelancers, repeat-client operators, kleine teams en latere recruiter- of agency-workflows."
 
 [cta_kicker]
 other = "Private beta"
 
 [cta_title]
-other = "Breng één echte lead mee. Vraag Otto wat de volgende stap is."
+other = "Breng één echte lead mee. Vraag Otto om een scherper voorstel en tarief."
 
 [cta_body]
-other = "De vroege FlySolo-onboarding start wanneer je Otto om hulp vraagt bij een echte kans, tariefvraag of voorstel. Geen generieke demo nodig."
+other = "De vroege FlySolo-onboarding start met een echte of geanonimiseerde kans. Otto helpt voorstel, tarief, scope en volgende stap reviewen. Geen generieke demo nodig."
 
 [cta_button]
-other = "Vraag Otto in beta"
+other = "Vraag Otto om je lead te reviewen"

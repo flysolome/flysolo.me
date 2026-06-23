@@ -6,13 +6,13 @@ bookCollapseSection: false
 
 # FlySolo Wiki
 
-FlySolo is het AI operating system voor freelancers. Otto is de AI agent in FlySolo.
+FlySolo is de Dutch-first AI deal workflow voor senior tech freelancers. Otto is de AI agent in FlySolo.
 
-De eerste markt-wedge is ervaren zelfstandige tech professionals die leads sneller willen omzetten in getekende en betaalde opdrachten.
+De eerste markt-wedge is senior Nederlandstalige freelance tech professionals in NL/BE die leads sneller willen omzetten in getekende en betaalde opdrachten.
 
 ## Kernbelofte
 
-Otto helpt een lead met minimale moeite om te zetten in een getekend contract en betaalde opdracht.
+Otto helpt een echte lead om te zetten in een Nederlands voorstel, verdedigbaar tarief, scope-check, contractklare voorwaarden, Moneybird-factuur en betaalde opdracht.
 
 ## Primaire persona's
 
@@ -23,9 +23,9 @@ Otto helpt een lead met minimale moeite om te zetten in een getekend contract en
 
 ## Differentiators
 
-- Otto-gestuurde voorstelgeneratie
-- Otto-gestuurde prijssuggesties
-- Otto-gestuurde contractgeneratie
+- Otto-gestuurde Nederlandse voorstelgeneratie
+- Otto-gestuurde tariefsuggesties en onderhandelingsruimte
+- Scope- en contractrisico-checks
 - End-to-end workflow
 - Gelokaliseerde voorstel- en contracttaal
-- Factuurworkflow-integratie
+- Moneybird-klare factuurworkflow

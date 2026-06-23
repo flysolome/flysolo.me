@@ -3,10 +3,10 @@ title: "Docs"
 description: "FlySolo product- en businessoverzicht."
 ---
 
-FlySolo is een AI operating system voor zelfstandige consultants en freelancers. De AI agent heet Otto.
+FlySolo is een Dutch-first AI deal workflow voor senior tech freelancers. De AI agent heet Otto.
 
-Otto helpt zelfstandige professionals minder tijd te besteden aan administratie en meer tijd aan factureerbaar werk.
+Otto helpt senior freelancers sneller reageren, tarieven onderbouwen, scope verduidelijken en van lead naar getekende betaalde opdracht gaan.
 
 De productfocus is de volledige klantlevenscyclus:
 
-Lead -> Voorstel -> Prijs -> Contract -> Handtekening -> Factuur -> Betaling
+Lead -> Nederlands voorstel -> Tariefcheck -> Scope -> Contract -> Handtekening -> Moneybird-factuur -> Betaling

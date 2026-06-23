@@ -1,6 +1,6 @@
 ---
 title: "FlySolo"
-description: "Ask Otto, FlySolo's AI deal agent, for help with freelance proposals, pricing, contracts, invoices, and payment follow-up."
+description: "Ask Otto for help turning a Dutch tech freelance lead into a proposal, defensible rate, scope check, contract, Moneybird invoice, and payment follow-up."
 type: "landing"
 sitemap:
   priority: 1.0
