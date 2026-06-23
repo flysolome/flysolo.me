@@ -146,6 +146,11 @@ disablePathToLower = true
       url = "/wiki/"
       pre = "book"
       weight = 20
+    [[languages.en.menu.footer]]
+      identifier = "privacy"
+      name = "Privacy"
+      url = "/privacy-policy/"
+      weight = 30
 
   [languages.nl]
     label = "Nederlands"
@@ -213,6 +218,11 @@ disablePathToLower = true
       url = "/nl/wiki/"
       pre = "book"
       weight = 20
+    [[languages.nl.menu.footer]]
+      identifier = "privacy"
+      name = "Privacy"
+      url = "/privacy-policy/"
+      weight = 30
 
 [markup]
   [markup.goldmark]

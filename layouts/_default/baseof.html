@@ -18,6 +18,8 @@
   <meta name="twitter:card" content="summary_large_image">
   {{ $css := resources.Get "css/custom.css" | minify | fingerprint "sha256" }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  {{ partial "consent_manager.html" . }}
+  {{ partial "google_analytics.html" . }}
 </head>
 <body>
   <header class="fs-nav">

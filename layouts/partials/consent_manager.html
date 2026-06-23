@@ -1,0 +1,52 @@
+{{ "<!-- Tarteaucitron Consent Manager -->" | safeHTML }}
+<script src="/tarteaucitron/tarteaucitron.min.js"></script>
+
+<script>
+  tarteaucitron.init({
+    "privacyUrl": "https://flysolo.me/privacy-policy/",
+    "bodyPosition": "top",
+
+    "hashtag": "#tarteaucitron",
+    "cookieName": "tarteaucitron",
+
+    "orientation": "middle",
+    "groupServices": true,
+    "showDetailsOnClick": true,
+    "serviceDefaultState": "wait",
+
+    "showAlertSmall": false,
+    "cookieslist": false,
+    "cookieslistEmbed": false,
+    "closePopup": true,
+
+    "showIcon": true,
+    "iconSrc": "/images/cookie.png",
+    "iconPosition": "BottomRight",
+
+    "adblocker": false,
+    "DenyAllCta": true,
+    "AcceptAllCta": true,
+    "highPrivacy": true,
+    "alwaysNeedConsent": false,
+    "handleBrowserDNTRequest": false,
+
+    "removeCredit": true,
+    "moreInfoLink": false,
+    "useExternalCss": false,
+    "useExternalJs": false,
+
+    "readmoreLink": "",
+    "mandatory": true,
+    "mandatoryCta": false,
+
+    "googleConsentMode": true,
+    "bingConsentMode": true,
+    "pianoConsentMode": true,
+    "pianoConsentModeEssential": false,
+    "softConsentMode": false,
+
+    "dataLayer": false,
+    "serverSide": false,
+    "partnersList": true
+  });
+</script>
