@@ -82,6 +82,24 @@ other = "Leads arrive through email, LinkedIn, recruiters, referrals, and calls.
 [problem_body_2]
 other = "Otto connects those moments inside FlySolo, so a serious lead can become a professional proposal, signed agreement, e-signature, invoice, and paid project without scattered tools."
 
+[deal_path_label]
+other = "Lead to paid work path"
+
+[deal_path_1]
+other = "Lead captured"
+
+[deal_path_2]
+other = "Proposal shaped"
+
+[deal_path_3]
+other = "Rate defended"
+
+[deal_path_4]
+other = "Agreement ready"
+
+[deal_path_5]
+other = "Invoice paid"
+
 [features_kicker]
 other = "What FlySolo does"
 

@@ -80,7 +80,25 @@ other = "Freelancers krijgen interesse, maar verliezen tijd om er een nette deal
 other = "Leads komen binnen via e-mail, LinkedIn, recruiters, referrals en calls. Voorstellen staan in oude documenten. Tarieven worden vaak op gevoel bepaald. Scope-risico zit verstopt in vage requirements. Facturen komen later pas in Moneybird of een andere tool."
 
 [problem_body_2]
-other = "Otto verbindt die momenten in FlySolo, zodat een serieuze lead een professioneel Nederlands voorstel, getekende overeenkomst, e-signature, factuur en betaalde opdracht kan worden zonder losse tools."
+other = "Otto verbindt die momenten in FlySolo, zodat een serieuze lead een professioneel voorstel, getekende overeenkomst, e-signature, factuur en betaalde opdracht kan worden zonder losse tools."
+
+[deal_path_label]
+other = "Pad van lead naar betaald werk"
+
+[deal_path_1]
+other = "Lead vastgelegd"
+
+[deal_path_2]
+other = "Voorstel aangescherpt"
+
+[deal_path_3]
+other = "Tarief verdedigd"
+
+[deal_path_4]
+other = "Afspraak klaar"
+
+[deal_path_5]
+other = "Factuur betaald"
 
 [features_kicker]
 other = "Wat FlySolo doet"
@@ -89,10 +107,10 @@ other = "Wat FlySolo doet"
 other = "Gebouwd voor het pijnlijke moment tussen klantinteresse en betaald werk."
 
 [feature_1_title]
-other = "Nederlandse voorstelgeneratie"
+other = "Voorstelgeneratie"
 
 [feature_1_body]
-other = "Otto zet een ruwe aanvraag, recruiterbriefing of intake-notitie om in een professioneel Nederlands voorstel met duidelijke deliverables, mijlpalen, aannames en vervolgstappen."
+other = "Otto zet een ruwe aanvraag, recruiterbriefing of intake-notitie om in een professioneel voorstel met duidelijke deliverables, mijlpalen, aannames en vervolgstappen."
 
 [feature_2_title]
 other = "Tariefzekerheid"
@@ -125,7 +143,7 @@ other = "Plak een echte lead"
 other = "Voeg een recruiterbericht, klantbriefing, call-notities of ruwe projectomschrijving uit een echte kans toe."
 
 [workflow_2_title]
-other = "Krijg een Nederlands voorstel"
+other = "Krijg een professioneel voorstel"
 
 [workflow_2_body]
 other = "Vraag Otto om structuur, scope, mijlpalen, deliverables, aannames, vragen die je moet stellen en een professionele reactie."
@@ -173,7 +191,7 @@ other = "Prijzen"
 other = "Eenvoudige pakketten voor de workflow van voorstel tot betaling."
 
 [pricing_starter]
-other = "Voor freelancers die snellere Nederlandse voorstellen en tariefchecks willen valideren."
+other = "Voor freelancers die snellere voorstellen en tariefchecks willen valideren."
 
 [pricing_professional]
 other = "Het standaardpakket: geavanceerde voorstellen, tariefbenchmark, contractconcept, e-signature, Moneybird-sync, betaalherinneringen en win/loss tracking."
