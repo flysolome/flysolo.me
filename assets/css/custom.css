@@ -991,18 +991,45 @@ main#home > .section-title {
 
 .fs-memory-graphic span {
   position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: transparent;
+  transform-origin: center;
+}
+
+.fs-memory-graphic span::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: calc(50% - 6px);
   width: 12px;
   height: 12px;
   border-radius: 50%;
   background: #99F6E4;
   box-shadow: 0 0 18px rgba(153, 246, 228, .48);
-  transform: translate(-50%, -50%);
 }
 
 .fs-memory-graphic span:nth-child(1) { animation: fs-memory-orbit-outer 12s linear infinite; }
 .fs-memory-graphic span:nth-child(2) { animation: fs-memory-orbit-outer 12s linear infinite -6s; }
-.fs-memory-graphic span:nth-child(3) { width: 9px; height: 9px; animation: fs-memory-orbit-inner 8.5s linear infinite reverse; }
-.fs-memory-graphic span:nth-child(4) { width: 9px; height: 9px; animation: fs-memory-orbit-inner 8.5s linear infinite reverse -4.25s; }
+.fs-memory-graphic span:nth-child(3),
+.fs-memory-graphic span:nth-child(4) {
+  width: 54px;
+  height: 54px;
+}
+
+.fs-memory-graphic span:nth-child(3)::before,
+.fs-memory-graphic span:nth-child(4)::before {
+  top: -4.5px;
+  left: calc(50% - 4.5px);
+  width: 9px;
+  height: 9px;
+}
+
+.fs-memory-graphic span:nth-child(3) { animation: fs-memory-orbit-inner 8.5s linear infinite reverse; }
+.fs-memory-graphic span:nth-child(4) { animation: fs-memory-orbit-inner 8.5s linear infinite reverse -4.25s; }
 
 .fs-list li {
   position: relative;
@@ -1150,19 +1177,13 @@ main#home > .section-title {
 }
 
 @keyframes fs-memory-orbit-outer {
-  0% { left: 50%; top: 19%; opacity: .9; transform: translate(-50%, -50%) scale(.92); }
-  25% { left: 78%; top: 50%; opacity: 1; transform: translate(-50%, -50%) scale(1.06); }
-  50% { left: 50%; top: 81%; opacity: .82; transform: translate(-50%, -50%) scale(.9); }
-  75% { left: 22%; top: 50%; opacity: 1; transform: translate(-50%, -50%) scale(1.04); }
-  100% { left: 50%; top: 19%; opacity: .9; transform: translate(-50%, -50%) scale(.92); }
+  from { transform: translate(-50%, -50%) scaleX(2.08) rotate(0deg); }
+  to { transform: translate(-50%, -50%) scaleX(2.08) rotate(360deg); }
 }
 
 @keyframes fs-memory-orbit-inner {
-  0% { left: 50%; top: 31%; opacity: .82; transform: translate(-50%, -50%) scale(.9); }
-  25% { left: 66%; top: 50%; opacity: 1; transform: translate(-50%, -50%) scale(1.06); }
-  50% { left: 50%; top: 69%; opacity: .78; transform: translate(-50%, -50%) scale(.88); }
-  75% { left: 34%; top: 50%; opacity: 1; transform: translate(-50%, -50%) scale(1.04); }
-  100% { left: 50%; top: 31%; opacity: .82; transform: translate(-50%, -50%) scale(.9); }
+  from { transform: translate(-50%, -50%) scaleX(1.74) rotate(0deg); }
+  to { transform: translate(-50%, -50%) scaleX(1.74) rotate(360deg); }
 }
 
 @keyframes fs-meter-bounce {
