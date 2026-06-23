@@ -41,13 +41,13 @@ other = "Factuuroverdracht"
 other = "Maak kennis met Otto, de AI deal agent voor zelfstandige consultants"
 
 [hero_title]
-other = "Laat Otto freelance deals vooruitbrengen."
+other = "Vraag Otto om hulp bij freelance deals."
 
 [hero_lead]
-other = "FlySolo's AI agent Otto zet rommelige klantbriefings om in sterke voorstellen, verdedigbare tarieven, contractklare voorwaarden, facturen en betaalopvolging."
+other = "Vraag Otto om rommelige klantbriefings om te zetten in sterke voorstellen, verdedigbare tarieven, contractklare voorwaarden, facturen en betaalopvolging."
 
 [hero_primary]
-other = "Meld je aan voor de beta"
+other = "Vraag Otto om hulp"
 
 [hero_secondary]
 other = "Bekijk workflow"
@@ -116,7 +116,7 @@ other = "Otto zet geaccepteerd werk door naar factuur- en betaalopvolging zonder
 other = "Workflow"
 
 [workflow_title]
-other = "Otto volgt één pad van lead naar betaling."
+other = "Vraag Otto om de volgende stap van lead naar betaling."
 
 [workflow_1_title]
 other = "Plak de lead"
@@ -128,19 +128,19 @@ other = "Voeg een recruiterbericht, klantbriefing, call-notities of ruwe project
 other = "Genereer het voorstel"
 
 [workflow_2_body]
-other = "Otto geeft je structuur, scope, mijlpalen, deliverables, aannames en vragen die je moet stellen."
+other = "Vraag Otto om structuur, scope, mijlpalen, deliverables, aannames en vragen die je moet stellen."
 
 [workflow_3_title]
 other = "Verdedig je tarief"
 
 [workflow_3_body]
-other = "Otto toont prijsadvies, confidence-band, onderhandelingsruimte en waarschuwingen voor onderprijzen."
+other = "Vraag Otto om prijsadvies, confidence-band, onderhandelingsruimte en waarschuwingen voor onderprijzen."
 
 [workflow_4_title]
 other = "Sluit de opdracht"
 
 [workflow_4_body]
-other = "Laat Otto contractklare voorwaarden voorbereiden en beweeg daarna naar handtekening, factuur en betaalopvolging."
+other = "Vraag Otto om contractklare voorwaarden voor te bereiden en beweeg daarna naar handtekening, factuur en betaalopvolging."
 
 [memory_kicker]
 other = "De moat"
@@ -185,10 +185,10 @@ other = "Voor multi-client, multi-template, agency-, recruiter- of collaborator-
 other = "Private beta"
 
 [cta_title]
-other = "Breng één echte lead mee. Laat Otto de volgende stap opstellen."
+other = "Breng één echte lead mee. Vraag Otto wat de volgende stap is."
 
 [cta_body]
-other = "De vroege FlySolo-onboarding start met Otto die een echte kans, tariefvraag of voorstel reviewt. Geen generieke demo nodig."
+other = "De vroege FlySolo-onboarding start wanneer je Otto om hulp vraagt bij een echte kans, tariefvraag of voorstel. Geen generieke demo nodig."
 
 [cta_button]
-other = "Vraag beta-toegang aan"
+other = "Vraag Otto in beta"

@@ -8,7 +8,7 @@ enableRobotsTXT = true
 disablePathToLower = true
 
 [params]
-  description = "FlySolo's AI agent Otto helps independent consultants and freelancers turn leads into professional proposals, defensible rates, signed contracts, invoices, and payment follow-up."
+  description = "Ask Otto, FlySolo's AI agent, for help turning leads into professional proposals, defensible rates, signed contracts, invoices, and payment follow-up."
   keywords = ["FlySolo", "Otto AI agent", "freelancer operating system", "AI proposals", "independent consultants", "freelancers", "DevOps freelancer", "cloud architect", "security consultant", "freelance proposal", "pricing intelligence", "client workflow"]
   images = "/images/flysolo.png"
   extMeta = false
@@ -56,8 +56,8 @@ disablePathToLower = true
 
 [params.seo]
   siteName = "FlySolo"
-  title = "FlySolo - Otto, the AI deal workflow agent for freelancers"
-  description = "From lead to signed contract, invoice, and payment. Otto helps independent consultants and freelancers move deals forward."
+  title = "FlySolo - Ask Otto for freelance deal help"
+  description = "Ask Otto for help moving from lead to signed contract, invoice, and payment."
   image = "/images/flysolo.png"
 
 [params.home]

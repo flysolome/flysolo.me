@@ -41,13 +41,13 @@ other = "Invoice handoff"
 other = "Meet Otto, the AI deal agent for independent consultants"
 
 [hero_title]
-other = "Let Otto move freelance deals forward."
+other = "Ask Otto for help closing freelance deals."
 
 [hero_lead]
-other = "FlySolo's AI agent Otto turns messy client briefs into polished proposals, defensible rates, contract-ready terms, invoices, and payment follow-up."
+other = "Ask Otto to turn messy client briefs into polished proposals, defensible rates, contract-ready terms, invoices, and payment follow-up."
 
 [hero_primary]
-other = "Join the beta"
+other = "Ask Otto for help"
 
 [hero_secondary]
 other = "See workflow"
@@ -116,7 +116,7 @@ other = "Otto moves accepted work into invoice and payment follow-up flows witho
 other = "Workflow"
 
 [workflow_title]
-other = "Otto follows one path from lead to payment."
+other = "Ask Otto for the next step from lead to payment."
 
 [workflow_1_title]
 other = "Paste the lead"
@@ -128,19 +128,19 @@ other = "Add a recruiter message, client brief, call notes, or rough project des
 other = "Generate the proposal"
 
 [workflow_2_body]
-other = "Otto gives you structure, scope, milestones, deliverables, assumptions, and questions to ask."
+other = "Ask Otto for structure, scope, milestones, deliverables, assumptions, and questions to ask."
 
 [workflow_3_title]
 other = "Defend the rate"
 
 [workflow_3_body]
-other = "Otto shows suggested pricing, confidence band, negotiation range, and underpricing warnings."
+other = "Ask Otto for suggested pricing, confidence band, negotiation range, and underpricing warnings."
 
 [workflow_4_title]
 other = "Close the project"
 
 [workflow_4_body]
-other = "Let Otto prepare contract-ready terms, then move the project toward signature, invoice, and payment follow-up."
+other = "Ask Otto to prepare contract-ready terms, then move the project toward signature, invoice, and payment follow-up."
 
 [memory_kicker]
 other = "The moat"
@@ -185,10 +185,10 @@ other = "For multi-client, multi-template, agency, recruiter, or collaborator wo
 other = "Private beta"
 
 [cta_title]
-other = "Bring one real lead. Let Otto draft the next step."
+other = "Bring one real lead. Ask Otto what to do next."
 
 [cta_body]
-other = "Early FlySolo onboarding starts with Otto reviewing a real opportunity, rate question, or proposal. No generic demo required."
+other = "Early FlySolo onboarding starts when you ask Otto for help with a real opportunity, rate question, or proposal. No generic demo required."
 
 [cta_button]
-other = "Request beta access"
+other = "Ask Otto in beta"
