@@ -12,14 +12,14 @@ De eerste markt-wedge is senior Nederlandstalige freelance tech professionals in
 
 ## Kernbelofte
 
-Otto helpt een echte lead om te zetten in een Nederlands voorstel, verdedigbaar tarief, scope-check, contractklare voorwaarden, Moneybird-factuur en betaalde opdracht.
+Otto helpt een echte lead om te zetten in een Nederlands voorstel, verdedigbaar tarief, scope-check, contractklare voorwaarden, e-signature, Moneybird-factuur en betaalde opdracht.
 
 ## Primaire persona's
 
-- Freelance DevOps Engineers
-- Software Developers
-- Cloud Architects
-- Security Consultants
+- [Freelance DevOps Engineers](/nl/devops-engineers/)
+- [Freelance Cloud Architects](/nl/cloud-architects/)
+- [Freelance Security Consultants](/nl/security-consultants/)
+- Senior Software Developers
 
 ## Differentiators
 
@@ -29,3 +29,16 @@ Otto helpt een echte lead om te zetten in een Nederlands voorstel, verdedigbaar 
 - End-to-end workflow
 - Gelokaliseerde voorstel- en contracttaal
 - Moneybird-klare factuurworkflow
+
+## Activatie En Retentie
+
+Activatie is geen workspace-setup. Activatie is een echte lead, tariefadvies, Nederlands voorstel of klantreactie, en een volgende stap richting contract, handtekening, factuur en betaling.
+
+Retentie komt uit commercieel geheugen:
+
+- Voorstelopvolging
+- Herinneringen voor niet-getekende contracten
+- Factuur due en overdue reminders
+- Maandelijkse tariefreview
+- Verlengingsvoorstellen
+- Scope creep en change request detectie

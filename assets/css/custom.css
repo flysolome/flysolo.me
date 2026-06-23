@@ -408,6 +408,18 @@ main#home > .section-title {
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
 }
 
+.fs-card--link {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+  transition: border-color .18s ease, transform .18s ease;
+}
+
+.fs-card--link:hover {
+  border-color: rgba(70, 92, 255, .42);
+  transform: translateY(-2px);
+}
+
 .fs-card h3 {
   margin: 0.9rem 0 0.7rem;
   color: var(--fs-text);

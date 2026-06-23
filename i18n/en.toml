@@ -41,13 +41,13 @@ other = "Moneybird-ready"
 other = "Dutch-first AI deal workflow for senior tech freelancers"
 
 [hero_title]
-other = "Ask Otto to turn a lead into a signed project."
+other = "Win freelance projects faster, from proposal to payment."
 
 [hero_lead]
-other = "Paste a real client brief or recruiter message. Otto helps you respond in professional Dutch with a sharp proposal, defensible rate, scope check, contract-ready terms, Moneybird handoff, and payment follow-up."
+other = "FlySolo helps senior tech freelancers respond faster, defend their rate, and finish the deal cleanly: proposal, price, order confirmation, e-signature, Moneybird invoice, and payment follow-up."
 
 [hero_primary]
-other = "Ask Otto about a lead"
+other = "Get a proposal review"
 
 [hero_secondary]
 other = "See workflow"
@@ -56,19 +56,19 @@ other = "See workflow"
 other = "Product focus"
 
 [proof_1]
-other = "Proposal"
+other = "Win more"
 
 [proof_2]
-other = "Rate check"
+other = "Protect margin"
 
 [proof_3]
-other = "Scope risk"
+other = "Reduce admin"
 
 [proof_4]
-other = "Moneybird"
+other = "Dutch-first trust"
 
 [proof_5]
-other = "Payment"
+other = "Professional by default"
 
 [problem_kicker]
 other = "The commercial gap"
@@ -80,7 +80,7 @@ other = "Senior freelancers win interest, then lose time turning it into a clean
 other = "Tech leads arrive through email, LinkedIn, recruiters, referrals, and calls. Proposals live in old documents. Pricing happens from gut feel. Scope risk hides in vague requirements. Invoices happen later in Moneybird or another tool."
 
 [problem_body_2]
-other = "Otto connects those moments inside FlySolo, so a serious lead can become a professional Dutch proposal, signed agreement, invoice, and paid project without scattered tools."
+other = "Otto connects those moments inside FlySolo, so a serious lead can become a professional Dutch proposal, signed agreement, e-signature, invoice, and paid project without scattered tools."
 
 [features_kicker]
 other = "What FlySolo does"
@@ -104,19 +104,43 @@ other = "Otto helps you answer the question that matters: am I charging enough? 
 other = "Scope and contract risk"
 
 [feature_3_body]
-other = "Otto flags vague scope, missing assumptions, weak exclusions, payment terms, and contract language that needs human review."
+other = "Otto flags vague scope, missing assumptions, weak exclusions, payment terms, and contract language for human approval before anything is sent."
 
 [feature_4_title]
 other = "Moneybird readiness"
 
 [feature_4_body]
-other = "Otto prepares accepted work for invoice and payment follow-up, with Moneybird as the front-office handoff after the deal is won."
+other = "Otto prepares accepted work for e-signature, invoice, and payment follow-up, with Moneybird as the front-office handoff after the deal is won."
+
+[personas_kicker]
+other = "Initial ICP"
+
+[personas_title]
+other = "Built first for senior Dutch-speaking tech freelancers."
+
+[persona_1_title]
+other = "DevOps Engineers"
+
+[persona_1_body]
+other = "Turn platform, Kubernetes, CI/CD, and cloud operations leads into scoped proposals with defensible senior rates."
+
+[persona_2_title]
+other = "Cloud Architects"
+
+[persona_2_body]
+other = "Clarify landing zones, migrations, governance, dependencies, and pricing before the project becomes hard to control."
+
+[persona_3_title]
+other = "Security Consultants"
+
+[persona_3_body]
+other = "Respond to audit, hardening, compliance, and advisory leads with careful scope, exclusions, and follow-up."
 
 [workflow_kicker]
 other = "Workflow"
 
 [workflow_title]
-other = "Ask Otto for the next commercial step."
+other = "Activation starts with a real opportunity."
 
 [workflow_1_title]
 other = "Paste a real lead"
@@ -140,7 +164,7 @@ other = "Ask Otto for suggested pricing, confidence band, negotiation range, and
 other = "Move to confirmation"
 
 [workflow_4_body]
-other = "Ask Otto to prepare terms, signature next steps, Moneybird invoice readiness, and payment follow-up."
+other = "Ask Otto to prepare terms, e-signature next steps, Moneybird invoice readiness, and payment follow-up."
 
 [memory_kicker]
 other = "The moat"
@@ -164,7 +188,7 @@ other = "Client terms and payment behavior"
 other = "Favorite clauses and exclusions"
 
 [memory_5]
-other = "Renewal and follow-up timing"
+other = "Renewal, overdue payment, and follow-up timing"
 
 [pricing_kicker]
 other = "Pricing"
@@ -173,22 +197,22 @@ other = "Pricing"
 other = "Simple plans for the proposal-to-payment workflow."
 
 [pricing_starter]
-other = "For freelancers validating faster Dutch proposal and rate workflows."
+other = "For freelancers validating faster Dutch proposals and rate checks."
 
 [pricing_professional]
-other = "The default plan for senior tech freelancers: proposal, pricing, scope, contract, signature, Moneybird handoff, and payment follow-up."
+other = "The default plan: advanced proposals, pricing benchmark, contract draft, e-signature, Moneybird sync, payment reminders, and win/loss tracking."
 
 [pricing_business]
-other = "For high-rate freelancers, repeat-client operators, small teams, and later recruiter or agency workflows."
+other = "For high-rate freelancers, repeat-client operators, small teams, collaborator workflows, and later recruiter or agency use."
 
 [cta_kicker]
 other = "Private beta"
 
 [cta_title]
-other = "Bring one real lead. Ask Otto for a sharper proposal and rate."
+other = "Bring one real lead for a founder-led review."
 
 [cta_body]
-other = "Early FlySolo onboarding starts with a real or anonymized opportunity. Otto helps review the proposal, rate, scope, and next step. No generic demo required."
+other = "Send a recent or anonymized request. We review the proposal, rate, scope, terms, and next step with Otto. Early sessions can run as a €49-€99 paid review, credited toward Pro if you continue."
 
 [cta_button]
-other = "Ask Otto to review a lead"
+other = "Book a proposal review"

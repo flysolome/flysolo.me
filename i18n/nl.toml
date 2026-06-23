@@ -41,13 +41,13 @@ other = "Moneybird-klaar"
 other = "Dutch-first AI deal workflow voor senior tech freelancers"
 
 [hero_title]
-other = "Vraag Otto om van lead naar getekende opdracht te gaan."
+other = "Van lead naar getekende opdracht, in professioneel Nederlands."
 
 [hero_lead]
-other = "Plak een echte klantbriefing of recruiterbericht. Otto helpt je professioneel te reageren in het Nederlands met een scherp voorstel, verdedigbaar tarief, scope-check, contractklare voorwaarden, Moneybird-overdracht en betaalopvolging."
+other = "FlySolo helpt senior tech zzp'ers sneller reageren, hun tarief beter onderbouwen en alles netjes afronden: voorstel, prijs, opdrachtbevestiging, e-signature, Moneybird-factuur en betaalopvolging."
 
 [hero_primary]
-other = "Vraag Otto over een lead"
+other = "Laat je voorstel reviewen"
 
 [hero_secondary]
 other = "Bekijk workflow"
@@ -56,19 +56,19 @@ other = "Bekijk workflow"
 other = "Productfocus"
 
 [proof_1]
-other = "Voorstel"
+other = "Win meer"
 
 [proof_2]
-other = "Tariefcheck"
+other = "Bescherm marge"
 
 [proof_3]
-other = "Scope-risico"
+other = "Minder admin"
 
 [proof_4]
-other = "Moneybird"
+other = "Dutch-first trust"
 
 [proof_5]
-other = "Betaling"
+other = "Professioneel standaard"
 
 [problem_kicker]
 other = "De commerciële kloof"
@@ -80,7 +80,7 @@ other = "Senior freelancers krijgen interesse, maar verliezen tijd om er een net
 other = "Tech leads komen binnen via e-mail, LinkedIn, recruiters, referrals en calls. Voorstellen staan in oude documenten. Tarieven worden vaak op gevoel bepaald. Scope-risico zit verstopt in vage requirements. Facturen komen later pas in Moneybird of een andere tool."
 
 [problem_body_2]
-other = "Otto verbindt die momenten in FlySolo, zodat een serieuze lead een professioneel Nederlands voorstel, getekende overeenkomst, factuur en betaalde opdracht kan worden zonder losse tools."
+other = "Otto verbindt die momenten in FlySolo, zodat een serieuze lead een professioneel Nederlands voorstel, getekende overeenkomst, e-signature, factuur en betaalde opdracht kan worden zonder losse tools."
 
 [features_kicker]
 other = "Wat FlySolo doet"
@@ -104,19 +104,43 @@ other = "Otto helpt je de belangrijkste vraag beantwoorden: vraag ik genoeg? Kri
 other = "Scope- en contractrisico"
 
 [feature_3_body]
-other = "Otto signaleert vage scope, ontbrekende aannames, zwakke uitsluitingen, betalingstermijnen en contracttaal die menselijke controle nodig heeft."
+other = "Otto signaleert vage scope, ontbrekende aannames, zwakke uitsluitingen, betalingstermijnen en contracttaal voor menselijke goedkeuring voordat iets wordt verstuurd."
 
 [feature_4_title]
 other = "Moneybird-klaar"
 
 [feature_4_body]
-other = "Otto bereidt geaccepteerd werk voor op factuur- en betaalopvolging, met Moneybird als front-office overdracht zodra de deal gewonnen is."
+other = "Otto bereidt geaccepteerd werk voor op e-signature, factuur- en betaalopvolging, met Moneybird als front-office overdracht zodra de deal gewonnen is."
+
+[personas_kicker]
+other = "Eerste ICP"
+
+[personas_title]
+other = "Eerst gebouwd voor senior Nederlandstalige tech freelancers."
+
+[persona_1_title]
+other = "DevOps Engineers"
+
+[persona_1_body]
+other = "Zet platform-, Kubernetes-, CI/CD- en cloud operations leads om in afgebakende voorstellen met verdedigbare senior tarieven."
+
+[persona_2_title]
+other = "Cloud Architects"
+
+[persona_2_body]
+other = "Maak landing zones, migraties, governance, dependencies en pricing duidelijk voordat het project moeilijk te beheersen wordt."
+
+[persona_3_title]
+other = "Security Consultants"
+
+[persona_3_body]
+other = "Reageer op audit-, hardening-, compliance- en adviesleads met scherpe scope, uitsluitingen en opvolging."
 
 [workflow_kicker]
 other = "Workflow"
 
 [workflow_title]
-other = "Vraag Otto om de volgende commerciële stap."
+other = "Activatie begint met een echte kans."
 
 [workflow_1_title]
 other = "Plak een echte lead"
@@ -140,7 +164,7 @@ other = "Vraag Otto om prijsadvies, confidence-band, onderhandelingsruimte en wa
 other = "Beweeg naar bevestiging"
 
 [workflow_4_body]
-other = "Vraag Otto om voorwaarden, handtekeningstappen, Moneybird-factuurvoorbereiding en betaalopvolging klaar te zetten."
+other = "Vraag Otto om voorwaarden, e-signature-stappen, Moneybird-factuurvoorbereiding en betaalopvolging klaar te zetten."
 
 [memory_kicker]
 other = "De moat"
@@ -164,7 +188,7 @@ other = "Klantvoorwaarden en betaalgedrag"
 other = "Favoriete clausules en uitsluitingen"
 
 [memory_5]
-other = "Verlengings- en opvolgmomenten"
+other = "Verlengings-, betaalachterstand- en opvolgmomenten"
 
 [pricing_kicker]
 other = "Prijzen"
@@ -176,19 +200,19 @@ other = "Eenvoudige pakketten voor de workflow van voorstel tot betaling."
 other = "Voor freelancers die snellere Nederlandse voorstellen en tariefchecks willen valideren."
 
 [pricing_professional]
-other = "Het standaardpakket voor senior tech freelancers: voorstel, tarief, scope, contract, handtekening, Moneybird-overdracht en betaalopvolging."
+other = "Het standaardpakket: geavanceerde voorstellen, tariefbenchmark, contractconcept, e-signature, Moneybird-sync, betaalherinneringen en win/loss tracking."
 
 [pricing_business]
-other = "Voor high-rate freelancers, repeat-client operators, kleine teams en latere recruiter- of agency-workflows."
+other = "Voor high-rate freelancers, repeat-client operators, kleine teams, samenwerkingsflows en later recruiter- of agencygebruik."
 
 [cta_kicker]
 other = "Private beta"
 
 [cta_title]
-other = "Breng één echte lead mee. Vraag Otto om een scherper voorstel en tarief."
+other = "Breng één echte lead mee voor founder-led review."
 
 [cta_body]
-other = "De vroege FlySolo-onboarding start met een echte of geanonimiseerde kans. Otto helpt voorstel, tarief, scope en volgende stap reviewen. Geen generieke demo nodig."
+other = "Stuur een recente of geanonimiseerde aanvraag. We reviewen voorstel, tarief, scope, voorwaarden en volgende stap met Otto. Vroege sessies kunnen als €49-€99 betaalde review lopen, verrekend met Pro als je doorgaat."
 
 [cta_button]
-other = "Vraag Otto om je lead te reviewen"
+other = "Boek een voorstelreview"

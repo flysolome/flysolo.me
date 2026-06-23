@@ -12,14 +12,14 @@ The first market wedge is senior Dutch-speaking freelance tech professionals in 
 
 ## Core Promise
 
-Otto helps turn a real lead into a Dutch proposal, defensible rate, scope check, contract-ready terms, Moneybird invoice, and paid project.
+Otto helps turn a real lead into a Dutch proposal, defensible rate, scope check, contract-ready terms, e-signature, Moneybird invoice, and paid project.
 
 ## Primary Personas
 
-- Freelance DevOps Engineers
-- Software Developers
-- Cloud Architects
-- Security Consultants
+- [Freelance DevOps Engineers](/devops-engineers/)
+- [Freelance Cloud Architects](/cloud-architects/)
+- [Freelance Security Consultants](/security-consultants/)
+- Senior Software Developers
 
 ## Differentiators
 
@@ -29,3 +29,16 @@ Otto helps turn a real lead into a Dutch proposal, defensible rate, scope check,
 - End-to-end workflow
 - Localized proposal and contract language
 - Moneybird-ready invoice workflow
+
+## Activation And Retention
+
+Activation is not workspace setup. Activation is a real lead, rate guidance, Dutch proposal or client response, and a next step toward contract, signature, invoice, and payment.
+
+Retention comes from commercial memory:
+
+- Proposal follow-up reminders
+- Contract unsigned reminders
+- Invoice due and overdue reminders
+- Monthly rate review
+- Renewal proposal prompts
+- Scope creep and change request detection

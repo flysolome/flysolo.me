@@ -87,6 +87,30 @@
     </div>
   </section>
 
+  <section class="fs-section" id="personas">
+    <div class="fs-shell">
+      <p class="fs-kicker">{{ i18n "personas_kicker" }}</p>
+      <h2>{{ i18n "personas_title" }}</h2>
+      <div class="fs-grid fs-grid--features">
+        <a class="fs-card fs-card--link" href="{{ if eq .Language.Lang "nl" }}/nl/devops-engineers/{{ else }}/devops-engineers/{{ end }}">
+          <span class="fs-icon">01</span>
+          <h3>{{ i18n "persona_1_title" }}</h3>
+          <p>{{ i18n "persona_1_body" }}</p>
+        </a>
+        <a class="fs-card fs-card--link" href="{{ if eq .Language.Lang "nl" }}/nl/cloud-architects/{{ else }}/cloud-architects/{{ end }}">
+          <span class="fs-icon">02</span>
+          <h3>{{ i18n "persona_2_title" }}</h3>
+          <p>{{ i18n "persona_2_body" }}</p>
+        </a>
+        <a class="fs-card fs-card--link" href="{{ if eq .Language.Lang "nl" }}/nl/security-consultants/{{ else }}/security-consultants/{{ end }}">
+          <span class="fs-icon">03</span>
+          <h3>{{ i18n "persona_3_title" }}</h3>
+          <p>{{ i18n "persona_3_body" }}</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <section class="fs-section" id="workflow">
     <div class="fs-shell">
       <p class="fs-kicker">{{ i18n "workflow_kicker" }}</p>
