@@ -2,7 +2,7 @@
 other = "Taal"
 
 [workflow_card_label]
-other = "Live opdracht"
+other = "Otto werkt aan"
 
 [workflow_card_title]
 other = "Azure landing zone"
@@ -38,13 +38,13 @@ other = "Factuur"
 other = "Factuuroverdracht"
 
 [hero_eyebrow]
-other = "AI deal workflow voor zelfstandige consultants"
+other = "Maak kennis met Otto, de AI deal agent voor zelfstandige consultants"
 
 [hero_title]
-other = "Win betere freelance deals."
+other = "Laat Otto freelance deals vooruitbrengen."
 
 [hero_lead]
-other = "FlySolo helpt freelancers om rommelige klantbriefings om te zetten in sterke voorstellen, verdedigbare tarieven, contractklare voorwaarden, facturen en betaalopvolging."
+other = "FlySolo's AI agent Otto zet rommelige klantbriefings om in sterke voorstellen, verdedigbare tarieven, contractklare voorwaarden, facturen en betaalopvolging."
 
 [hero_primary]
 other = "Meld je aan voor de beta"
@@ -80,43 +80,43 @@ other = "Freelancers winnen het werk, maar bouwen de zakelijke flow daarna opnie
 other = "Leads komen binnen via e-mail, LinkedIn, recruiters, referrals en calls. Voorstellen staan in oude documenten. Tarieven worden vaak op gevoel bepaald. Contracten worden gekopieerd uit templates. Facturen komen later pas in losse tools."
 
 [problem_body_2]
-other = "FlySolo verbindt die momenten in één workflow, zodat een serieuze lead een getekende en betaalde opdracht kan worden zonder losse tools."
+other = "Otto verbindt die momenten in FlySolo, zodat een serieuze lead een getekende en betaalde opdracht kan worden zonder losse tools."
 
 [features_kicker]
 other = "Wat FlySolo doet"
 
 [features_title]
-other = "Gebouwd rond het moment tussen klantinteresse en betaald werk."
+other = "Otto is gebouwd rond het moment tussen klantinteresse en betaald werk."
 
 [feature_1_title]
 other = "Voorstelgeneratie"
 
 [feature_1_body]
-other = "Zet een ruwe aanvraag, recruiterbriefing of intake-notitie om in een klantklaar voorstel met duidelijke deliverables en mijlpalen."
+other = "Otto zet een ruwe aanvraag, recruiterbriefing of intake-notitie om in een klantklaar voorstel met duidelijke deliverables en mijlpalen."
 
 [feature_2_title]
 other = "Prijsintelligentie"
 
 [feature_2_body]
-other = "Krijg suggesties voor uurtarief, vaste prijs of retainer met onderbouwing, onderhandelingsruimte en confidence-signalen."
+other = "Otto geeft suggesties voor uurtarief, vaste prijs of retainer met onderbouwing, onderhandelingsruimte en confidence-signalen."
 
 [feature_3_title]
 other = "Contractklare voorwaarden"
 
 [feature_3_body]
-other = "Stel scope, aannames, betalingstermijnen, uitsluitingen en opdrachtafspraken op voor menselijke controle."
+other = "Otto stelt scope, aannames, betalingstermijnen, uitsluitingen en opdrachtafspraken op voor menselijke controle."
 
 [feature_4_title]
 other = "Factuuroverdracht"
 
 [feature_4_body]
-other = "Zet geaccepteerd werk door naar factuur- en betaalopvolging zonder dezelfde klant- en projectdata opnieuw te typen."
+other = "Otto zet geaccepteerd werk door naar factuur- en betaalopvolging zonder dezelfde klant- en projectdata opnieuw te typen."
 
 [workflow_kicker]
 other = "Workflow"
 
 [workflow_title]
-other = "Eén pad van lead naar betaling."
+other = "Otto volgt één pad van lead naar betaling."
 
 [workflow_1_title]
 other = "Plak de lead"
@@ -128,19 +128,19 @@ other = "Voeg een recruiterbericht, klantbriefing, call-notities of ruwe project
 other = "Genereer het voorstel"
 
 [workflow_2_body]
-other = "Krijg structuur, scope, mijlpalen, deliverables, aannames en vragen die je moet stellen."
+other = "Otto geeft je structuur, scope, mijlpalen, deliverables, aannames en vragen die je moet stellen."
 
 [workflow_3_title]
 other = "Verdedig je tarief"
 
 [workflow_3_body]
-other = "Bekijk prijsadvies, confidence-band, onderhandelingsruimte en waarschuwingen voor onderprijzen."
+other = "Otto toont prijsadvies, confidence-band, onderhandelingsruimte en waarschuwingen voor onderprijzen."
 
 [workflow_4_title]
 other = "Sluit de opdracht"
 
 [workflow_4_body]
-other = "Maak contractklare voorwaarden, verzamel handtekening, factureer en volg betaling op."
+other = "Laat Otto contractklare voorwaarden voorbereiden en beweeg daarna naar handtekening, factuur en betaalopvolging."
 
 [memory_kicker]
 other = "De moat"
@@ -149,7 +149,7 @@ other = "De moat"
 other = "Voorstellen genereren is de ingang. Commercieel geheugen is het product."
 
 [memory_body]
-other = "FlySolo moet onthouden hoe jij verkoopt, prijst, scopet, contracteert, factureert en opvolgt."
+other = "Otto moet onthouden hoe jij verkoopt, prijst, scopet, contracteert, factureert en opvolgt."
 
 [memory_1]
 other = "Geaccepteerde en afgewezen tarieven"
@@ -173,10 +173,10 @@ other = "Prijzen"
 other = "Eenvoudige pakketten voor verschillende workflow-volwassenheid."
 
 [pricing_starter]
-other = "Voor freelancers die een snellere voorstelflow willen testen."
+other = "Voor freelancers die Otto willen testen op een snellere voorstelflow."
 
 [pricing_professional]
-other = "Het kernpakket voor voorstellen, prijsadvies, contract, handtekening, factuur en betaalopvolging."
+other = "Het kernpakket voor Otto-gestuurde voorstellen, prijsadvies, contract, handtekening, factuur en betaalopvolging."
 
 [pricing_business]
 other = "Voor multi-client, multi-template, agency-, recruiter- of collaborator-workflows."
@@ -185,10 +185,10 @@ other = "Voor multi-client, multi-template, agency-, recruiter- of collaborator-
 other = "Private beta"
 
 [cta_title]
-other = "Breng één echte lead mee. Vertrek met een sterker voorstel."
+other = "Breng één echte lead mee. Laat Otto de volgende stap opstellen."
 
 [cta_body]
-other = "De vroege FlySolo-onboarding start met een echte kans, tariefvraag of voorstelreview. Geen generieke demo nodig."
+other = "De vroege FlySolo-onboarding start met Otto die een echte kans, tariefvraag of voorstel reviewt. Geen generieke demo nodig."
 
 [cta_button]
 other = "Vraag beta-toegang aan"

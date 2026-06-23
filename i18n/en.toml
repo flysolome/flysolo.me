@@ -2,7 +2,7 @@
 other = "Language"
 
 [workflow_card_label]
-other = "Live opportunity"
+other = "Otto is working on"
 
 [workflow_card_title]
 other = "Azure landing zone"
@@ -38,13 +38,13 @@ other = "Invoice"
 other = "Invoice handoff"
 
 [hero_eyebrow]
-other = "AI deal workflow for independent consultants"
+other = "Meet Otto, the AI deal agent for independent consultants"
 
 [hero_title]
-other = "Win better freelance deals."
+other = "Let Otto move freelance deals forward."
 
 [hero_lead]
-other = "FlySolo helps freelancers turn messy client briefs into polished proposals, defensible rates, contract-ready terms, invoices, and payment follow-up."
+other = "FlySolo's AI agent Otto turns messy client briefs into polished proposals, defensible rates, contract-ready terms, invoices, and payment follow-up."
 
 [hero_primary]
 other = "Join the beta"
@@ -80,43 +80,43 @@ other = "Freelancers win the work, then rebuild the business flow by hand."
 other = "Leads arrive through email, LinkedIn, recruiters, referrals, and calls. Proposals live in old documents. Pricing happens from gut feel. Contracts are copied from templates. Invoices happen later in separate tools."
 
 [problem_body_2]
-other = "FlySolo connects those moments into one workflow, so a serious lead can become a signed and paid project without scattered tools."
+other = "Otto connects those moments inside FlySolo, so a serious lead can become a signed and paid project without scattered tools."
 
 [features_kicker]
 other = "What FlySolo does"
 
 [features_title]
-other = "Built around the moment between client interest and paid work."
+other = "Otto is built around the moment between client interest and paid work."
 
 [feature_1_title]
 other = "Proposal generation"
 
 [feature_1_body]
-other = "Turn a rough opportunity, recruiter brief, or intake note into a client-ready proposal with clear deliverables and milestones."
+other = "Otto turns a rough opportunity, recruiter brief, or intake note into a client-ready proposal with clear deliverables and milestones."
 
 [feature_2_title]
 other = "Pricing intelligence"
 
 [feature_2_body]
-other = "Suggest hourly, fixed-price, or retainer ranges with rationale, negotiation room, and confidence signals."
+other = "Otto suggests hourly, fixed-price, or retainer ranges with rationale, negotiation room, and confidence signals."
 
 [feature_3_title]
 other = "Contract-ready terms"
 
 [feature_3_body]
-other = "Draft scope, assumptions, payment terms, exclusions, and agreement language for human review."
+other = "Otto drafts scope, assumptions, payment terms, exclusions, and agreement language for human review."
 
 [feature_4_title]
 other = "Invoice handoff"
 
 [feature_4_body]
-other = "Move accepted work into invoice and payment follow-up flows without retyping the same client and project data."
+other = "Otto moves accepted work into invoice and payment follow-up flows without retyping the same client and project data."
 
 [workflow_kicker]
 other = "Workflow"
 
 [workflow_title]
-other = "One path from lead to payment."
+other = "Otto follows one path from lead to payment."
 
 [workflow_1_title]
 other = "Paste the lead"
@@ -128,19 +128,19 @@ other = "Add a recruiter message, client brief, call notes, or rough project des
 other = "Generate the proposal"
 
 [workflow_2_body]
-other = "Get structure, scope, milestones, deliverables, assumptions, and questions to ask."
+other = "Otto gives you structure, scope, milestones, deliverables, assumptions, and questions to ask."
 
 [workflow_3_title]
 other = "Defend the rate"
 
 [workflow_3_body]
-other = "See suggested pricing, confidence band, negotiation range, and underpricing warnings."
+other = "Otto shows suggested pricing, confidence band, negotiation range, and underpricing warnings."
 
 [workflow_4_title]
 other = "Close the project"
 
 [workflow_4_body]
-other = "Create contract-ready terms, collect signature, invoice, and follow up on payment."
+other = "Let Otto prepare contract-ready terms, then move the project toward signature, invoice, and payment follow-up."
 
 [memory_kicker]
 other = "The moat"
@@ -149,7 +149,7 @@ other = "The moat"
 other = "Proposal generation is the entry point. Commercial memory is the product."
 
 [memory_body]
-other = "FlySolo should remember how you sell, price, scope, contract, invoice, and follow up."
+other = "Otto should remember how you sell, price, scope, contract, invoice, and follow up."
 
 [memory_1]
 other = "Accepted and rejected rates"
@@ -173,10 +173,10 @@ other = "Pricing"
 other = "Simple plans for different workflow maturity."
 
 [pricing_starter]
-other = "For freelancers testing a faster proposal workflow."
+other = "For freelancers testing Otto on a faster proposal workflow."
 
 [pricing_professional]
-other = "The core plan for proposal, pricing, contract, signature, invoice, and payment workflows."
+other = "The core plan for Otto-powered proposal, pricing, contract, signature, invoice, and payment workflows."
 
 [pricing_business]
 other = "For multi-client, multi-template, agency, recruiter, or collaborator workflows."
@@ -185,10 +185,10 @@ other = "For multi-client, multi-template, agency, recruiter, or collaborator wo
 other = "Private beta"
 
 [cta_title]
-other = "Bring one real lead. Leave with a stronger proposal."
+other = "Bring one real lead. Let Otto draft the next step."
 
 [cta_body]
-other = "Early FlySolo onboarding starts with a real opportunity, rate question, or proposal review. No generic demo required."
+other = "Early FlySolo onboarding starts with Otto reviewing a real opportunity, rate question, or proposal. No generic demo required."
 
 [cta_button]
 other = "Request beta access"

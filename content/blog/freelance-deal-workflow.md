@@ -17,6 +17,6 @@ FlySolo focuses on the commercial workflow:
 
 Lead -> Proposal -> Pricing -> Contract -> Signature -> Invoice -> Payment
 
-The first wedge is simple: paste a client brief, get a professional proposal, a defensible rate, scope risks, and the next step.
+The first wedge is simple: paste a client brief, and Otto drafts a professional proposal, a defensible rate, scope risks, and the next step.
 
-The durable value is commercial memory. FlySolo should remember how a freelancer sells, prices, scopes, contracts, invoices, and follows up.
+The durable value is commercial memory. Otto should remember how a freelancer sells, prices, scopes, contracts, invoices, and follows up.

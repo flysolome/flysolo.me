@@ -17,6 +17,6 @@ FlySolo focust op de commerciële workflow:
 
 Lead -> Voorstel -> Prijs -> Contract -> Handtekening -> Factuur -> Betaling
 
-De eerste wedge is eenvoudig: plak een klantbriefing en krijg een professioneel voorstel, een verdedigbaar tarief, scope-risico's en de volgende stap.
+De eerste wedge is eenvoudig: plak een klantbriefing en Otto maakt een professioneel voorstel, een verdedigbaar tarief, scope-risico's en de volgende stap.
 
-De duurzame waarde is commercieel geheugen. FlySolo moet onthouden hoe een freelancer verkoopt, prijst, scopet, contracteert, factureert en opvolgt.
+De duurzame waarde is commercieel geheugen. Otto moet onthouden hoe een freelancer verkoopt, prijst, scopet, contracteert, factureert en opvolgt.

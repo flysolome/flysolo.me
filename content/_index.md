@@ -1,6 +1,6 @@
 ---
 title: "FlySolo"
-description: "AI deal workflow for independent consultants and freelancers."
+description: "Otto, FlySolo's AI deal agent for independent consultants and freelancers."
 type: "landing"
 sitemap:
   priority: 1.0
