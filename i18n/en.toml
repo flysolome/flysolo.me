@@ -82,6 +82,18 @@ other = "Leads arrive through email, LinkedIn, recruiters, referrals, and calls.
 [problem_body_2]
 other = "Otto connects those moments inside FlySolo, so a serious lead can become a professional proposal, signed agreement, e-signature, invoice, and paid project without scattered tools."
 
+[time_kicker]
+other = "Why now"
+
+[time_title]
+other = "Time keeps moving. Good opportunities do not wait."
+
+[time_body]
+other = "A warm lead has a half-life. The longer a proposal sits unfinished, the more room there is for another freelancer to answer clearly, price confidently, and make the next step feel easy."
+
+[time_body_2]
+other = "FlySolo is built for that narrow window: capture the request, shape the offer, protect the rate, and move before momentum is gone."
+
 [deal_path_label]
 other = "Lead to paid work path"
 

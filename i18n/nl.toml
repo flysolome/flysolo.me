@@ -82,6 +82,18 @@ other = "Leads komen binnen via e-mail, LinkedIn, recruiters, referrals en calls
 [problem_body_2]
 other = "Otto verbindt die momenten in FlySolo, zodat een serieuze lead een professioneel voorstel, getekende overeenkomst, e-signature, factuur en betaalde opdracht kan worden zonder losse tools."
 
+[time_kicker]
+other = "Waarom nu"
+
+[time_title]
+other = "De tijd loopt door. Goede kansen wachten niet."
+
+[time_body]
+other = "Een warme lead verliest snel kracht. Hoe langer een voorstel blijft liggen, hoe meer ruimte er is voor een andere freelancer om helder te antwoorden, zeker te prijzen en de volgende stap makkelijk te maken."
+
+[time_body_2]
+other = "FlySolo is gebouwd voor dat korte moment: leg de aanvraag vast, scherp het aanbod aan, bescherm je tarief en beweeg voordat het momentum weg is."
+
 [deal_path_label]
 other = "Pad van lead naar betaald werk"
 
