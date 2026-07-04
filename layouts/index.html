@@ -73,6 +73,53 @@
     </div>
   </section>
 
+  <section class="fs-section fs-section--smooth" id="smooth">
+    <div class="fs-shell fs-smooth">
+      <div class="fs-smooth__copy">
+        <p class="fs-kicker">{{ i18n "smooth_kicker" }}</p>
+        <h2>{{ i18n "smooth_title" }}</h2>
+        <p>{{ i18n "smooth_body" }}</p>
+      </div>
+      <div class="fs-process-stage" aria-label="{{ i18n "smooth_diagram_label" }}">
+        <div class="fs-process-floor" aria-hidden="true"></div>
+        <div class="fs-process-board" aria-hidden="true">
+          <svg class="fs-process-route" viewBox="0 0 640 420" preserveAspectRatio="none">
+            <path class="fs-process-route__glow" d="M 38 286 H 130 V 90 H 246 V 204 H 348 V 334 H 380 V 236 H 516 H 594 M 380 236 V 96 H 472" />
+            <path class="fs-process-route__line" d="M 38 286 H 130 V 90 H 246 V 204 H 348 V 334 H 380 V 236 H 516 H 594 M 380 236 V 96 H 472" />
+          </svg>
+          <div class="fs-process-node fs-process-node--lead">
+            <span class="fs-process-icon fs-process-icon--lead"></span>
+            <strong>{{ i18n "smooth_input_1" }}</strong>
+          </div>
+          <div class="fs-process-node fs-process-node--proposal">
+            <span class="fs-process-icon fs-process-icon--proposal"></span>
+            <strong>{{ i18n "smooth_output_1" }}</strong>
+          </div>
+          <div class="fs-process-node fs-process-node--otto">
+            <img src="/images/flysolo-icon-gradient.svg" alt="">
+            <strong>Otto</strong>
+          </div>
+          <div class="fs-process-node fs-process-node--scope">
+            <span class="fs-process-icon fs-process-icon--scope"></span>
+            <strong>{{ i18n "smooth_output_2" }}</strong>
+          </div>
+          <div class="fs-process-node fs-process-node--invoice">
+            <span class="fs-process-icon fs-process-icon--invoice"></span>
+            <strong>{{ i18n "smooth_output_4" }}</strong>
+          </div>
+          <div class="fs-process-node fs-process-node--ghost fs-process-node--signature">
+            <span class="fs-process-icon fs-process-icon--signature"></span>
+            <strong>{{ i18n "smooth_output_3" }}</strong>
+          </div>
+        </div>
+        <div class="fs-process-callouts">
+          <span>{{ i18n "smooth_callout_1" }}</span>
+          <span>{{ i18n "smooth_callout_2" }}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="fs-section fs-section--time" id="time">
     <div class="fs-shell fs-time">
       <div class="fs-time__copy">
@@ -237,6 +284,11 @@
         <h2>{{ i18n "cta_title" }}</h2>
         <p>{{ i18n "cta_body" }}</p>
         <a class="fs-button fs-button--primary" href="mailto:hello@flysolo.me?subject=FlySolo%20beta">{{ i18n "cta_button" }}</a>
+        <div class="fs-feature-request">
+          <strong>{{ i18n "feature_request_title" }}</strong>
+          <p>{{ i18n "feature_request_body" }}</p>
+          <a href="mailto:hello@flysolo.me?subject=FlySolo%20feature%20request">{{ i18n "feature_request_link" }}</a>
+        </div>
       </div>
     </div>
   </section>

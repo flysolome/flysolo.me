@@ -82,6 +82,48 @@ other = "Leads komen binnen via e-mail, LinkedIn, recruiters, referrals en calls
 [problem_body_2]
 other = "Otto verbindt die momenten in FlySolo, zodat een serieuze lead een professioneel voorstel, getekende overeenkomst, e-signature, factuur en betaalde opdracht kan worden zonder losse tools."
 
+[smooth_kicker]
+other = "Van frictie naar flow"
+
+[smooth_title]
+other = "FlySolo maakt verspreid dealwerk één soepeler proces."
+
+[smooth_body]
+other = "Breng de losse onderdelen van een kans mee: de klantnotitie, tariefvraag, scope-risico en factuuroverdracht. Otto helpt ze ordenen tot een helder pad, zodat de volgende actie zichtbaar is in plaats van verstopt in administratie."
+
+[smooth_diagram_label]
+other = "Geanimeerd diagram waarin verspreid werk een soepele FlySolo-workflow wordt"
+
+[smooth_callout_1]
+other = "Breng elke dealstap in één soepele route"
+
+[smooth_callout_2]
+other = "Minder overdrachtsfrictie van eerste lead tot factuur"
+
+[smooth_input_1]
+other = "Lead"
+
+[smooth_input_2]
+other = "Brief"
+
+[smooth_input_3]
+other = "Tarief"
+
+[smooth_input_4]
+other = "Voorwaarden"
+
+[smooth_output_1]
+other = "Voorstel"
+
+[smooth_output_2]
+other = "Scope"
+
+[smooth_output_3]
+other = "Handtekening"
+
+[smooth_output_4]
+other = "Factuur"
+
 [time_kicker]
 other = "Waarom nu"
 
@@ -222,3 +264,12 @@ other = "Start met een recente of geanonimiseerde aanvraag. Otto helpt voorstel,
 
 [cta_button]
 other = "Vraag Otto over een lead"
+
+[feature_request_title]
+other = "Mis je een workflow-stap?"
+
+[feature_request_body]
+other = "Als jouw freelanceproces een functie nodig heeft die FlySolo nog niet dekt, laat het weten. Beta-aanvragen helpen bepalen wat Otto als volgende leert."
+
+[feature_request_link]
+other = "Vraag een ontbrekende functie aan"

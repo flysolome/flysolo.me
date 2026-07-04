@@ -82,6 +82,48 @@ other = "Leads arrive through email, LinkedIn, recruiters, referrals, and calls.
 [problem_body_2]
 other = "Otto connects those moments inside FlySolo, so a serious lead can become a professional proposal, signed agreement, e-signature, invoice, and paid project without scattered tools."
 
+[smooth_kicker]
+other = "From friction to flow"
+
+[smooth_title]
+other = "FlySolo turns scattered deal work into one smoother process."
+
+[smooth_body]
+other = "Bring the loose parts of an opportunity: the client note, rate question, scope risk, and invoice handoff. Otto helps organize them into a clear path, so the next action is visible instead of buried in admin."
+
+[smooth_diagram_label]
+other = "Animated diagram showing scattered work becoming a smooth FlySolo workflow"
+
+[smooth_callout_1]
+other = "Move every deal step through one smooth route"
+
+[smooth_callout_2]
+other = "Reduce handoff friction from first lead to invoice"
+
+[smooth_input_1]
+other = "Lead"
+
+[smooth_input_2]
+other = "Brief"
+
+[smooth_input_3]
+other = "Rate"
+
+[smooth_input_4]
+other = "Terms"
+
+[smooth_output_1]
+other = "Proposal"
+
+[smooth_output_2]
+other = "Scope"
+
+[smooth_output_3]
+other = "Signature"
+
+[smooth_output_4]
+other = "Invoice"
+
 [time_kicker]
 other = "Why now"
 
@@ -222,3 +264,12 @@ other = "Start with a recent or anonymized request. Otto helps review the propos
 
 [cta_button]
 other = "Ask Otto about a lead"
+
+[feature_request_title]
+other = "Missing a workflow step?"
+
+[feature_request_body]
+other = "If your freelance process needs a feature FlySolo does not cover yet, tell us. Beta requests help decide what Otto learns next."
+
+[feature_request_link]
+other = "Request a missing feature"
