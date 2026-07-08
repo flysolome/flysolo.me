@@ -11,40 +11,40 @@ other = "Azure landing zone"
 other = "Lead"
 
 [workflow_card_step_1_state]
-other = "Qualified"
+other = "Brief reviewed"
 
 [workflow_card_step_2]
 other = "Proposal"
 
 [workflow_card_step_2_state]
-other = "Draft ready"
+other = "Send to client"
 
 [workflow_card_step_3]
 other = "Pricing"
 
 [workflow_card_step_3_state]
-other = "Margin protected"
+other = "Below-rate risk flagged"
 
 [workflow_card_step_4]
 other = "Contract"
 
 [workflow_card_step_4_state]
-other = "Scope checked"
+other = "Vague scope flagged"
 
 [workflow_card_step_5]
 other = "Invoice"
 
 [workflow_card_step_5_state]
-other = "Moneybird-ready"
+other = "Moneybird handoff queued"
 
 [hero_eyebrow]
-other = "AI deal workflow for independent professionals"
+other = "AI deal workflow for the moment a client asks, 'Can you send a proposal?'"
 
 [hero_title]
-other = "Win freelance projects faster, from proposal to payment."
+other = "Turn a live freelance lead into the next email, price, signature, invoice, and follow-up."
 
 [hero_lead]
-other = "FlySolo helps independent professionals respond faster, defend their rate, and finish the deal cleanly: proposal, price, order confirmation, e-signature, Moneybird invoice, and payment follow-up."
+other = "When a recruiter message, client brief, or referral lands in your inbox, FlySolo helps Otto shape the reply, back the price, check the scope, prepare the confirmation, queue the signature, set up the Moneybird invoice, and track the payment nudge."
 
 [hero_primary]
 other = "Get a proposal review"
@@ -56,49 +56,49 @@ other = "See workflow"
 other = "Product focus"
 
 [proof_1]
-other = "Win more"
+other = "Reply before the lead cools"
 
 [proof_2]
-other = "Protect margin"
+other = "Spot below-rate work"
 
 [proof_3]
-other = "Reduce admin"
+other = "Keep the handoff in one thread"
 
 [proof_4]
-other = "Localized trust"
+other = "Use local terms and tools"
 
 [proof_5]
-other = "Professional by default"
+other = "Send work a client can sign"
 
 [problem_kicker]
 other = "The commercial gap"
 
 [problem_title]
-other = "Freelancers win interest, then lose time turning it into a clean deal."
+other = "Freelancers win interest, then lose time turning it into something a client can approve."
 
 [problem_body_1]
 other = "Leads arrive through email, LinkedIn, recruiters, referrals, and calls. Proposals live in old documents. Pricing happens from gut feel. Scope risk hides in vague requirements. Invoices happen later in Moneybird or another tool."
 
 [problem_body_2]
-other = "Otto connects those moments inside FlySolo, so a serious lead can become a professional proposal, signed agreement, e-signature, invoice, and paid project without scattered tools."
+other = "Otto connects those moments inside FlySolo, so a lead from a real buyer can become a proposal with deliverables, a signed agreement, an e-signature request, an invoice, and paid work without scattered tools."
 
 [smooth_kicker]
-other = "From friction to flow"
+other = "When the work is scattered"
 
 [smooth_title]
-other = "FlySolo turns scattered deal work into one smoother process."
+other = "FlySolo gives every deal step a place to go."
 
 [smooth_body]
-other = "Bring the loose parts of an opportunity: the client note, rate question, scope risk, and invoice handoff. Otto helps organize them into a clear path, so the next action is visible instead of buried in admin."
+other = "Bring the loose parts of an opportunity: the client note, rate question, scope risk, and invoice handoff. Otto lines them up by next action, so you know whether to ask a question, send the proposal, adjust the rate, confirm terms, or prepare the invoice."
 
 [smooth_diagram_label]
-other = "Animated diagram showing scattered work becoming a smooth FlySolo workflow"
+other = "Animated diagram showing client notes, scope, pricing, signature, and invoice moving through FlySolo"
 
 [smooth_callout_1]
-other = "Move every deal step through one smooth route"
+other = "Move every deal step through the same workspace"
 
 [smooth_callout_2]
-other = "Reduce handoff friction from first lead to invoice"
+other = "Stop rebuilding context between lead, signature, and invoice"
 
 [smooth_input_1]
 other = "Lead"
@@ -128,13 +128,13 @@ other = "Invoice"
 other = "Why now"
 
 [time_title]
-other = "Time keeps moving. Good opportunities do not wait."
+other = "While a proposal sits unfinished, another freelancer can answer."
 
 [time_body]
-other = "A warm lead has a half-life. The longer a proposal sits unfinished, the more room there is for another freelancer to answer clearly, price confidently, and make the next step feel easy."
+other = "A lead that felt urgent on Monday can go quiet by Thursday. The longer a proposal sits unfinished, the more room there is for another freelancer to answer the open questions, name a price, and make the next step obvious."
 
 [time_body_2]
-other = "FlySolo is built for that narrow window: capture the request, shape the offer, protect the rate, and move before momentum is gone."
+other = "FlySolo is for that window between first interest and lost momentum: capture the request, shape the offer, check the rate, and send the next step while the client is still paying attention."
 
 [deal_path_label]
 other = "Lead to paid work path"
@@ -158,31 +158,31 @@ other = "Invoice paid"
 other = "What FlySolo does"
 
 [features_title]
-other = "Built for the painful moment between client interest and paid work."
+other = "For the moment between 'Can you send something?' and money in the bank."
 
 [feature_1_title]
-other = "Proposal generation"
+other = "When the proposal has to leave today"
 
 [feature_1_body]
-other = "Otto turns a rough opportunity, recruiter brief, or intake note into a professional proposal with clear deliverables, milestones, assumptions, and next steps."
+other = "Otto turns a rough opportunity, recruiter brief, or intake note into a proposal with deliverables, milestones, assumptions, unanswered questions, and the next email to send."
 
 [feature_2_title]
-other = "Rate confidence"
+other = "When the client asks for your rate"
 
 [feature_2_body]
-other = "Otto helps you answer the question that matters: am I charging enough? Get rate ranges, rationale, negotiation room, and underpricing warnings."
+other = "Otto helps you answer the question that matters: am I charging enough for this client, scope, urgency, and risk? Get rate ranges, rationale, negotiation room, and warnings when the work looks underpriced."
 
 [feature_3_title]
-other = "Scope and contract risk"
+other = "When the scope is vague"
 
 [feature_3_body]
-other = "Otto flags vague scope, missing assumptions, weak exclusions, payment terms, and contract language for human approval before anything is sent."
+other = "Otto flags vague requirements, missing assumptions, weak exclusions, payment terms, and contract language before you send something the client might treat as a commitment."
 
 [feature_4_title]
-other = "Moneybird readiness"
+other = "When the deal becomes admin"
 
 [feature_4_body]
-other = "Otto prepares accepted work for e-signature, invoice, and payment follow-up, with Moneybird as the front-office handoff after the deal is won."
+other = "After the client says yes, Otto prepares the signature request, invoice details, and payment follow-up so the handoff to Moneybird starts from the accepted work."
 
 [workflow_kicker]
 other = "Workflow"
@@ -197,16 +197,16 @@ other = "Paste a real lead"
 other = "Add a recruiter message, client brief, call notes, or rough project description from a real opportunity."
 
 [workflow_2_title]
-other = "Get a professional proposal"
+other = "Create the proposal response"
 
 [workflow_2_body]
-other = "Ask Otto for structure, scope, milestones, deliverables, assumptions, questions to ask, and a professional response."
+other = "Ask Otto for structure, scope, milestones, deliverables, assumptions, questions to ask, and the response you can send back to the client."
 
 [workflow_3_title]
 other = "Defend the rate"
 
 [workflow_3_body]
-other = "Ask Otto for suggested pricing, confidence band, negotiation range, and underpricing warnings for serious client work."
+other = "Ask Otto for suggested pricing, a range to negotiate within, and underpricing warnings when the scope, deadline, or client expectations raise the risk."
 
 [workflow_4_title]
 other = "Move to confirmation"
@@ -218,7 +218,7 @@ other = "Ask Otto to prepare terms, e-signature next steps, Moneybird invoice re
 other = "Commercial memory"
 
 [memory_title]
-other = "Every client workflow should make the next one easier."
+other = "Each client deal should leave material for the next one."
 
 [memory_body]
 other = "Otto should remember your rates, clauses, tone of voice, clients, won proposals, payment terms, and follow-up moments."
@@ -242,25 +242,25 @@ other = "Renewal, overdue payment, and follow-up timing"
 other = "Pricing"
 
 [pricing_title]
-other = "Simple plans for the proposal-to-payment workflow."
+other = "Plans by how often proposals turn into invoices."
 
 [pricing_starter]
-other = "For freelancers validating faster proposals and rate checks."
+other = "For freelancers testing whether Otto helps when a lead arrives and a proposal needs to go out."
 
 [pricing_professional]
-other = "The default plan: advanced proposals, pricing benchmark, contract draft, e-signature, Moneybird sync, payment reminders, and win/loss tracking."
+other = "For freelancers handling recurring proposal work: proposal drafts, pricing benchmark, contract draft, e-signature, Moneybird sync, payment reminders, and win/loss tracking."
 
 [pricing_business]
-other = "For high-rate freelancers, repeat-client operators, small teams, shared templates, and more complex client workflows."
+other = "For freelancers and small teams working with repeat clients, shared templates, higher-value deals, and client workflows with more approval steps."
 
 [cta_kicker]
 other = "Private beta"
 
 [cta_title]
-other = "Bring one real lead. Ask Otto for a sharper next step."
+other = "Bring one lead from your inbox. Ask Otto what to send next."
 
 [cta_body]
-other = "Start with a recent or anonymized request. Otto helps review the proposal, rate, scope, terms, and next step, so you leave with something useful rather than a generic demo."
+other = "Start with a recent or anonymized request. Otto reviews the proposal, rate, scope, terms, and next step, so you leave with a reply, checklist, or invoice handoff instead of a demo script."
 
 [cta_button]
 other = "Ask Otto about a lead"

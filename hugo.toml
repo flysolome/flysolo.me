@@ -8,7 +8,7 @@ enableRobotsTXT = true
 disablePathToLower = true
 
 [params]
-  description = "FlySolo helps independent professionals win projects faster from proposal to payment with Otto: proposals, rate checks, scope control, e-signature, Moneybird invoices, and payment follow-up."
+  description = "FlySolo helps independent professionals move from proposal to payment with Otto when a client asks for a proposal, pricing needs backing, scope needs checking, signatures are due, Moneybird invoices need preparing, and payment follow-up is next."
   keywords = ["FlySolo", "Otto AI agent", "freelancers", "independent professionals", "ZZP", "freelance proposal", "rate checker", "scope check", "e-signature", "Moneybird", "proposal confidence"]
   images = "/images/flysolo.png"
   extMeta = false
@@ -57,7 +57,7 @@ disablePathToLower = true
 [params.seo]
   siteName = "FlySolo"
   title = "FlySolo - Win freelance projects from proposal to payment"
-  description = "AI deal workflow for independent professionals: proposal, rate check, scope, e-signature, Moneybird invoice, and payment follow-up."
+  description = "AI deal workflow for independent professionals when a lead arrives, pricing needs backing, scope needs checking, signatures are due, a Moneybird invoice must be prepared, and payment follow-up is next."
   image = "/images/flysolo.png"
 
 [params.home]

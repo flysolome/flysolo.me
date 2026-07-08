@@ -1,6 +1,6 @@
 ---
 title: "FlySolo"
-description: "Win freelance projects faster from proposal to payment with Otto: proposals, defensible rates, scope checks, e-signature, Moneybird invoices, and payment follow-up."
+description: "Move freelance projects from proposal to payment with Otto when a lead arrives, a rate needs backing, scope needs checking, signatures are due, Moneybird invoices need preparing, and payment follow-up is next."
 type: "landing"
 sitemap:
   priority: 1.0
