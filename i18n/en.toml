@@ -242,28 +242,28 @@ other = "Renewal, overdue payment, and follow-up timing"
 other = "Pricing"
 
 [pricing_title]
-other = "Plans by how often proposals turn into invoices."
+other = "Start with one limited month before the plan starts."
 
 [pricing_starter]
-other = "For freelancers testing whether Otto helps when a lead arrives and a proposal needs to go out."
+other = "Use the trial month when a lead arrives and a proposal needs to go out, then continue here for light proposal and rate-check work."
 
 [pricing_professional]
-other = "For freelancers handling recurring proposal work: proposal drafts, pricing benchmark, contract draft, e-signature, Moneybird sync, payment reminders, and win/loss tracking."
+other = "Use the trial month on recurring proposal work, then continue here for proposal drafts, pricing benchmark, contract draft, e-signature, Moneybird sync, payment reminders, and win/loss tracking."
 
 [pricing_business]
-other = "For freelancers and small teams working with repeat clients, shared templates, higher-value deals, and client workflows with more approval steps."
+other = "Use the trial month with a repeat-client workflow, then continue here for shared templates, higher-value deals, and client workflows with more approval steps."
 
 [cta_kicker]
-other = "Private beta"
+other = "One-month limited trial"
 
 [cta_title]
-other = "Bring one lead from your inbox. Ask Otto what to send next."
+other = "Try FlySolo for one month with a lead from your inbox."
 
 [cta_body]
-other = "Start with a recent or anonymized request. Otto reviews the proposal, rate, scope, terms, and next step, so you leave with a reply, checklist, or invoice handoff instead of a demo script."
+other = "Start with a recent or anonymized request and use the limited trial to experience the workflow before paying: Otto reviews the proposal, rate, scope, terms, and next step, so you leave with a reply, checklist, or invoice handoff instead of a demo script."
 
 [cta_button]
-other = "Ask Otto about a lead"
+other = "Start the one-month trial"
 
 [feature_request_title]
 other = "Missing a workflow step?"

@@ -242,28 +242,28 @@ other = "Verlengings-, betaalachterstand- en opvolgmomenten"
 other = "Prijzen"
 
 [pricing_title]
-other = "Pakketten op basis van hoe vaak voorstellen facturen worden."
+other = "Start met één beperkte maand voordat het pakket ingaat."
 
 [pricing_starter]
-other = "Voor freelancers die testen of Otto helpt wanneer een lead binnenkomt en een voorstel de deur uit moet."
+other = "Gebruik de proefmaand wanneer een lead binnenkomt en een voorstel de deur uit moet, en ga daarna hier verder voor licht voorstel- en tariefcheckwerk."
 
 [pricing_professional]
-other = "Voor freelancers met terugkerend voorstelwerk: voorstelconcepten, tariefbenchmark, contractconcept, e-signature, Moneybird-sync, betaalherinneringen en win/loss tracking."
+other = "Gebruik de proefmaand voor terugkerend voorstelwerk, en ga daarna hier verder met voorstelconcepten, tariefbenchmark, contractconcept, e-signature, Moneybird-sync, betaalherinneringen en win/loss tracking."
 
 [pricing_business]
-other = "Voor freelancers en kleine teams met terugkerende klanten, gedeelde templates, deals met hogere waarde en klantworkflows met meer akkoordstappen."
+other = "Gebruik de proefmaand met een repeat-client workflow, en ga daarna hier verder met gedeelde templates, deals met hogere waarde en klantworkflows met meer akkoordstappen."
 
 [cta_kicker]
-other = "Private beta"
+other = "Eén maand beperkte proefperiode"
 
 [cta_title]
-other = "Breng één lead uit je inbox mee. Vraag Otto wat je nu moet sturen."
+other = "Probeer FlySolo één maand met een lead uit je inbox."
 
 [cta_body]
-other = "Start met een recente of geanonimiseerde aanvraag. Otto reviewt voorstel, tarief, scope, voorwaarden en volgende stap, zodat je eindigt met een reactie, checklist of factuuroverdracht in plaats van een demoscript."
+other = "Start met een recente of geanonimiseerde aanvraag en gebruik de beperkte proefperiode om de workflow te ervaren voordat je betaalt: Otto reviewt voorstel, tarief, scope, voorwaarden en volgende stap, zodat je eindigt met een reactie, checklist of factuuroverdracht in plaats van een demoscript."
 
 [cta_button]
-other = "Vraag Otto over een lead"
+other = "Start de proefmaand"
 
 [feature_request_title]
 other = "Mis je een workflow-stap?"
