@@ -1,6 +1,6 @@
 ---
 title: "FlySolo"
-description: "Move freelance projects from proposal to payment with Otto when a lead arrives, a rate needs backing, scope needs checking, signatures are due, Moneybird invoices need preparing, and payment follow-up is next."
+description: "FlySolo turns a rough client brief into a proposal, defensible rate, clear scope, and agreement while you stay in control."
 type: "landing"
 sitemap:
   priority: 1.0

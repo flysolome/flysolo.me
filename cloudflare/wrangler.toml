@@ -1,0 +1,11 @@
+name = "flysolo-site-router"
+main = "worker.js"
+compatibility_date = "2026-08-03"
+
+routes = [
+  { pattern = "flysolo.me/*", zone_name = "flysolo.me" }
+]
+
+[[send_email]]
+name = "BETA_EMAIL"
+destination_address = "beta@flysolo.me"

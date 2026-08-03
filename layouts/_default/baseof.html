@@ -3,37 +3,67 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+  <title>{{ if .IsHome }}{{ i18n "site_meta_title" }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
   <meta name="description" content="{{ or .Description site.Params.description }}">
+  <meta name="theme-color" content="#0B1220">
   <link rel="canonical" href="{{ .Permalink }}">
   {{ range .AllTranslations }}
   <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
   {{ end }}
+  {{ if .IsHome }}<link rel="alternate" hreflang="x-default" href="{{ site.BaseURL }}">{{ end }}
   <link rel="icon" href="/images/flysolo-favicon.svg" type="image/svg+xml">
-  <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}">
+  <meta property="og:title" content="{{ if .IsHome }}{{ i18n "site_meta_title" }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}">
   <meta property="og:description" content="{{ or .Description site.Params.description }}">
-  <meta property="og:image" content="/images/flysolo.png">
+  <meta property="og:image" content="{{ "/images/flysolo.png" | absURL }}">
+  <meta property="og:image:width" content="900">
+  <meta property="og:image:height" content="846">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:site_name" content="FlySolo">
+  <meta property="og:locale" content="{{ .Language.Locale }}">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ if .IsHome }}{{ i18n "site_meta_title" }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}">
+  <meta name="twitter:description" content="{{ or .Description site.Params.description }}">
+  <meta name="twitter:image" content="{{ "/images/flysolo.png" | absURL }}">
+  {{ if .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "FlySolo",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": {{ .Permalink | jsonify | safeJS }},
+    "description": {{ (or .Description site.Params.description) | jsonify | safeJS }},
+    "offers": [
+      {"@type": "Offer", "name": "Starter", "price": "19", "priceCurrency": "EUR"},
+      {"@type": "Offer", "name": "Professional", "price": "39", "priceCurrency": "EUR"},
+      {"@type": "Offer", "name": "Business", "price": "79", "priceCurrency": "EUR"}
+    ]
+  }
+  </script>
+  {{ end }}
   {{ $css := resources.Get "css/custom.css" | minify | fingerprint "sha256" }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   {{ partial "consent_manager.html" . }}
   {{ partial "google_analytics.html" . }}
 </head>
-<body>
+<body class="page-{{ .Type | default .Kind }}">
+  <a class="fs-skip-link" href="#main-content">{{ i18n "skip_to_content" }}</a>
   <header class="fs-nav">
-    <a class="fs-nav__brand" href="{{ if eq .Language.Lang "nl" }}/nl/{{ else }}/{{ end }}" aria-label="FlySolo">
-      <img src="/images/flysolo-icon-gradient.svg" alt="">
-      <span>FlySolo</span>
+    <a class="fs-nav__brand" href="{{ if eq .Language.Lang "nl" }}/nl/{{ else }}/{{ end }}" aria-label="FlySolo home">
+      <img src="/images/flysolo-wordmark-light.svg" alt="FlySolo">
     </a>
-    <nav class="fs-nav__links" aria-label="Main">
+    <button class="fs-nav__toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="{{ i18n "nav_toggle" }}" data-nav-toggle>
+      <span></span><span></span><span></span>
+    </button>
+    {{ $currentPage := . }}
+    <nav class="fs-nav__links" id="primary-navigation" aria-label="Main" data-nav-menu>
       {{ range site.Menus.main }}
-      <a href="{{ .URL }}">{{ .Name }}</a>
+      <a href="{{ .URL }}"{{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
       {{ end }}
     </nav>
   </header>
-  <main id="{{ .Kind }}">
+  <main id="main-content" class="fs-main fs-main--{{ .Kind }}">
     {{ block "main" . }}{{ end }}
   </main>
   <footer class="fs-footer">
@@ -46,5 +76,7 @@
       </nav>
     </div>
   </footer>
+  {{ $js := resources.Get "js/site.js" | minify | fingerprint "sha256" }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 </body>
 </html>

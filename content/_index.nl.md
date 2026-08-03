@@ -1,6 +1,6 @@
 ---
 title: "FlySolo"
-description: "Breng freelance projecten van voorstel naar betaling met Otto wanneer een lead binnenkomt, een tarief onderbouwing nodig heeft, scope gecheckt moet worden, handtekeningen nodig zijn, Moneybird-facturen klaar moeten staan en betaalopvolging volgt."
+description: "FlySolo maakt van een ruwe klantbriefing een voorstel, onderbouwd tarief, heldere scope en overeenkomst, terwijl jij de controle houdt."
 type: "landing"
 sitemap:
   priority: 1.0

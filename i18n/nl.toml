@@ -1,110 +1,182 @@
 [language_label]
 other = "Taal"
 
+[site_meta_title]
+other = "FlySolo - Van klantaanvraag naar getekende freelance-opdracht"
+
+[skip_to_content]
+other = "Ga naar de hoofdinhoud"
+
+[nav_toggle]
+other = "Navigatie openen"
+
 [workflow_card_label]
-other = "Vraag Otto over"
+other = "Actuele opdracht"
 
 [workflow_card_title]
 other = "Azure landing zone"
 
 [workflow_card_step_1]
-other = "Lead"
+other = "Klantbriefing"
 
 [workflow_card_step_1_state]
-other = "Briefing bekeken"
+other = "Opdracht van 4 maanden gelezen"
 
 [workflow_card_step_2]
 other = "Voorstel"
 
 [workflow_card_step_2_state]
-other = "Naar klant sturen"
+other = "Scope en mijlpalen opgesteld"
 
 [workflow_card_step_3]
-other = "Prijs"
+other = "Tarief"
 
 [workflow_card_step_3_state]
-other = "Te-laag tarief gemarkeerd"
+other = "Bandbreedte €115-€130/uur"
 
 [workflow_card_step_4]
-other = "Contract"
+other = "Overeenkomst"
 
 [workflow_card_step_4_state]
-other = "Vage scope gemarkeerd"
+other = "3 punten vragen akkoord"
 
 [workflow_card_step_5]
 other = "Factuur"
 
 [workflow_card_step_5_state]
-other = "Moneybird-overdracht gepland"
+other = "Moneybird-overdracht klaar"
 
 [hero_eyebrow]
-other = "AI deal workflow voor het moment waarop een klant vraagt: kun je iets sturen?"
+other = "De Dutch-first AI-dealworkflow voor senior tech-zzp'ers"
 
 [hero_title]
-other = "Van live freelance lead naar volgende mail, prijs, handtekening, factuur en opvolging."
+other = "Van lead naar getekende opdracht, in professioneel Nederlands."
 
 [hero_lead]
-other = "Wanneer een recruiterbericht, klantbriefing of referral in je inbox landt, helpt FlySolo Otto de reactie opstellen, de prijs onderbouwen, scope controleren, bevestiging voorbereiden, handtekening klaarzetten, de Moneybird-factuur opbouwen en de betaalopvolging bewaken."
+other = "Plak het recruiterbericht of de klantbriefing. Otto maakt het voorstel, onderbouwt je tarief, wijst op gaten in de scope en houdt geaccepteerd werk in beweging via overeenkomst, handtekening, Moneybird-factuur en betaling."
 
 [hero_primary]
-other = "Laat je voorstel reviewen"
+other = "Start één maand gratis"
 
 [hero_secondary]
-other = "Bekijk workflow"
+other = "Bekijk de workflow"
+
+[hero_trial_note]
+other = "Eén beperkte maand voordat de eerste betaling start."
+
+[product_preview_label]
+other = "FlySolo-opdrachtreview voor een Azure-landing-zone-opdracht"
+
+[product_preview_workspace]
+other = "Noordcloud-werkruimte"
+
+[product_preview_status]
+other = "Concept klaar"
+
+[product_preview_client]
+other = "BluePeak Systems"
+
+[product_preview_duration]
+other = "4 maanden"
+
+[product_preview_mode]
+other = "Hybride · Utrecht"
+
+[product_preview_score_label]
+other = "Dealklaar"
+
+[product_preview_otto]
+other = "De oplevertermijn ondersteunt €125 per uur. Leg beslisrechten vast en sluit migraties buiten kantoortijd uit voordat je verstuurt."
+
+[product_preview_edit]
+other = "Concept bewerken"
+
+[product_preview_approve]
+other = "Controleren en goedkeuren"
 
 [proof_label]
-other = "Productfocus"
+other = "Gebouwd rond echte dealmomenten"
 
 [proof_1]
-other = "Reageer voordat de lead afkoelt"
+other = "Voorstel moet vandaag weg"
 
 [proof_2]
-other = "Zie werk onder je tarief"
+other = "Tarief staat onder druk"
 
 [proof_3]
-other = "Houd overdracht in één thread"
+other = "Scope is nog vaag"
 
 [proof_4]
-other = "Gebruik lokale termen en tools"
+other = "Handtekening blijft liggen"
 
 [proof_5]
-other = "Stuur werk dat een klant kan tekenen"
+other = "Factuur is de volgende stap"
 
 [problem_kicker]
-other = "De commerciële kloof"
+other = "Een herkenbare maandag"
 
 [problem_title]
-other = "Freelancers krijgen interesse, maar verliezen tijd om er iets van te maken dat een klant kan goedkeuren."
+other = "Een opdracht van €30.000 begint vaak als drie vage alinea's in je inbox."
 
 [problem_body_1]
-other = "Leads komen binnen via e-mail, LinkedIn, recruiters, referrals en calls. Voorstellen staan in oude documenten. Tarieven worden vaak op gevoel bepaald. Scope-risico zit verstopt in vage requirements. Facturen komen later pas in Moneybird of een andere tool."
+other = "Je opent een oud voorstel, zoekt welk tarief je de vorige keer noemde, vertaalt klanttaal naar deliverables en vraagt je af welke aannames in de scope horen. De klant wacht terwijl het commerciële werk verspreid raakt over documenten, e-mail en je geheugen."
 
 [problem_body_2]
-other = "Otto verbindt die momenten in FlySolo, zodat een lead van een echte koper kan worden omgezet in een voorstel met deliverables, een getekende afspraak, een e-signature-verzoek, een factuur en betaald werk zonder losse tools."
+other = "FlySolo maakt van die actuele aanvraag één dealdossier. Otto helpt je bepalen wat je nog moet vragen, welk tarief past, wat je toezegt en wat jij moet goedkeuren voordat de klant iets ontvangt."
+
+[brief_label]
+other = "Voorbeeld van een klantaanvraag met commerciële gaten die Otto heeft gevonden"
+
+[brief_inbox]
+other = "Nieuwe aanvraag"
+
+[brief_subject]
+other = "Ondersteuning Azure landing zone — tarief en aanpak?"
+
+[brief_message]
+other = "We zoeken een senior Azure-engineer om een landing zone voor negen subscriptions te bouwen. Start 1 september, hybride in Utrecht, ongeveer vier maanden. Kun je vandaag je tarief en aanpak sturen?"
+
+[brief_gaps_label]
+other = "Otto vond drie vragen voordat je een prijs noemt"
+
+[brief_gap_1]
+other = "Wie beslist over architectuur en acceptatie?"
+
+[brief_gap_2]
+other = "Valt workloadmigratie binnen de opdracht?"
+
+[brief_gap_3]
+other = "Worden stand-by en wijzigingen buiten kantoortijd verwacht?"
+
+[brief_action_context]
+other = "De klant wacht"
+
+[brief_action]
+other = "Reactie maken"
 
 [smooth_kicker]
-other = "Wanneer het werk verspreid ligt"
+other = "Eén commerciële werkruimte"
 
 [smooth_title]
-other = "FlySolo geeft elke dealstap een plek."
+other = "Briefing, tarief, scope, overeenkomst en factuur blijven verbonden."
 
 [smooth_body]
-other = "Breng de losse onderdelen van een kans mee: de klantnotitie, tariefvraag, scope-risico en factuuroverdracht. Otto zet ze op volgorde van volgende actie, zodat je weet of je een vraag moet stellen, het voorstel moet sturen, het tarief moet aanpassen, voorwaarden moet bevestigen of de factuur moet voorbereiden."
+other = "Otto werkt bij elke stap vanuit dezelfde opdracht. Een deadline uit de briefing kan het tarief beïnvloeden. Een geaccepteerde mijlpaal kan contracttaal worden. De getekende afspraken kunnen de factuuroverdracht voorbereiden zonder dat jij de context opnieuw opbouwt."
 
 [smooth_diagram_label]
-other = "Geanimeerd diagram waarin klantnotities, scope, prijs, handtekening en factuur door FlySolo bewegen"
+other = "Geanimeerd pad van klantbriefing naar voorstel, tarief, scope, handtekening en factuur"
 
 [smooth_callout_1]
-other = "Breng elke dealstap in dezelfde werkruimte"
+other = "Eén opdracht van eerste reactie tot betaling"
 
 [smooth_callout_2]
-other = "Stop met context opnieuw opbouwen tussen lead, handtekening en factuur"
+other = "Jij keurt elke stap richting de klant goed"
 
 [smooth_input_1]
-other = "Lead"
+other = "Briefing"
 
 [smooth_input_2]
-other = "Brief"
+other = "Context"
 
 [smooth_input_3]
 other = "Tarief"
@@ -124,152 +196,857 @@ other = "Handtekening"
 [smooth_output_4]
 other = "Factuur"
 
+[deal_console_label]
+other = "Voortgang opdracht"
+
+[deal_console_done]
+other = "Vastgelegd"
+
+[deal_console_reviewed]
+other = "Bekeken"
+
+[deal_console_active]
+other = "Nu beslissen"
+
+[deal_console_approval]
+other = "Jouw akkoord"
+
+[deal_console_later]
+other = "Na handtekening"
+
 [time_kicker]
-other = "Waarom nu"
+other = "De eerste deliverable"
 
 [time_title]
-other = "Terwijl een voorstel blijft liggen, kan een andere freelancer antwoorden."
+other = "Voordat je het project bouwt, moet je het makkelijk maken om te kopen."
 
 [time_body]
-other = "Een lead die maandag urgent voelde, kan donderdag stilvallen. Hoe langer een voorstel blijft liggen, hoe meer ruimte er is voor een andere freelancer om de open vragen te beantwoorden, een prijs te noemen en de volgende stap duidelijk te maken."
+other = "Een klant kan ervaring alleen niet goedkeuren. Er is een duidelijk resultaat nodig, een begrensde scope, een geloofwaardig tarief, werkbare voorwaarden en een logische volgende stap. Dat pakket maken is echt werk, meestal voordat je één uur kunt factureren."
 
 [time_body_2]
-other = "FlySolo is voor het moment tussen eerste interesse en verloren momentum: leg de aanvraag vast, vorm het aanbod, check het tarief en stuur de volgende stap terwijl de klant nog oplet."
+other = "FlySolo helpt je dat commerciële werk te doen terwijl de kans actueel is. Daarna blijven de beslissingen bij het project staan in plaats van ergens in je verzonden e-mail."
+
+[workbench_label]
+other = "Losse klantinformatie die via Otto verbonden commerciële output wordt"
+
+[workbench_input]
+other = "Wat binnenkomt"
+
+[workbench_input_1]
+other = "Recruitermail"
+
+[workbench_input_2]
+other = "Oud voorstel"
+
+[workbench_input_3]
+other = "Tariefnotities"
+
+[workbench_input_4]
+other = "Moneybird-klant"
+
+[workbench_otto]
+other = "Bewaart de context"
+
+[workbench_output]
+other = "Wat vertrekt"
+
+[workbench_output_1]
+other = "Verzendbare reactie"
+
+[workbench_output_2]
+other = "Verdedigbaar tarief"
+
+[workbench_output_3]
+other = "Begrensde scope"
+
+[workbench_output_4]
+other = "Factuurklaar dossier"
 
 [deal_path_label]
-other = "Pad van lead naar betaald werk"
+other = "Van klantaanvraag naar betaald werk"
 
 [deal_path_1]
-other = "Lead vastgelegd"
+other = "Aanvraag ontvangen"
 
 [deal_path_2]
-other = "Voorstel aangescherpt"
+other = "Voorstel goedgekeurd"
 
 [deal_path_3]
-other = "Tarief verdedigd"
+other = "Tarief afgesproken"
 
 [deal_path_4]
-other = "Afspraak klaar"
+other = "Contract getekend"
 
 [deal_path_5]
 other = "Factuur betaald"
 
 [features_kicker]
-other = "Wat FlySolo doet"
+other = "Vier momenten, één deal"
 
 [features_title]
-other = "Voor het moment tussen 'kun je iets sturen?' en geld op de rekening."
+other = "Neem de opdracht mee waar je vandaag aan werkt."
+
+[feature_core_label]
+other = "Kernworkflow"
 
 [feature_1_title]
-other = "Wanneer het voorstel vandaag weg moet"
+other = "Als het voorstel vandaag weg moet"
 
 [feature_1_body]
-other = "Otto zet een ruwe aanvraag, recruiterbriefing of intake-notitie om in een voorstel met deliverables, mijlpalen, aannames, open vragen en de volgende mail aan de klant."
+other = "Zet een ruwe briefing om in deliverables, mijlpalen, aannames, uitsluitingen, open vragen en een reactie aan de klant. Bewerk het concept en keur daarna goed wat FlySolo verlaat."
+
+[feature_1_visual]
+other = "deliverables · vragen"
+
+[feature_1_output_1]
+other = "Voorstel als PDF"
+
+[feature_1_output_2]
+other = "Mijlpalen en deliverables"
+
+[feature_1_output_3]
+other = "Aannames en open vragen"
 
 [feature_2_title]
-other = "Wanneer de klant je tarief vraagt"
+other = "Als de klant naar je tarief vraagt"
 
 [feature_2_body]
-other = "Otto helpt je de belangrijkste vraag beantwoorden: vraag ik genoeg voor deze klant, scope, deadline en risico? Krijg tariefbanden, onderbouwing, onderhandelingsruimte en waarschuwingen wanneer het werk onderprijsd lijkt."
+other = "Vergelijk uur-, project- en retainertarieven. Bekijk de onderhandelingsruimte, de redenering erachter en een waarschuwing wanneer tijdsdruk, onduidelijkheid of aansprakelijkheid het werk onderprijsd maakt."
+
+[feature_2_visual]
+other = "aanbevolen uurtarief"
+
+[feature_2_output_1]
+other = "Uur-, project- en retaineropties"
+
+[feature_2_output_2]
+other = "Onderhandelingsruimte"
+
+[feature_2_output_3]
+other = "Onderbouwing en vertrouwen"
 
 [feature_3_title]
-other = "Wanneer de scope vaag is"
+other = "Als een 'ja' nog een overeenkomst nodig heeft"
 
 [feature_3_body]
-other = "Otto signaleert vage requirements, ontbrekende aannames, zwakke uitsluitingen, betalingstermijnen en contracttaal voordat je iets stuurt dat de klant als toezegging kan lezen."
+other = "Neem de geaccepteerde scope mee naar een dienstverleningsovereenkomst, NDA of onderhoudscontract. Controleer het concept zelf voordat je het handtekeningverzoek aanmaakt."
+
+[feature_3_visual]
+other = "punten vragen jouw akkoord"
+
+[feature_3_output_1]
+other = "Dienstverleningsovereenkomsten"
+
+[feature_3_output_2]
+other = "NDA's en onderhoudscontracten"
+
+[feature_3_output_3]
+other = "E-signature-verzoek en audittrail"
 
 [feature_4_title]
-other = "Wanneer de deal admin wordt"
+other = "Als getekend werk een factuur nodig heeft"
 
 [feature_4_body]
-other = "Nadat de klant ja zegt, bereidt Otto het handtekeningverzoek, de factuurgegevens en betaalopvolging voor, zodat de overdracht naar Moneybird start vanuit het geaccepteerde werk."
+other = "Bereid factuurgegevens en betaalstatus voor vanuit het afgesproken project, draag de boekhoudstap over aan Moneybird en houd verschuldigde of achterstallige opvolging zichtbaar."
+
+[feature_4_visual]
+other = "factuuroverdracht"
+
+[feature_4_output_1]
+other = "PDF-factuur en UBL-export"
+
+[feature_4_output_2]
+other = "Moneybird-overdracht"
+
+[feature_4_output_3]
+other = "Verschuldigd, betaald en achterstallig"
+
+[boundary_label]
+other = "Duidelijke grens"
+
+[boundary_title]
+other = "FlySolo is de commerciële frontoffice vóór Moneybird."
+
+[boundary_body]
+other = "Het vervangt je boekhouder niet, doet geen salarisadministratie, doet geen belastingaangifte en wordt geen nieuw boekhoudpakket."
 
 [workflow_kicker]
-other = "Workflow"
+other = "Zo werkt het"
 
 [workflow_title]
-other = "Start met een echte kans."
+other = "Eén briefing. Drie beslissingen. Jouw akkoord."
 
 [workflow_1_title]
-other = "Plak een echte lead"
+other = "Plak de aanvraag"
 
 [workflow_1_body]
-other = "Voeg een recruiterbericht, klantbriefing, call-notities of ruwe projectomschrijving uit een echte kans toe."
+other = "Gebruik een recruiterbericht, klantbriefing, gespreksnotities of een ruwe projectomschrijving uit een echte kans."
 
 [workflow_2_title]
-other = "Maak de voorstelreactie"
+other = "Vorm het aanbod"
 
 [workflow_2_body]
-other = "Vraag Otto om structuur, scope, mijlpalen, deliverables, aannames, vragen die je moet stellen en de reactie die je naar de klant kunt sturen."
+other = "Otto maakt de klantreactie, voorstelstructuur, deliverables, mijlpalen, aannames en vragen die nog een antwoord nodig hebben."
 
 [workflow_3_title]
-other = "Verdedig je tarief"
+other = "Controleer tarief en scope"
 
 [workflow_3_body]
-other = "Vraag Otto om prijsadvies, een onderhandelingsrange en waarschuwingen voor onderprijzen wanneer scope, deadline of klantverwachtingen het risico verhogen."
+other = "Beoordeel het voorgestelde tarief, de onderhandelingsruimte, uitsluitingen, betalingstermijnen en scope-risico's naast het werk dat de klant echt heeft beschreven."
 
 [workflow_4_title]
-other = "Beweeg naar bevestiging"
+other = "Keur de volgende stap goed"
 
 [workflow_4_body]
-other = "Vraag Otto om voorwaarden, e-signature-stappen, Moneybird-factuurvoorbereiding en betaalopvolging klaar te zetten."
+other = "Niets richting de klant wordt alleen op Otto's woord verstuurd. Jij bewerkt en keurt het voorstel, de overeenkomst, het handtekeningverzoek of de factuuroverdracht goed."
+
+[trust_kicker]
+other = "AI maakt het concept. Jij beslist."
+
+[trust_title]
+other = "Otto kan de volgende stap voorbereiden. Alleen jij maakt hem officieel."
+
+[trust_body]
+other = "Een bruikbare assistent haalt het lege-documentwerk weg zonder commerciële beslissingen van je over te nemen. FlySolo vraagt jouw akkoord waar een concept een toezegging, handtekeningverzoek of factuur wordt."
+
+[trust_fact_1]
+other = "Nederlandse en Engelse dealworkflows"
+
+[trust_fact_2]
+other = "EU-dataregio en ontwerp vanuit de AVG"
+
+[trust_fact_3]
+other = "Acties richting klanten blijven controleerbaar"
+
+[approval_draft_label]
+other = "Heeft een klantreactie opgesteld"
+
+[approval_status_review]
+other = "Wacht op controle"
+
+[approval_document_label]
+other = "Wijziging in voorstel"
+
+[approval_document_body]
+other = "Vier maanden oplevering van een Azure landing zone met mijlpalen voor architectuur, beleid en overdracht."
+
+[approval_change_title]
+other = "Eén uitsluiting toegevoegd"
+
+[approval_change_body]
+other = "Workloadmigratie en wijzigingen buiten kantoortijd vallen buiten dit voorstel."
+
+[approval_gate_body]
+other = "De klant kan dit concept pas ontvangen nadat jij het goedkeurt."
+
+[approval_gate_approved]
+other = "Door jou goedgekeurd. De actie richting de klant is nu beschikbaar."
+
+[approval_button]
+other = "Controleren en goedkeuren"
+
+[approval_button_done]
+other = "Goedgekeurd"
+
+[integrations_label]
+other = "FlySolo-integraties"
+
+[integrations_intro]
+other = "Past bij de tools rond je klantwerk"
 
 [memory_kicker]
 other = "Commercieel geheugen"
 
 [memory_title]
-other = "Elke klantdeal moet materiaal achterlaten voor de volgende."
+other = "Je volgende voorstel hoort niet met een leeg document te beginnen."
 
 [memory_body]
-other = "Otto moet je tarieven, clausules, tone of voice, klanten, gewonnen voorstellen, betalingstermijnen en opvolgmomenten onthouden."
+other = "Naarmate FlySolo meer afgeronde dealworkflows ziet, kan Otto de beslissingen hergebruiken die jouw freelancebedrijf eigen maken, in plaats van iedere klant hetzelfde algemene eerste concept te geven."
 
 [memory_1]
-other = "Geaccepteerde en afgewezen tarieven"
+other = "Tarieven die je accepteerde, wijzigde of afwees"
 
 [memory_2]
-other = "Winnende voorstelteksten"
+other = "Voorstelteksten die tot getekend werk leidden"
 
 [memory_3]
 other = "Klantvoorwaarden en betaalgedrag"
 
 [memory_4]
-other = "Favoriete clausules en uitsluitingen"
+other = "Clausules, aannames en uitsluitingen die je hergebruikt"
 
 [memory_5]
-other = "Verlengings-, betaalachterstand- en opvolgmomenten"
+other = "Verlengdata en opvolgmomenten"
 
 [pricing_kicker]
-other = "Prijzen"
+other = "Pakketten"
 
 [pricing_title]
-other = "Start met één beperkte maand voordat het pakket ingaat."
+other = "Gebruik FlySolo één maand op echt werk voordat je kiest."
+
+[pricing_period]
+other = "/maand"
+
+[pricing_starter_label]
+other = "Incidentele deals"
+
+[pricing_professional_label]
+other = "Beste voor solo-consultants"
+
+[pricing_business_label]
+other = "Teams en terugkerend werk"
 
 [pricing_starter]
-other = "Gebruik de proefmaand wanneer een lead binnenkomt en een voorstel de deur uit moet, en ga daarna hier verder voor licht voorstel- en tariefcheckwerk."
+other = "Voor incidentele voorstellen en tariefchecks wanneer een nieuwe opdracht meer structuur nodig heeft."
+
+[pricing_starter_1]
+other = "Voorstelconcepten"
+
+[pricing_starter_2]
+other = "Basisadvies voor tarieven"
+
+[pricing_starter_3]
+other = "Factuur- en betaalstatus"
 
 [pricing_professional]
-other = "Gebruik de proefmaand voor terugkerend voorstelwerk, en ga daarna hier verder met voorstelconcepten, tariefbenchmark, contractconcept, e-signature, Moneybird-sync, betaalherinneringen en win/loss tracking."
+other = "Voor solo-consultants die voorstellen, tarieven, contracten, handtekeningen, Moneybird-overdracht, herinneringen en win/loss-historie in één workflow willen."
+
+[pricing_professional_1]
+other = "Uitgebreid voorstel- en tariefadvies"
+
+[pricing_professional_2]
+other = "Contractconcepten en e-signature"
+
+[pricing_professional_3]
+other = "Moneybird-, Google- en Microsoft-overdracht"
+
+[pricing_professional_4]
+other = "Betaalherinneringen en win/loss-historie"
 
 [pricing_business]
-other = "Gebruik de proefmaand met een repeat-client workflow, en ga daarna hier verder met gedeelde templates, deals met hogere waarde en klantworkflows met meer akkoordstappen."
+other = "Voor terugkerende klanten en kleine teams die gedeelde templates, samenwerkers, retainers en complexere akkoordroutes nodig hebben."
+
+[pricing_business_1]
+other = "Toegang voor samenwerkers"
+
+[pricing_business_2]
+other = "Templates voor meerdere merken"
+
+[pricing_business_3]
+other = "Retainer- en statement-of-workflows"
+
+[pricing_business_4]
+other = "Uitgebreide clausules en voorrang bij support"
+
+[pricing_action]
+other = "Start met dit pakket"
+
+[pricing_note]
+other = "Je beperkte maand komt eerst. Het gekozen betaalde pakket start daarna."
+
+[faq_kicker]
+other = "Voordat je je aanmeldt"
+
+[faq_title]
+other = "De praktische vragen."
+
+[faq_intro]
+other = "FlySolo begint bewust smal: serieuze klantopdrachten voor senior tech-zzp'ers in Nederland en België."
+
+[faq_1_question]
+other = "Is FlySolo boekhoudsoftware?"
+
+[faq_1_answer]
+other = "Nee. FlySolo beheert de commerciële workflow vóór en rond je boekhouding: kans, voorstel, tarief, overeenkomst, handtekening, factuurvoorbereiding en betaalstatus. Moneybird blijft de overdracht naar je boekhouding."
+
+[faq_2_question]
+other = "Kan Otto iets naar mijn klant sturen zonder mij?"
+
+[faq_2_answer]
+other = "Nee. Otto kan analyseren en een concept maken, maar acties richting de klant vragen jouw controle en akkoord. Die regel geldt voor voorstellen, overeenkomsten, handtekeningverzoeken en factuurverzending."
+
+[faq_3_question]
+other = "Wat neem ik mee naar de proefmaand?"
+
+[faq_3_answer]
+other = "Neem een recent recruiterbericht, klantbriefing, tariefvraag of geanonimiseerde kans mee. De beste eerste sessie eindigt met iets dat je echt zou gebruiken of versturen."
+
+[faq_4_question]
+other = "Is FlySolo alleen in het Nederlands beschikbaar?"
+
+[faq_4_answer]
+other = "Nee. FlySolo is Dutch-first en ondersteunt Nederlandse en Engelse workflows. De eerste markt is senior freelance techprofessionals in Nederland; België staat op het uitbreidingspad."
+
+[faq_5_question]
+other = "Wat gebeurt er na de proefmaand?"
+
+[faq_5_answer]
+other = "Je kiest Starter, Professional of Business op basis van de workflow die je gebruikte. Je eerste betaalde periode begint na de beperkte maand, niet voordat je het product hebt ervaren."
 
 [cta_kicker]
-other = "Eén maand beperkte proefperiode"
+other = "Beperkte proefperiode van één maand"
 
 [cta_title]
-other = "Probeer FlySolo één maand met een lead uit je inbox."
+other = "Neem de klantbriefing mee die nu in je inbox staat."
 
 [cta_body]
-other = "Start met een recente of geanonimiseerde aanvraag en gebruik de beperkte proefperiode om de workflow te ervaren voordat je betaalt: Otto reviewt voorstel, tarief, scope, voorwaarden en volgende stap, zodat je eindigt met een reactie, checklist of factuuroverdracht in plaats van een demoscript."
+other = "Gebruik FlySolo één maand op een recente of geanonimiseerde opdracht voordat de eerste betaling start. Je werkt met een echt voorstel, tariefbesluit, scopecheck en volgende stap, niet met een demoscript."
 
 [cta_button]
 other = "Start de proefmaand"
 
+[cta_existing]
+other = "Open FlySolo"
+
 [feature_request_title]
-other = "Mis je een workflow-stap?"
+other = "Gebouwd met de eerste gebruikers"
 
 [feature_request_body]
-other = "Als jouw freelanceproces een functie nodig heeft die FlySolo nog niet dekt, laat het weten. Beta-aanvragen helpen bepalen wat Otto als volgende leert."
+other = "Jouw echte workflow moet het product vormen. Vertel ons waar een voorstel, onderhandeling, overeenkomst of betaaloverdracht nog vastloopt."
 
 [feature_request_link]
-other = "Vraag een ontbrekende functie aan"
+other = "Deel je workflow"
+
+[home_hero_eyebrow]
+other = "Voor senior tech-zzp'ers"
+
+[home_hero_title]
+other = "Van klantaanvraag naar een deal waar je achter staat."
+
+[home_hero_lead]
+other = "FlySolo maakt van een ruwe briefing een voorstel, tarief, scope en overeenkomst. Otto bereidt het werk voor; jij bepaalt wat de klant ontvangt."
+
+[home_hero_start]
+other = "Start je proefmaand"
+
+[home_hero_open]
+other = "Open FlySolo"
+
+[home_hero_note]
+other = "Eén beperkte maand voordat de betaling start. Voor Nederlands en Engels klantwerk."
+
+[home_flow_label]
+other = "Van binnenkomende aanvraag naar een werkbare deal"
+
+[home_flow_request_label]
+other = "In je inbox"
+
+[home_flow_request_title]
+other = "Lead voor een Azure landing zone"
+
+[home_flow_request_body]
+other = "Zes maanden, drie stakeholders en geen heldere acceptatiecriteria."
+
+[home_flow_otto]
+other = "Vindt de beslissingen die nog in de briefing verstopt zitten"
+
+[home_flow_output_label]
+other = "Klaar voor jouw review"
+
+[home_flow_output_title]
+other = "Eén samenhangende deal"
+
+[home_flow_output_body]
+other = "Voorstel, tariefonderbouwing, scopegrenzen en volgende actie."
+
+[home_outcomes_kicker]
+other = "Minder dealadministratie"
+
+[home_outcomes_title]
+other = "Houd de opdracht in beweging zonder de controle te verliezen."
+
+[home_outcome_1_title]
+other = "Begrijp de aanvraag"
+
+[home_outcome_1_body]
+other = "Zie ontbrekende scope, beslissers, leveringsrisico en de vragen die je moet stellen voordat je een prijs noemt."
+
+[home_outcome_2_title]
+other = "Bereid de deal voor"
+
+[home_outcome_2_body]
+other = "Maak vanuit dezelfde context het voorstel, de tariefuitleg, de grenzen en de overeenkomst."
+
+[home_outcome_3_title]
+other = "Keur elke stap goed"
+
+[home_outcome_3_body]
+other = "Controleer klantwerk voordat het wordt verstuurd en houd daarna handtekening, factuuroverdracht en betaalstatus verbonden."
+
+[home_tour_kicker]
+other = "Eén verbonden workflow"
+
+[home_tour_title]
+other = "Gebruik FlySolo zodra een deal ingewikkeld wordt."
+
+[home_tour_intro]
+other = "Wissel tussen de drie momenten waarop verspreide context normaal voor herstelwerk zorgt."
+
+[home_tour_tabs_label]
+other = "FlySolo-productworkflow"
+
+[home_tour_tab_1]
+other = "Kwalificeer"
+
+[home_tour_tab_2]
+other = "Stel voor"
+
+[home_tour_tab_3]
+other = "Rond af"
+
+[home_tour_outputs_label]
+other = "Voorbereide uitkomsten"
+
+[home_tour_1_title]
+other = "Een recruiter stuurt een briefing van vijf regels door."
+
+[home_tour_1_body]
+other = "FlySolo maakt er een kans van en toont welke commerciële vragen nog beantwoord moeten worden."
+
+[home_tour_1_output_1]
+other = "Ontbrekende scope en stakeholders"
+
+[home_tour_1_output_2]
+other = "Kwalificatiescore"
+
+[home_tour_1_output_3]
+other = "Vragen voor je antwoord"
+
+[home_tour_1_proof_1]
+other = "Ontbreekt: acceptatiecriteria"
+
+[home_tour_1_proof_2]
+other = "Risico: drie beslissers"
+
+[home_tour_1_proof_3]
+other = "Volgende stap: stel 4 gerichte vragen"
+
+[home_tour_1_alt]
+other = "FlySolo-scherm voor het kwalificeren van een kans"
+
+[home_tour_2_title]
+other = "De klant vraagt om een voorstel en dagtarief."
+
+[home_tour_2_body]
+other = "Otto werkt vanuit de gekwalificeerde kans, zodat tarief, scope en voorwaarden hetzelfde verhaal vertellen."
+
+[home_tour_2_output_1]
+other = "Conceptvoorstel"
+
+[home_tour_2_output_2]
+other = "Onderbouwde tariefrange"
+
+[home_tour_2_output_3]
+other = "Expliciete aannames"
+
+[home_tour_2_proof_1]
+other = "Tarief: €115-€130 per uur"
+
+[home_tour_2_proof_2]
+other = "Scope: 6 resultaten"
+
+[home_tour_2_proof_3]
+other = "Aannames: 3 te bevestigen"
+
+[home_tour_2_alt]
+other = "FlySolo-scherm voor voorstel en prijsstelling"
+
+[home_tour_3_title]
+other = "De klant stuurt zijn contract."
+
+[home_tour_3_body]
+other = "Upload de pdf of plak een clausule. Otto legt de tekst in gewone taal uit voordat jij beslist wat je accepteert, bevraagt of meeneemt naar ondertekening."
+
+[home_tour_3_output_1]
+other = "Uitleg in gewone taal"
+
+[home_tour_3_output_2]
+other = "Status van overeenkomst en ondertekening"
+
+[home_tour_3_output_3]
+other = "Factuuroverdracht"
+
+[home_tour_3_proof_1]
+other = "Ontvangen contract: pdf of tekst"
+
+[home_tour_3_proof_2]
+other = "Uitleg: klaar voor review"
+
+[home_tour_3_proof_3]
+other = "Volgende stap: jouw beslissing"
+
+[home_tour_3_alt]
+other = "FlySolo-scherm voor contractuitleg"
+
+[home_tour_more]
+other = "Bekijk de volledige productworkflow"
+
+[home_control_kicker]
+other = "AI met een akkoordmoment"
+
+[home_control_title]
+other = "Otto bereidt voor. Jij beslist."
+
+[home_control_body]
+other = "Acties richting de klant wachten op jouw review, terwijl de beslissingen achter de deal terug te vinden blijven."
+
+[home_control_1_title]
+other = "Menselijk akkoord"
+
+[home_control_1_body]
+other = "Er gaat niets naar een klant voordat jij het controleert."
+
+[home_control_2_title]
+other = "EU-dataregio"
+
+[home_control_2_body]
+other = "Het platform is ontworpen rond Europese gegevensverwerking."
+
+[home_control_3_title]
+other = "Je bestaande tools"
+
+[home_control_3_body]
+other = "Koppel Google Workspace, Microsoft 365 en Moneybird waar ze thuishoren."
+
+[home_control_more]
+other = "Lees over beveiliging en controle"
+
+[home_price_kicker]
+other = "Eenvoudig beginnen"
+
+[home_price_title]
+other = "Probeer een echte deal voordat je betaalt."
+
+[home_price_body]
+other = "Je beperkte maand komt eerst. Betaalde pakketten starten daarna vanaf €19 per maand."
+
+[home_price_period]
+other = "/maand na de proefperiode"
+
+[home_price_more]
+other = "Vergelijk pakketten"
+
+[home_roadmap_kicker]
+other = "Wat hierna komt"
+
+[home_roadmap_title]
+other = "De dealworkflow is pas het begin."
+
+[home_roadmap_intro]
+other = "FlySolo groeit van een verbonden dealworkflow naar een AI-besturingssysteem voor zelfstandige professionals. Deze mogelijkheden zijn gepland en nog niet beschikbaar."
+
+[home_roadmap_phase_2]
+other = "Fase 2 · Gepland"
+
+[home_roadmap_phase_3]
+other = "Fase 3 · Gepland"
+
+[home_roadmap_phase_4]
+other = "Fase 4 · Gepland"
+
+[home_roadmap_phase_5]
+other = "Fase 5 · Gepland"
+
+[home_roadmap_1_title]
+other = "Sterkere intake van kansen"
+
+[home_roadmap_1_body]
+other = "Professionele profielen, gestructureerde kansintake en een Trust Center dat je werkcontext herbruikbaar maakt."
+
+[home_roadmap_2_title]
+other = "Diepere contractintelligentie"
+
+[home_roadmap_2_body]
+other = "Voortbouwend op de huidige uitleg in gewone taal, met volledige contractreview, risicodetectie en onderhandelingshulp."
+
+[home_roadmap_3_title]
+other = "Een reputatie die meereist"
+
+[home_roadmap_3_body]
+other = "Geverifieerde opdrachten, een reputatielaag, bedrijfsinzichten en uitbreiding naar België."
+
+[home_roadmap_4_title]
+other = "Een AI-bedrijfsadviseur"
+
+[home_roadmap_4_body]
+other = "Voorspellingen, proactieve bedrijfsbegeleiding en een uitgebreid ecosysteem van gekoppelde tools."
+
+[home_roadmap_more]
+other = "Bekijk de gedocumenteerde roadmap"
+
+[home_final_kicker]
+other = "Neem een echte klantbriefing mee"
+
+[home_final_title]
+other = "Ontdek in één maand wat FlySolo verandert."
+
+[home_final_body]
+other = "Gebruik een recente of geanonimiseerde kans en eindig met werk dat je echt zou controleren, versturen of ondertekenen."
+
+[home_final_start]
+other = "Start je proefmaand"
+
+[home_final_open]
+other = "Al gebruiker? Open de app"
+
+[detail_back_home]
+other = "Terug naar FlySolo"
+
+[detail_cta_title]
+other = "Probeer de workflow met een echte kans."
+
+[detail_cta_body]
+other = "Je beperkte proefmaand begint voordat de betaling start."
+
+[detail_cta_start]
+other = "Start je proefmaand"
+
+[detail_cta_open]
+other = "Open FlySolo"
+
+[join_back]
+other = "Terug naar FlySolo"
+
+[join_kicker]
+other = "Beperkte proefperiode van één maand"
+
+[join_title]
+other = "Gebruik FlySolo voor een deal die ertoe doet."
+
+[join_lead]
+other = "Vertel ons wie je bent, hoe je bedrijf werkt en waar je huidige dealproces vertraagt. Zo bereiden we een proefperiode rond echt werk voor in plaats van een algemene rondleiding."
+
+[join_expectation_1]
+other = "We bekijken je workflow en doel voor de proefmaand."
+
+[join_expectation_2]
+other = "Je ontvangt onboardingdetails op het e-mailadres dat je opgeeft."
+
+[join_expectation_3]
+other = "Je beperkte maand start zodra je toegang klaarstaat."
+
+[join_existing_user]
+other = "Heb je al toegang? Open de app"
+
+[join_progress_label]
+other = "Voortgang aanmelding"
+
+[join_step_1]
+other = "Over jou"
+
+[join_step_2]
+other = "Je bedrijf"
+
+[join_personal_legend]
+other = "Met wie mogen we contact opnemen?"
+
+[join_personal_intro]
+other = "Gebruik de gegevens die we voor de onboarding van je proefmaand mogen gebruiken."
+
+[join_name]
+other = "Volledige naam"
+
+[join_email]
+other = "Zakelijk e-mailadres"
+
+[join_phone]
+other = "Telefoon (optioneel)"
+
+[join_linkedin]
+other = "LinkedIn-profiel (optioneel)"
+
+[join_continue]
+other = "Verder met bedrijfsgegevens"
+
+[join_business_legend]
+other = "Laat nu zien hoe je werkt."
+
+[join_business_intro]
+other = "Met een beetje commerciële context maken we de proefmaand vanaf de eerste opdracht bruikbaar."
+
+[join_business_name]
+other = "Bedrijfsnaam"
+
+[join_business_type]
+other = "Bedrijfsvorm"
+
+[join_business_solo]
+other = "Solo-zzp'er / consultant"
+
+[join_business_team]
+other = "Klein consultancyteam"
+
+[join_business_agency]
+other = "Bureau"
+
+[join_select]
+other = "Kies een optie"
+
+[join_specialty]
+other = "Belangrijkste expertise"
+
+[join_specialty_placeholder]
+other = "bijv. cloudarchitectuur, DevOps, security"
+
+[join_country]
+other = "Land"
+
+[join_country_other]
+other = "Anders"
+
+[join_friction]
+other = "Waar vertraagt je dealworkflow het meest?"
+
+[join_friction_proposal]
+other = "Het voorstel schrijven"
+
+[join_friction_pricing]
+other = "Het tarief bepalen of verdedigen"
+
+[join_friction_scope]
+other = "Scope en uitsluitingen verduidelijken"
+
+[join_friction_agreement]
+other = "Overeenkomst en handtekening"
+
+[join_friction_invoice]
+other = "Factuur en betaalopvolging"
+
+[join_tools]
+other = "Tools die je nu gebruikt (optioneel)"
+
+[join_tools_placeholder]
+other = "bijv. Moneybird, Word, Google Docs, e-mail"
+
+[join_trial_goal]
+other = "Wanneer is de proefmaand voor jou geslaagd?"
+
+[join_trial_goal_placeholder]
+other = "Vertel ons over de opdracht of workflow die je naar FlySolo wilt brengen. Laat vertrouwelijke klantgegevens weg."
+
+[join_consent]
+other = "Ik ga ermee akkoord dat FlySolo deze gegevens gebruikt om contact met mij op te nemen over de proefperiode. Bekijk het <a href=\"/privacy-policy/\">privacybeleid</a>."
+
+[join_back_step]
+other = "Terug"
+
+[join_submit]
+other = "Aanmelding versturen"
+
+[join_submitting]
+other = "Aanmelding versturen..."
+
+[join_error]
+other = "We konden de aanmelding niet versturen. Controleer de velden en probeer het opnieuw."
+
+[join_success_kicker]
+other = "Aanmelding ontvangen"
+
+[join_success_title]
+other = "Je workflow ligt bij ons."
+
+[join_success_body]
+other = "We hebben de aanmelding naar het FlySolo-betateam gestuurd. Houd het zakelijke e-mailadres dat je opgaf in de gaten voor de volgende stap."
+
+[join_success_home]
+other = "Terug naar FlySolo"

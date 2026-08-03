@@ -1,110 +1,182 @@
 [language_label]
 other = "Language"
 
+[site_meta_title]
+other = "FlySolo - From client request to signed freelance project"
+
+[skip_to_content]
+other = "Skip to main content"
+
+[nav_toggle]
+other = "Open navigation"
+
 [workflow_card_label]
-other = "Ask Otto about"
+other = "Live opportunity"
 
 [workflow_card_title]
 other = "Azure landing zone"
 
 [workflow_card_step_1]
-other = "Lead"
+other = "Client brief"
 
 [workflow_card_step_1_state]
-other = "Brief reviewed"
+other = "4-month project parsed"
 
 [workflow_card_step_2]
 other = "Proposal"
 
 [workflow_card_step_2_state]
-other = "Send to client"
+other = "Scope and milestones drafted"
 
 [workflow_card_step_3]
 other = "Pricing"
 
 [workflow_card_step_3_state]
-other = "Below-rate risk flagged"
+other = "€115-€130/hour range"
 
 [workflow_card_step_4]
-other = "Contract"
+other = "Agreement"
 
 [workflow_card_step_4_state]
-other = "Vague scope flagged"
+other = "3 points need approval"
 
 [workflow_card_step_5]
 other = "Invoice"
 
 [workflow_card_step_5_state]
-other = "Moneybird handoff queued"
+other = "Moneybird handoff ready"
 
 [hero_eyebrow]
-other = "AI deal workflow for the moment a client asks, 'Can you send a proposal?'"
+other = "The Dutch-first AI deal workflow for senior tech freelancers"
 
 [hero_title]
-other = "Turn a live freelance lead into the next email, price, signature, invoice, and follow-up."
+other = "Turn a client request into a proposal you can price, defend, and send."
 
 [hero_lead]
-other = "When a recruiter message, client brief, or referral lands in your inbox, FlySolo helps Otto shape the reply, back the price, check the scope, prepare the confirmation, queue the signature, set up the Moneybird invoice, and track the payment nudge."
+other = "Paste the recruiter message or client brief. Otto drafts the proposal, recommends a rate with rationale, flags scope gaps, and keeps the accepted work moving through agreement, signature, Moneybird invoice, and payment."
 
 [hero_primary]
-other = "Get a proposal review"
+other = "Start one month free"
 
 [hero_secondary]
-other = "See workflow"
+other = "See the workflow"
+
+[hero_trial_note]
+other = "One limited month before the first payment."
+
+[product_preview_label]
+other = "FlySolo opportunity review for an Azure landing-zone assignment"
+
+[product_preview_workspace]
+other = "Noordcloud workspace"
+
+[product_preview_status]
+other = "Draft ready"
+
+[product_preview_client]
+other = "BluePeak Systems"
+
+[product_preview_duration]
+other = "4 months"
+
+[product_preview_mode]
+other = "Hybrid · Utrecht"
+
+[product_preview_score_label]
+other = "Deal readiness"
+
+[product_preview_otto]
+other = "The delivery window supports €125/hour. Define decision rights and exclude out-of-hours migration before sending."
+
+[product_preview_edit]
+other = "Edit draft"
+
+[product_preview_approve]
+other = "Review & approve"
 
 [proof_label]
-other = "Product focus"
+other = "Built around real deal moments"
 
 [proof_1]
-other = "Reply before the lead cools"
+other = "Proposal due today"
 
 [proof_2]
-other = "Spot below-rate work"
+other = "Rate under pressure"
 
 [proof_3]
-other = "Keep the handoff in one thread"
+other = "Scope still vague"
 
 [proof_4]
-other = "Use local terms and tools"
+other = "Signature waiting"
 
 [proof_5]
-other = "Send work a client can sign"
+other = "Invoice ready next"
 
 [problem_kicker]
-other = "The commercial gap"
+other = "A familiar Monday"
 
 [problem_title]
-other = "Freelancers win interest, then lose time turning it into something a client can approve."
+other = "A €30,000 assignment often starts as three vague paragraphs in your inbox."
 
 [problem_body_1]
-other = "Leads arrive through email, LinkedIn, recruiters, referrals, and calls. Proposals live in old documents. Pricing happens from gut feel. Scope risk hides in vague requirements. Invoices happen later in Moneybird or another tool."
+other = "You open an old proposal, search for the last rate you quoted, translate the client's language into deliverables, and wonder which assumptions belong in the scope. The client is waiting while the commercial work spreads across documents, email, and memory."
 
 [problem_body_2]
-other = "Otto connects those moments inside FlySolo, so a lead from a real buyer can become a proposal with deliverables, a signed agreement, an e-signature request, an invoice, and paid work without scattered tools."
+other = "FlySolo turns that live request into one deal record. Otto helps you decide what to ask, what to charge, what to promise, and what you must approve before anything reaches the client."
+
+[brief_label]
+other = "Example client request with commercial gaps identified by Otto"
+
+[brief_inbox]
+other = "New request"
+
+[brief_subject]
+other = "Azure landing zone support — rate and approach?"
+
+[brief_message]
+other = "We need a senior Azure engineer to build a landing zone for nine subscriptions. Start 1 September, hybrid in Utrecht, approximately four months. Could you send your rate and approach today?"
+
+[brief_gaps_label]
+other = "Otto found three questions before you quote"
+
+[brief_gap_1]
+other = "Who owns architecture decisions and acceptance?"
+
+[brief_gap_2]
+other = "Does the assignment include workload migration?"
+
+[brief_gap_3]
+other = "Are on-call and out-of-hours changes expected?"
+
+[brief_action_context]
+other = "Client is waiting"
+
+[brief_action]
+other = "Build response"
 
 [smooth_kicker]
-other = "When the work is scattered"
+other = "One commercial workspace"
 
 [smooth_title]
-other = "FlySolo gives every deal step a place to go."
+other = "The brief, rate, scope, agreement, and invoice stay connected."
 
 [smooth_body]
-other = "Bring the loose parts of an opportunity: the client note, rate question, scope risk, and invoice handoff. Otto lines them up by next action, so you know whether to ask a question, send the proposal, adjust the rate, confirm terms, or prepare the invoice."
+other = "Otto works from the same opportunity at every step. A deadline found in the brief can shape the price. An accepted milestone can become contract language. The signed terms can prepare the invoice handoff without rebuilding the context."
 
 [smooth_diagram_label]
-other = "Animated diagram showing client notes, scope, pricing, signature, and invoice moving through FlySolo"
+other = "Animated path connecting a client brief to proposal, pricing, scope, signature, and invoice"
 
 [smooth_callout_1]
-other = "Move every deal step through the same workspace"
+other = "One opportunity from first reply to payment"
 
 [smooth_callout_2]
-other = "Stop rebuilding context between lead, signature, and invoice"
+other = "You approve every client-facing step"
 
 [smooth_input_1]
-other = "Lead"
+other = "Brief"
 
 [smooth_input_2]
-other = "Brief"
+other = "Context"
 
 [smooth_input_3]
 other = "Rate"
@@ -124,152 +196,857 @@ other = "Signature"
 [smooth_output_4]
 other = "Invoice"
 
+[deal_console_label]
+other = "Opportunity progress"
+
+[deal_console_done]
+other = "Captured"
+
+[deal_console_reviewed]
+other = "Reviewed"
+
+[deal_console_active]
+other = "Decide now"
+
+[deal_console_approval]
+other = "Your approval"
+
+[deal_console_later]
+other = "After signature"
+
 [time_kicker]
-other = "Why now"
+other = "The first deliverable"
 
 [time_title]
-other = "While a proposal sits unfinished, another freelancer can answer."
+other = "Before you build the project, you have to make it easy to buy."
 
 [time_body]
-other = "A lead that felt urgent on Monday can go quiet by Thursday. The longer a proposal sits unfinished, the more room there is for another freelancer to answer the open questions, name a price, and make the next step obvious."
+other = "A client cannot approve experience alone. They need a clear outcome, bounded scope, credible price, workable terms, and an obvious next step. Producing that package is real work, usually before one billable hour exists."
 
 [time_body_2]
-other = "FlySolo is for that window between first interest and lost momentum: capture the request, shape the offer, check the rate, and send the next step while the client is still paying attention."
+other = "FlySolo helps you do that commercial work while the opportunity is live, then keeps the decisions attached to the project instead of burying them in a sent-email folder."
+
+[workbench_label]
+other = "Scattered client inputs becoming connected commercial outputs through Otto"
+
+[workbench_input]
+other = "What arrives"
+
+[workbench_input_1]
+other = "Recruiter email"
+
+[workbench_input_2]
+other = "Old proposal"
+
+[workbench_input_3]
+other = "Rate notes"
+
+[workbench_input_4]
+other = "Moneybird client"
+
+[workbench_otto]
+other = "Keeps the context"
+
+[workbench_output]
+other = "What leaves"
+
+[workbench_output_1]
+other = "Sendable response"
+
+[workbench_output_2]
+other = "Defensible price"
+
+[workbench_output_3]
+other = "Bounded scope"
+
+[workbench_output_4]
+other = "Invoice-ready record"
 
 [deal_path_label]
-other = "Lead to paid work path"
+other = "Client request to paid work"
 
 [deal_path_1]
-other = "Lead captured"
+other = "Request received"
 
 [deal_path_2]
-other = "Proposal shaped"
+other = "Proposal approved"
 
 [deal_path_3]
-other = "Rate defended"
+other = "Rate agreed"
 
 [deal_path_4]
-other = "Agreement ready"
+other = "Contract signed"
 
 [deal_path_5]
 other = "Invoice paid"
 
 [features_kicker]
-other = "What FlySolo does"
+other = "Four moments, one deal"
 
 [features_title]
-other = "For the moment between 'Can you send something?' and money in the bank."
+other = "Bring the opportunity you are working on today."
+
+[feature_core_label]
+other = "Core workflow"
 
 [feature_1_title]
 other = "When the proposal has to leave today"
 
 [feature_1_body]
-other = "Otto turns a rough opportunity, recruiter brief, or intake note into a proposal with deliverables, milestones, assumptions, unanswered questions, and the next email to send."
+other = "Turn a rough brief into deliverables, milestones, assumptions, exclusions, open questions, and a client response. Edit the draft, then approve what leaves FlySolo."
+
+[feature_1_visual]
+other = "deliverables · questions"
+
+[feature_1_output_1]
+other = "Proposal PDF"
+
+[feature_1_output_2]
+other = "Milestones and deliverables"
+
+[feature_1_output_3]
+other = "Assumptions and open questions"
 
 [feature_2_title]
 other = "When the client asks for your rate"
 
 [feature_2_body]
-other = "Otto helps you answer the question that matters: am I charging enough for this client, scope, urgency, and risk? Get rate ranges, rationale, negotiation room, and warnings when the work looks underpriced."
+other = "Compare hourly, fixed-price, and retainer options. See a negotiation range, the reasoning behind it, and a warning when urgency, ambiguity, or liability makes the work look underpriced."
+
+[feature_2_visual]
+other = "recommended hourly range"
+
+[feature_2_output_1]
+other = "Hourly, fixed, and retainer options"
+
+[feature_2_output_2]
+other = "Negotiation range"
+
+[feature_2_output_3]
+other = "Rationale and confidence"
 
 [feature_3_title]
-other = "When the scope is vague"
+other = "When 'yes' still needs an agreement"
 
 [feature_3_body]
-other = "Otto flags vague requirements, missing assumptions, weak exclusions, payment terms, and contract language before you send something the client might treat as a commitment."
+other = "Carry the accepted scope into a service agreement, NDA, or maintenance contract. Review the draft yourself before creating the signature request."
+
+[feature_3_visual]
+other = "points need your approval"
+
+[feature_3_output_1]
+other = "Service agreements"
+
+[feature_3_output_2]
+other = "NDAs and maintenance contracts"
+
+[feature_3_output_3]
+other = "E-signature request and audit trail"
 
 [feature_4_title]
-other = "When the deal becomes admin"
+other = "When signed work needs an invoice"
 
 [feature_4_body]
-other = "After the client says yes, Otto prepares the signature request, invoice details, and payment follow-up so the handoff to Moneybird starts from the accepted work."
+other = "Prepare invoice data and payment status from the agreed project, hand the bookkeeping step to Moneybird, and keep due or overdue follow-up visible."
+
+[feature_4_visual]
+other = "invoice handoff"
+
+[feature_4_output_1]
+other = "PDF invoice and UBL export"
+
+[feature_4_output_2]
+other = "Moneybird handoff"
+
+[feature_4_output_3]
+other = "Due, paid, and overdue status"
+
+[boundary_label]
+other = "Clear boundary"
+
+[boundary_title]
+other = "FlySolo is the commercial front office before Moneybird."
+
+[boundary_body]
+other = "It does not replace your accountant, run payroll, file tax, or become another bookkeeping system."
 
 [workflow_kicker]
-other = "Workflow"
+other = "How it works"
 
 [workflow_title]
-other = "Start with a real opportunity."
+other = "One brief. Three decisions. Your approval."
 
 [workflow_1_title]
-other = "Paste a real lead"
+other = "Paste the request"
 
 [workflow_1_body]
-other = "Add a recruiter message, client brief, call notes, or rough project description from a real opportunity."
+other = "Use a recruiter message, client brief, call notes, or a rough project description from a real opportunity."
 
 [workflow_2_title]
-other = "Create the proposal response"
+other = "Shape the offer"
 
 [workflow_2_body]
-other = "Ask Otto for structure, scope, milestones, deliverables, assumptions, questions to ask, and the response you can send back to the client."
+other = "Otto drafts the client response, proposal structure, deliverables, milestones, assumptions, and questions that still need an answer."
 
 [workflow_3_title]
-other = "Defend the rate"
+other = "Check price and scope"
 
 [workflow_3_body]
-other = "Ask Otto for suggested pricing, a range to negotiate within, and underpricing warnings when the scope, deadline, or client expectations raise the risk."
+other = "Review the suggested rate, negotiation room, exclusions, payment terms, and scope risks against the work the client actually described."
 
 [workflow_4_title]
-other = "Move to confirmation"
+other = "Approve the next step"
 
 [workflow_4_body]
-other = "Ask Otto to prepare terms, e-signature next steps, Moneybird invoice readiness, and payment follow-up."
+other = "Nothing client-facing is sent on Otto's word alone. You edit and approve the proposal, agreement, signature request, or invoice handoff."
+
+[trust_kicker]
+other = "AI drafts. You decide."
+
+[trust_title]
+other = "Otto can prepare the next step. Only you can make it official."
+
+[trust_body]
+other = "A useful assistant should remove blank-page work without taking commercial decisions away from you. FlySolo keeps approval at the point where a draft becomes a promise, signature request, or invoice."
+
+[trust_fact_1]
+other = "Dutch and English deal workflows"
+
+[trust_fact_2]
+other = "EU data region and GDPR-led design"
+
+[trust_fact_3]
+other = "Client-facing actions remain auditable"
+
+[approval_draft_label]
+other = "Drafted a client response"
+
+[approval_status_review]
+other = "Waiting for review"
+
+[approval_document_label]
+other = "Proposal change"
+
+[approval_document_body]
+other = "Four-month Azure landing-zone delivery with architecture, policy, and handover milestones."
+
+[approval_change_title]
+other = "One exclusion added"
+
+[approval_change_body]
+other = "Workload migration and out-of-hours changes are outside this proposal."
+
+[approval_gate_body]
+other = "The client cannot receive this draft until you approve it."
+
+[approval_gate_approved]
+other = "Approved by you. The client-facing action is now available."
+
+[approval_button]
+other = "Review & approve"
+
+[approval_button_done]
+other = "Approved"
+
+[integrations_label]
+other = "FlySolo integrations"
+
+[integrations_intro]
+other = "Fits the tools already around your client work"
 
 [memory_kicker]
 other = "Commercial memory"
 
 [memory_title]
-other = "Each client deal should leave material for the next one."
+other = "Your next proposal should not start from a blank page."
 
 [memory_body]
-other = "Otto should remember your rates, clauses, tone of voice, clients, won proposals, payment terms, and follow-up moments."
+other = "As FlySolo sees more of your completed deal workflows, Otto can reuse the decisions that make your freelance business yours rather than giving every client a generic first draft."
 
 [memory_1]
-other = "Accepted and rejected rates"
+other = "Rates you accepted, changed, or rejected"
 
 [memory_2]
-other = "Winning proposal language"
+other = "Proposal language that led to signed work"
 
 [memory_3]
-other = "Client terms and payment behavior"
+other = "Client-specific terms and payment behaviour"
 
 [memory_4]
-other = "Favorite clauses and exclusions"
+other = "Clauses, assumptions, and exclusions you reuse"
 
 [memory_5]
-other = "Renewal, overdue payment, and follow-up timing"
+other = "Renewal dates and follow-up moments"
 
 [pricing_kicker]
-other = "Pricing"
+other = "Plans"
 
 [pricing_title]
-other = "Start with one limited month before the plan starts."
+other = "Use FlySolo on real work for one month before you choose."
+
+[pricing_period]
+other = "/month"
+
+[pricing_starter_label]
+other = "Occasional deals"
+
+[pricing_professional_label]
+other = "Best for solo consultants"
+
+[pricing_business_label]
+other = "Teams and repeat work"
 
 [pricing_starter]
-other = "Use the trial month when a lead arrives and a proposal needs to go out, then continue here for light proposal and rate-check work."
+other = "For occasional proposals and rate checks when you need structure around a new opportunity."
+
+[pricing_starter_1]
+other = "Proposal drafts"
+
+[pricing_starter_2]
+other = "Basic pricing suggestions"
+
+[pricing_starter_3]
+other = "Invoice and payment status"
 
 [pricing_professional]
-other = "Use the trial month on recurring proposal work, then continue here for proposal drafts, pricing benchmark, contract draft, e-signature, Moneybird sync, payment reminders, and win/loss tracking."
+other = "For solo consultants who want proposals, pricing, contracts, signatures, Moneybird handoff, reminders, and win/loss history in one workflow."
+
+[pricing_professional_1]
+other = "Advanced proposal and pricing guidance"
+
+[pricing_professional_2]
+other = "Contract drafts and e-signature"
+
+[pricing_professional_3]
+other = "Moneybird, Google, and Microsoft handoffs"
+
+[pricing_professional_4]
+other = "Payment reminders and win/loss history"
 
 [pricing_business]
-other = "Use the trial month with a repeat-client workflow, then continue here for shared templates, higher-value deals, and client workflows with more approval steps."
+other = "For repeat-client work and small teams that need shared templates, collaborators, retainers, and more complex approval paths."
+
+[pricing_business_1]
+other = "Collaborator access"
+
+[pricing_business_2]
+other = "Multi-brand templates"
+
+[pricing_business_3]
+other = "Retainer and statement-of-work flows"
+
+[pricing_business_4]
+other = "Advanced clauses and priority support"
+
+[pricing_action]
+other = "Start with this plan"
+
+[pricing_note]
+other = "Your limited month comes first. The selected paid plan starts afterwards."
+
+[faq_kicker]
+other = "Before you apply"
+
+[faq_title]
+other = "The practical questions."
+
+[faq_intro]
+other = "FlySolo is intentionally narrow at the start: serious client opportunities for senior tech freelancers in the Netherlands and Belgium."
+
+[faq_1_question]
+other = "Is FlySolo accounting software?"
+
+[faq_1_answer]
+other = "No. FlySolo runs the commercial workflow before and around bookkeeping: opportunity, proposal, price, agreement, signature, invoice preparation, and payment status. Moneybird remains the bookkeeping handoff."
+
+[faq_2_question]
+other = "Can Otto send something to my client without me?"
+
+[faq_2_answer]
+other = "No. Otto can analyse and draft, but client-facing actions require your review and approval. That rule applies to proposals, agreements, signature requests, and invoice sends."
+
+[faq_3_question]
+other = "What should I bring to the trial?"
+
+[faq_3_answer]
+other = "Bring a recent recruiter message, client brief, pricing question, or anonymised opportunity. The best first session ends with something you would genuinely use or send."
+
+[faq_4_question]
+other = "Is FlySolo only available in Dutch?"
+
+[faq_4_answer]
+other = "No. FlySolo is Dutch-first and supports Dutch and English workflows. The first market focus is senior freelance tech professionals in the Netherlands, with Belgium in the expansion path."
+
+[faq_5_question]
+other = "What happens after the one-month trial?"
+
+[faq_5_answer]
+other = "You choose Starter, Professional, or Business based on the workflow you used. Your first paid period begins after the limited month rather than before you have experienced the product."
 
 [cta_kicker]
 other = "One-month limited trial"
 
 [cta_title]
-other = "Try FlySolo for one month with a lead from your inbox."
+other = "Bring the client brief sitting in your inbox."
 
 [cta_body]
-other = "Start with a recent or anonymized request and use the limited trial to experience the workflow before paying: Otto reviews the proposal, rate, scope, terms, and next step, so you leave with a reply, checklist, or invoice handoff instead of a demo script."
+other = "Use FlySolo on a recent or anonymised opportunity for one month before the first payment. You will work with a real proposal, rate decision, scope check, and next step, not a demo script."
 
 [cta_button]
-other = "Start the one-month trial"
+other = "Start the trial"
+
+[cta_existing]
+other = "Open FlySolo"
 
 [feature_request_title]
-other = "Missing a workflow step?"
+other = "Built with founding users"
 
 [feature_request_body]
-other = "If your freelance process needs a feature FlySolo does not cover yet, tell us. Beta requests help decide what Otto learns next."
+other = "Your real workflow should shape the product. Tell us where a proposal, negotiation, agreement, or payment handoff still breaks down."
 
 [feature_request_link]
-other = "Request a missing feature"
+other = "Share your workflow"
+
+[home_hero_eyebrow]
+other = "For senior tech freelancers"
+
+[home_hero_title]
+other = "From client request to a deal you can defend."
+
+[home_hero_lead]
+other = "FlySolo turns a rough brief into a proposal, rate, scope, and agreement. Otto prepares the work; you decide what reaches the client."
+
+[home_hero_start]
+other = "Start your trial month"
+
+[home_hero_open]
+other = "Open FlySolo"
+
+[home_hero_note]
+other = "One limited month before billing starts. Built for Dutch and English client work."
+
+[home_flow_label]
+other = "From incoming request to a ready deal"
+
+[home_flow_request_label]
+other = "In your inbox"
+
+[home_flow_request_title]
+other = "Azure landing-zone lead"
+
+[home_flow_request_body]
+other = "Six months, three stakeholders, and no clear acceptance criteria."
+
+[home_flow_otto]
+other = "Finds the decisions hiding in the brief"
+
+[home_flow_output_label]
+other = "Ready for your review"
+
+[home_flow_output_title]
+other = "One coherent deal"
+
+[home_flow_output_body]
+other = "Proposal, rate rationale, scope boundaries, and next action."
+
+[home_outcomes_kicker]
+other = "Less deal admin"
+
+[home_outcomes_title]
+other = "Keep the work moving without losing control."
+
+[home_outcome_1_title]
+other = "Understand the request"
+
+[home_outcome_1_body]
+other = "See missing scope, decision makers, delivery risk, and the questions to ask before you quote."
+
+[home_outcome_2_title]
+other = "Prepare the deal"
+
+[home_outcome_2_body]
+other = "Draft the proposal, explain the rate, define boundaries, and prepare the agreement from the same context."
+
+[home_outcome_3_title]
+other = "Approve every move"
+
+[home_outcome_3_body]
+other = "Review client-facing work before it is sent, then keep signature, invoice handoff, and payment status connected."
+
+[home_tour_kicker]
+other = "One connected workflow"
+
+[home_tour_title]
+other = "Use FlySolo at the moment a deal gets difficult."
+
+[home_tour_intro]
+other = "Switch between the three moments where scattered context usually turns into rework."
+
+[home_tour_tabs_label]
+other = "FlySolo product workflow"
+
+[home_tour_tab_1]
+other = "Qualify"
+
+[home_tour_tab_2]
+other = "Propose"
+
+[home_tour_tab_3]
+other = "Close"
+
+[home_tour_outputs_label]
+other = "Prepared outputs"
+
+[home_tour_1_title]
+other = "A recruiter forwards a five-line brief."
+
+[home_tour_1_body]
+other = "FlySolo turns it into an opportunity and surfaces the commercial questions that still need an answer."
+
+[home_tour_1_output_1]
+other = "Scope and stakeholder gaps"
+
+[home_tour_1_output_2]
+other = "Qualification score"
+
+[home_tour_1_output_3]
+other = "Reply-ready questions"
+
+[home_tour_1_proof_1]
+other = "Missing: acceptance criteria"
+
+[home_tour_1_proof_2]
+other = "Risk: three decision makers"
+
+[home_tour_1_proof_3]
+other = "Next: ask 4 focused questions"
+
+[home_tour_1_alt]
+other = "FlySolo opportunity qualification screen"
+
+[home_tour_2_title]
+other = "The client asks for a proposal and day rate."
+
+[home_tour_2_body]
+other = "Otto works from the qualified opportunity, so the rate, scope, and terms tell the same story."
+
+[home_tour_2_output_1]
+other = "Proposal draft"
+
+[home_tour_2_output_2]
+other = "Defensible rate range"
+
+[home_tour_2_output_3]
+other = "Explicit assumptions"
+
+[home_tour_2_proof_1]
+other = "Rate: €115-€130 per hour"
+
+[home_tour_2_proof_2]
+other = "Scope: 6 deliverables"
+
+[home_tour_2_proof_3]
+other = "Assumptions: 3 to confirm"
+
+[home_tour_2_alt]
+other = "FlySolo proposal and pricing screen"
+
+[home_tour_3_title]
+other = "The client sends their contract."
+
+[home_tour_3_body]
+other = "Upload the PDF or paste a clause. Otto explains it in plain language before you decide what to accept, question, or carry into signing."
+
+[home_tour_3_output_1]
+other = "Plain-language explanation"
+
+[home_tour_3_output_2]
+other = "Agreement and signature status"
+
+[home_tour_3_output_3]
+other = "Invoice handoff"
+
+[home_tour_3_proof_1]
+other = "Received contract: PDF or text"
+
+[home_tour_3_proof_2]
+other = "Explanation: ready for review"
+
+[home_tour_3_proof_3]
+other = "Next step: your decision"
+
+[home_tour_3_alt]
+other = "FlySolo contract explanation screen"
+
+[home_tour_more]
+other = "Explore the complete product workflow"
+
+[home_control_kicker]
+other = "AI with an approval gate"
+
+[home_control_title]
+other = "Otto prepares. You commit."
+
+[home_control_body]
+other = "Client-facing actions stay behind your review, while the decisions that shaped the deal remain traceable."
+
+[home_control_1_title]
+other = "Human approval"
+
+[home_control_1_body]
+other = "Nothing is sent to a client until you review it."
+
+[home_control_2_title]
+other = "EU data region"
+
+[home_control_2_body]
+other = "The platform is designed around European data handling."
+
+[home_control_3_title]
+other = "Your existing tools"
+
+[home_control_3_body]
+other = "Connect Google Workspace, Microsoft 365, and Moneybird where they belong."
+
+[home_control_more]
+other = "Read about security and control"
+
+[home_price_kicker]
+other = "Simple entry point"
+
+[home_price_title]
+other = "Try a real deal before you pay."
+
+[home_price_body]
+other = "Your limited month comes first. Paid plans start at €19 per month after the trial."
+
+[home_price_period]
+other = "/month after trial"
+
+[home_price_more]
+other = "Compare plans"
+
+[home_roadmap_kicker]
+other = "What is next"
+
+[home_roadmap_title]
+other = "The deal workflow is only the beginning."
+
+[home_roadmap_intro]
+other = "FlySolo is growing from a connected deal workflow into an AI operating system for independent professionals. These capabilities are planned, not available today."
+
+[home_roadmap_phase_2]
+other = "Phase 2 · Planned"
+
+[home_roadmap_phase_3]
+other = "Phase 3 · Planned"
+
+[home_roadmap_phase_4]
+other = "Phase 4 · Planned"
+
+[home_roadmap_phase_5]
+other = "Phase 5 · Planned"
+
+[home_roadmap_1_title]
+other = "Stronger opportunity intake"
+
+[home_roadmap_1_body]
+other = "Professional profiles, structured opportunity intake, and a Trust Center that makes your working context reusable."
+
+[home_roadmap_2_title]
+other = "Deeper contract intelligence"
+
+[home_roadmap_2_body]
+other = "Building on today's plain-language explanations with full contract review, risk detection, and negotiation support."
+
+[home_roadmap_3_title]
+other = "Reputation that travels"
+
+[home_roadmap_3_body]
+other = "Verified engagements, a reputation layer, business insights, and expansion into Belgium."
+
+[home_roadmap_4_title]
+other = "An AI business advisor"
+
+[home_roadmap_4_body]
+other = "Forecasting, proactive business guidance, and an advanced ecosystem of connected tools."
+
+[home_roadmap_more]
+other = "See the documented roadmap"
+
+[home_final_kicker]
+other = "Bring a real client brief"
+
+[home_final_title]
+other = "See what FlySolo changes in one month."
+
+[home_final_body]
+other = "Use a recent or anonymised opportunity and leave with work you would actually review, send, or sign."
+
+[home_final_start]
+other = "Start your trial month"
+
+[home_final_open]
+other = "Already a user? Open the app"
+
+[detail_back_home]
+other = "Back to FlySolo"
+
+[detail_cta_title]
+other = "Try the workflow with a real opportunity."
+
+[detail_cta_body]
+other = "Your limited trial month starts before billing does."
+
+[detail_cta_start]
+other = "Start your trial month"
+
+[detail_cta_open]
+other = "Open FlySolo"
+
+[join_back]
+other = "Back to FlySolo"
+
+[join_kicker]
+other = "One-month limited trial"
+
+[join_title]
+other = "Use FlySolo on a deal that matters."
+
+[join_lead]
+other = "Tell us who you are, how your business works, and where the current deal process slows down. We use this to prepare a trial around real work rather than a generic tour."
+
+[join_expectation_1]
+other = "We review your workflow and trial goal."
+
+[join_expectation_2]
+other = "You receive onboarding details at the email you provide."
+
+[join_expectation_3]
+other = "Your limited month starts when access is ready."
+
+[join_existing_user]
+other = "Already have access? Open the app"
+
+[join_progress_label]
+other = "Application progress"
+
+[join_step_1]
+other = "About you"
+
+[join_step_2]
+other = "Your business"
+
+[join_personal_legend]
+other = "First, who should we contact?"
+
+[join_personal_intro]
+other = "Use the details you want us to use for trial onboarding."
+
+[join_name]
+other = "Full name"
+
+[join_email]
+other = "Work email"
+
+[join_phone]
+other = "Phone (optional)"
+
+[join_linkedin]
+other = "LinkedIn profile (optional)"
+
+[join_continue]
+other = "Continue to business details"
+
+[join_business_legend]
+other = "Now, show us how you work."
+
+[join_business_intro]
+other = "A little commercial context helps us make the trial useful from the first opportunity."
+
+[join_business_name]
+other = "Business name"
+
+[join_business_type]
+other = "Business setup"
+
+[join_business_solo]
+other = "Solo freelancer / consultant"
+
+[join_business_team]
+other = "Small consulting team"
+
+[join_business_agency]
+other = "Agency"
+
+[join_select]
+other = "Select an option"
+
+[join_specialty]
+other = "Primary specialty"
+
+[join_specialty_placeholder]
+other = "e.g. Cloud architecture, DevOps, security"
+
+[join_country]
+other = "Country"
+
+[join_country_other]
+other = "Other"
+
+[join_friction]
+other = "Where does your deal workflow slow down most?"
+
+[join_friction_proposal]
+other = "Writing the proposal"
+
+[join_friction_pricing]
+other = "Setting or defending the price"
+
+[join_friction_scope]
+other = "Clarifying scope and exclusions"
+
+[join_friction_agreement]
+other = "Agreement and signature"
+
+[join_friction_invoice]
+other = "Invoice and payment follow-up"
+
+[join_tools]
+other = "Tools you use now (optional)"
+
+[join_tools_placeholder]
+other = "e.g. Moneybird, Word, Google Docs, email"
+
+[join_trial_goal]
+other = "What would make the trial worthwhile?"
+
+[join_trial_goal_placeholder]
+other = "Tell us about the opportunity or workflow you want to bring into FlySolo. Please leave out confidential client details."
+
+[join_consent]
+other = "I agree that FlySolo may use these details to contact me about the trial. See the <a href=\"/privacy-policy/\">privacy policy</a>."
+
+[join_back_step]
+other = "Back"
+
+[join_submit]
+other = "Send trial application"
+
+[join_submitting]
+other = "Sending application..."
+
+[join_error]
+other = "We could not send the application. Please check the fields and try again."
+
+[join_success_kicker]
+other = "Application received"
+
+[join_success_title]
+other = "Your workflow is on our desk."
+
+[join_success_body]
+other = "We sent the application to the FlySolo beta team. Watch the work email you provided for the next step."
+
+[join_success_home]
+other = "Return to FlySolo"

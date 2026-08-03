@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ $homeURL := cond (eq .Language.Lang "nl") "/nl/" "/" }}
+{{ $joinURL := cond (eq .Language.Lang "nl") "/nl/join/" "/join/" }}
+<article class="fs-marketing">
+  <header class="fs-marketing__hero">
+    <div class="fs-shell">
+      <a class="fs-marketing__back" href="{{ $homeURL }}">{{ i18n "detail_back_home" }}</a>
+      {{ with .Params.eyebrow }}<p class="fs-kicker">{{ . }}</p>{{ end }}
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Description }}</p>
+    </div>
+  </header>
+  <div class="fs-shell fs-marketing__content">
+    {{ .Content }}
+  </div>
+  <footer class="fs-marketing__cta">
+    <div class="fs-shell">
+      <h2>{{ i18n "detail_cta_title" }}</h2>
+      <p>{{ i18n "detail_cta_body" }}</p>
+      <div class="fs-actions">
+        <a class="fs-button fs-button--primary" href="{{ $joinURL }}">{{ i18n "detail_cta_start" }}</a>
+        <a class="fs-button fs-button--quiet" href="https://app.flysolo.me">{{ i18n "detail_cta_open" }}</a>
+      </div>
+    </div>
+  </footer>
+</article>
+{{ end }}

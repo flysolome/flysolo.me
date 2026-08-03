@@ -26,3 +26,17 @@ flysolo.me/*
 ```
 
 The site remains hosted on GitHub Pages. The Worker only handles language routing before passing requests through.
+
+## Trial Application Email
+
+The Worker also handles `POST /api/beta` from the bilingual trial form. It validates the submitted user and business details, checks a timing field and honeypot, sends a plain-text application to `beta@flysolo.me`, and redirects the visitor back to the form's confirmation state.
+
+Configure a Cloudflare Email Service send binding named `BETA_EMAIL` with `beta@flysolo.me` as its allowed destination. The sender address used by the Worker is `website@flysolo.me`; the `flysolo.me` domain must be onboarded for sending, and `beta@flysolo.me` must be a verified destination.
+
+The edge route must continue to cover `flysolo.me/*` so `/api/beta` reaches this Worker before GitHub Pages.
+
+The included `wrangler.toml` defines the route and send-email binding. Deploy from the site repository with:
+
+```text
+npx wrangler deploy --config cloudflare/wrangler.toml
+```

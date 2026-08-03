@@ -8,8 +8,8 @@ enableRobotsTXT = true
 disablePathToLower = true
 
 [params]
-  description = "FlySolo helps independent professionals move from proposal to payment with Otto when a client asks for a proposal, pricing needs backing, scope needs checking, signatures are due, Moneybird invoices need preparing, and payment follow-up is next."
-  keywords = ["FlySolo", "Otto AI agent", "freelancers", "independent professionals", "ZZP", "freelance proposal", "rate checker", "scope check", "e-signature", "Moneybird", "proposal confidence"]
+  description = "FlySolo turns a rough client brief into a proposal, defensible rate, clear scope, and agreement while you stay in control."
+  keywords = ["FlySolo", "Otto AI agent", "tech freelancers", "ZZP", "freelance proposal", "rate checker", "scope check", "e-signature", "Moneybird", "Dutch freelance software"]
   images = "/images/flysolo.png"
   extMeta = false
   DisableFootBar = false
@@ -56,8 +56,8 @@ disablePathToLower = true
 
 [params.seo]
   siteName = "FlySolo"
-  title = "FlySolo - Win freelance projects from proposal to payment"
-  description = "AI deal workflow for independent professionals when a lead arrives, pricing needs backing, scope needs checking, signatures are due, a Moneybird invoice must be prepared, and payment follow-up is next."
+  title = "FlySolo - From client request to signed freelance project"
+  description = "Turn a rough client brief into a proposal, defensible rate, clear scope, and agreement while you stay in control."
   image = "/images/flysolo.png"
 
 [params.home]
@@ -87,28 +87,28 @@ disablePathToLower = true
     weight = 1
 
     [[languages.en.menu.main]]
-      name = "Features"
-      url = "/#features"
+      name = "Product"
+      url = "/product/"
       weight = 1
     [[languages.en.menu.main]]
-      name = "Workflow"
-      url = "/#workflow"
+      name = "Pricing"
+      url = "/pricing/"
       weight = 2
     [[languages.en.menu.main]]
-      name = "Pricing"
-      url = "/#pricing"
+      name = "Security"
+      url = "/security/"
       weight = 3
-    [[languages.en.menu.main]]
-      name = "Blog"
-      url = "/blog/"
-      weight = 4
     [[languages.en.menu.main]]
       name = "Wiki"
       url = "/wiki/"
+      weight = 4
+    [[languages.en.menu.main]]
+      name = "Open App"
+      url = "https://app.flysolo.me"
       weight = 5
     [[languages.en.menu.main]]
-      name = "Join Beta"
-      url = "/#join"
+      name = "Start Trial"
+      url = "/join/"
       weight = 6
 
     [[languages.en.menu.after]]
@@ -128,6 +128,16 @@ disablePathToLower = true
       url = "mailto:hello@flysolo.me"
       weight = 40
 
+    [[languages.en.menu.footer]]
+      identifier = "app"
+      name = "Open App"
+      url = "https://app.flysolo.me"
+      weight = 1
+    [[languages.en.menu.footer]]
+      identifier = "trial"
+      name = "Start Trial"
+      url = "/join/"
+      weight = 2
     [[languages.en.menu.footer]]
       identifier = "contact"
       name = "Contact"
@@ -159,28 +169,28 @@ disablePathToLower = true
     weight = 2
 
     [[languages.nl.menu.main]]
-      name = "Functies"
-      url = "/nl/#features"
+      name = "Product"
+      url = "/nl/product/"
       weight = 1
     [[languages.nl.menu.main]]
-      name = "Workflow"
-      url = "/nl/#workflow"
+      name = "Prijzen"
+      url = "/nl/pricing/"
       weight = 2
     [[languages.nl.menu.main]]
-      name = "Prijzen"
-      url = "/nl/#pricing"
+      name = "Beveiliging"
+      url = "/nl/security/"
       weight = 3
-    [[languages.nl.menu.main]]
-      name = "Blog"
-      url = "/nl/blog/"
-      weight = 4
     [[languages.nl.menu.main]]
       name = "Wiki"
       url = "/nl/wiki/"
+      weight = 4
+    [[languages.nl.menu.main]]
+      name = "Open app"
+      url = "https://app.flysolo.me"
       weight = 5
     [[languages.nl.menu.main]]
-      name = "Beta"
-      url = "/nl/#join"
+      name = "Proefmaand"
+      url = "/nl/join/"
       weight = 6
 
     [[languages.nl.menu.after]]
@@ -200,6 +210,16 @@ disablePathToLower = true
       url = "mailto:hello@flysolo.me"
       weight = 40
 
+    [[languages.nl.menu.footer]]
+      identifier = "app"
+      name = "Open app"
+      url = "https://app.flysolo.me"
+      weight = 1
+    [[languages.nl.menu.footer]]
+      identifier = "trial"
+      name = "Proefmaand"
+      url = "/nl/join/"
+      weight = 2
     [[languages.nl.menu.footer]]
       identifier = "contact"
       name = "Contact"
