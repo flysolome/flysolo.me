@@ -70,6 +70,33 @@ document.addEventListener("DOMContentLoaded", () => {
     revealTargets.forEach((target) => revealObserver.observe(target));
   }
 
+  document.querySelectorAll("[data-wiki-search]").forEach((search) => {
+    const entries = [...document.querySelectorAll("[data-wiki-entry]")];
+    const emptyState = document.querySelector("[data-wiki-empty]");
+    const normalize = (value) => value.toLocaleLowerCase().trim();
+
+    search.addEventListener("input", () => {
+      const query = normalize(search.value);
+      let visibleCount = 0;
+      entries.forEach((entry) => {
+        const visible = !query || normalize(entry.dataset.search || "").includes(query);
+        entry.hidden = !visible;
+        if (visible) visibleCount += 1;
+      });
+      if (emptyState) emptyState.hidden = visibleCount !== 0;
+    });
+  });
+
+  document.querySelectorAll("[data-cookie-settings]").forEach((button) => {
+    button.addEventListener("click", () => {
+      if (window.tarteaucitron?.userInterface) {
+        window.tarteaucitron.userInterface.openPanel();
+        return;
+      }
+      window.location.hash = "tarteaucitron";
+    });
+  });
+
   const form = document.querySelector("[data-beta-form]");
   if (!form) return;
 

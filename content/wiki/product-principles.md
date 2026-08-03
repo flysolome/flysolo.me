@@ -1,9 +1,8 @@
 ---
 title: "Product Principles"
+description: "The principles FlySolo uses to decide what to automate, integrate, and keep under human control."
 weight: 20
 ---
-
-# Product Principles
 
 - Automate before organize
 - AI drafts, humans approve

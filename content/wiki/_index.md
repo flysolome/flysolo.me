@@ -4,8 +4,6 @@ description: "Operating notes for the FlySolo product and workflow."
 bookCollapseSection: false
 ---
 
-# FlySolo Wiki
-
 FlySolo is the AI deal workflow for independent professionals. Otto is the AI agent inside FlySolo.
 
 ## Core Promise

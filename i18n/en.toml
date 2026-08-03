@@ -10,6 +10,9 @@ other = "Skip to main content"
 [nav_toggle]
 other = "Open navigation"
 
+[cookie_settings]
+other = "Cookie settings"
+
 [workflow_card_label]
 other = "Live opportunity"
 
@@ -903,6 +906,51 @@ other = "Start your trial month"
 
 [detail_cta_open]
 other = "Open FlySolo"
+
+[wiki_kicker]
+other = "Knowledge base"
+
+[wiki_browse]
+other = "Browse the wiki"
+
+[wiki_navigation]
+other = "Wiki navigation"
+
+[wiki_home]
+other = "Overview"
+
+[wiki_articles]
+other = "Guides"
+
+[wiki_articles_intro]
+other = "Product direction, operating principles, and the boundaries behind FlySolo."
+
+[wiki_search_label]
+other = "Search guides"
+
+[wiki_search_placeholder]
+other = "Search the wiki"
+
+[wiki_no_results]
+other = "No guides match that search."
+
+[wiki_guide]
+other = "Guide"
+
+[wiki_read_guide]
+other = "Read guide"
+
+[wiki_back]
+other = "Back to the wiki"
+
+[wiki_on_page]
+other = "On this page"
+
+[wiki_end]
+other = "End of guide"
+
+[wiki_all_articles]
+other = "Browse all guides"
 
 [join_back]
 other = "Back to FlySolo"

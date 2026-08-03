@@ -1,9 +1,8 @@
 ---
 title: "Productprincipes"
+description: "De principes waarmee FlySolo bepaalt wat het automatiseert, integreert en onder menselijke controle houdt."
 weight: 20
 ---
-
-# Productprincipes
 
 - Automatiseer voordat je organiseert
 - AI schrijft concepten, mensen keuren goed

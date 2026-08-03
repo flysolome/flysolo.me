@@ -73,6 +73,7 @@
         {{ range site.Menus.footer }}
         <a href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}
+        <button class="fs-footer__cookie" type="button" data-cookie-settings>{{ i18n "cookie_settings" }}</button>
       </nav>
     </div>
   </footer>

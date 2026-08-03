@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{ $wiki := site.GetPage "/wiki" }}
+{{ $toc := .TableOfContents }}
+<div class="fs-wiki-layout">
+  {{ partial "wiki-nav.html" . }}
+  <article class="fs-wiki-article">
+    <a class="fs-wiki-article__back" href="{{ $wiki.RelPermalink }}">{{ i18n "wiki_back" }}</a>
+    <header class="fs-wiki-article__header">
+      <p class="fs-kicker">{{ i18n "wiki_guide" }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    </header>
+    <div class="fs-wiki-content">
+      {{ .Content }}
+    </div>
+    <footer class="fs-wiki-article__footer">
+      <span>{{ i18n "wiki_end" }}</span>
+      <a href="{{ $wiki.RelPermalink }}">{{ i18n "wiki_all_articles" }}</a>
+    </footer>
+  </article>
+  {{ if strings.Contains $toc "<li>" }}
+    <aside class="fs-wiki-toc">
+      <p>{{ i18n "wiki_on_page" }}</p>
+      {{ $toc }}
+    </aside>
+  {{ end }}
+</div>
+{{ end }}

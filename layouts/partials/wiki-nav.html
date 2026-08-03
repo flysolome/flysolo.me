@@ -1,0 +1,26 @@
+{{ $current := . }}
+{{ $wiki := site.GetPage "/wiki" }}
+<details class="fs-wiki-mobile-nav">
+  <summary>{{ i18n "wiki_browse" }}</summary>
+  <nav aria-label="{{ i18n "wiki_navigation" }}">
+    <a href="{{ $wiki.RelPermalink }}"{{ if eq $current.RelPermalink $wiki.RelPermalink }} aria-current="page"{{ end }}>{{ i18n "wiki_home" }}</a>
+    {{ range $wiki.RegularPages.ByWeight }}
+      <a href="{{ .RelPermalink }}"{{ if eq $current.RelPermalink .RelPermalink }} aria-current="page"{{ end }}>{{ .Title }}</a>
+    {{ end }}
+  </nav>
+</details>
+
+<aside class="fs-wiki-sidebar">
+  <p>{{ i18n "wiki_browse" }}</p>
+  <nav aria-label="{{ i18n "wiki_navigation" }}">
+    <a href="{{ $wiki.RelPermalink }}"{{ if eq $current.RelPermalink $wiki.RelPermalink }} aria-current="page"{{ end }}>{{ i18n "wiki_home" }}</a>
+    {{ range $wiki.RegularPages.ByWeight }}
+      <a href="{{ .RelPermalink }}"{{ if eq $current.RelPermalink .RelPermalink }} aria-current="page"{{ end }}>{{ .Title }}</a>
+    {{ end }}
+  </nav>
+  <div class="fs-wiki-sidebar__language" aria-label="{{ i18n "language_label" }}">
+    {{ range $current.AllTranslations }}
+      <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}"{{ if eq .Language.Lang $current.Language.Lang }} aria-current="true"{{ end }}>{{ .Language.Label }}</a>
+    {{ end }}
+  </div>
+</aside>

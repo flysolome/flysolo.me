@@ -4,8 +4,6 @@ description: "De gedocumenteerde richting voor FlySolo na de huidige lead-to-dea
 weight: 20
 ---
 
-# FlySolo-roadmap
-
 FlySolo richt zich nu op de verbonden commerciële workflow van kans naar voorstel, prijsstelling, contract, ondertekening, factuuroverdracht en betaalcontext. Otto kan ook een ontvangen contract of clausule in gewone taal uitleggen.
 
 De mogelijkheden hieronder zijn gepland. De fasen geven een volgorde aan, geen leverdatum.

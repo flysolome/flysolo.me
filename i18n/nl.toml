@@ -10,6 +10,9 @@ other = "Ga naar de hoofdinhoud"
 [nav_toggle]
 other = "Navigatie openen"
 
+[cookie_settings]
+other = "Cookie-instellingen"
+
 [workflow_card_label]
 other = "Actuele opdracht"
 
@@ -903,6 +906,51 @@ other = "Start je proefmaand"
 
 [detail_cta_open]
 other = "Open FlySolo"
+
+[wiki_kicker]
+other = "Kennisbank"
+
+[wiki_browse]
+other = "Bekijk de wiki"
+
+[wiki_navigation]
+other = "Wikinavigatie"
+
+[wiki_home]
+other = "Overzicht"
+
+[wiki_articles]
+other = "Handleidingen"
+
+[wiki_articles_intro]
+other = "Productrichting, werkprincipes en de grenzen achter FlySolo."
+
+[wiki_search_label]
+other = "Zoek in handleidingen"
+
+[wiki_search_placeholder]
+other = "Zoek in de wiki"
+
+[wiki_no_results]
+other = "Geen handleidingen gevonden voor deze zoekopdracht."
+
+[wiki_guide]
+other = "Handleiding"
+
+[wiki_read_guide]
+other = "Lees handleiding"
+
+[wiki_back]
+other = "Terug naar de wiki"
+
+[wiki_on_page]
+other = "Op deze pagina"
+
+[wiki_end]
+other = "Einde van handleiding"
+
+[wiki_all_articles]
+other = "Bekijk alle handleidingen"
 
 [join_back]
 other = "Terug naar FlySolo"

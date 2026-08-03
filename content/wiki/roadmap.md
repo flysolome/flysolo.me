@@ -4,8 +4,6 @@ description: "The documented direction for FlySolo after the current lead-to-dea
 weight: 20
 ---
 
-# FlySolo Roadmap
-
 FlySolo currently focuses on the connected commercial workflow from opportunity to proposal, pricing, contract, signature, invoice handoff, and payment context. Otto can also explain a contract or clause you received in plain language.
 
 The capabilities below are planned. Phase labels communicate sequence, not delivery dates.
