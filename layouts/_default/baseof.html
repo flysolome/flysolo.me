@@ -15,12 +15,12 @@
   <meta property="og:title" content="{{ if .IsHome }}{{ i18n "site_meta_title" }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}">
   <meta property="og:description" content="{{ or .Description site.Params.description }}">
   <meta property="og:image" content="{{ "/images/flysolo.png" | absURL }}">
-  <meta property="og:image:width" content="900">
+  <meta property="og:image:width" content="898">
   <meta property="og:image:height" content="846">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:site_name" content="FlySolo">
   <meta property="og:locale" content="{{ .Language.Locale }}">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ if .IsHome }}{{ i18n "site_meta_title" }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}">
   <meta name="twitter:description" content="{{ or .Description site.Params.description }}">
   <meta name="twitter:image" content="{{ "/images/flysolo.png" | absURL }}">
@@ -36,8 +36,7 @@
     "description": {{ (or .Description site.Params.description) | jsonify | safeJS }},
     "offers": [
       {"@type": "Offer", "name": "Starter", "price": "19", "priceCurrency": "EUR"},
-      {"@type": "Offer", "name": "Professional", "price": "39", "priceCurrency": "EUR"},
-      {"@type": "Offer", "name": "Business", "price": "79", "priceCurrency": "EUR"}
+      {"@type": "Offer", "name": "Professional", "price": "39", "priceCurrency": "EUR"}
     ]
   }
   </script>
@@ -50,17 +49,22 @@
 <body class="page-{{ .Type | default .Kind }}">
   <a class="fs-skip-link" href="#main-content">{{ i18n "skip_to_content" }}</a>
   <header class="fs-nav">
-    <a class="fs-nav__brand" href="{{ if eq .Language.Lang "nl" }}/nl/{{ else }}/{{ end }}" aria-label="FlySolo home">
-      <img src="/images/flysolo-wordmark-light.svg" alt="FlySolo">
+    <a class="fs-nav__brand" href="{{ if eq .Language.Lang "nl" }}/nl/{{ else }}/{{ end }}" aria-label="{{ i18n "brand_home_label" }}">
+      <img src="/images/flysolo-wordmark-dotme-light.svg" alt="">
     </a>
     <button class="fs-nav__toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="{{ i18n "nav_toggle" }}" data-nav-toggle>
       <span></span><span></span><span></span>
     </button>
     {{ $currentPage := . }}
-    <nav class="fs-nav__links" id="primary-navigation" aria-label="Main" data-nav-menu>
+    <nav class="fs-nav__links" id="primary-navigation" aria-label="{{ i18n "nav_main_label" }}" data-nav-menu>
       {{ range site.Menus.main }}
-      <a href="{{ .URL }}"{{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+      <a{{ if eq .Weight 5 }} class="fs-nav__cta"{{ end }} href="{{ .URL }}"{{ if or ($currentPage.IsMenuCurrent "main" .) (eq $currentPage.RelPermalink .URL) }} aria-current="page"{{ end }}>{{ .Name }}</a>
       {{ end }}
+      <span class="fs-nav__language" role="group" aria-label="{{ i18n "language_label" }}">
+        {{ range .AllTranslations }}
+          <a href="{{ .RelPermalink }}?lang={{ .Language.Lang }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}"{{ if eq .Language.Lang $.Language.Lang }} aria-current="page"{{ end }}>{{ upper .Language.Lang }}</a>
+        {{ end }}
+      </span>
     </nav>
   </header>
   <main id="main-content" class="fs-main fs-main--{{ .Kind }}">
@@ -69,7 +73,7 @@
   <footer class="fs-footer">
     <div class="fs-shell">
       <span>FlySolo</span>
-      <nav aria-label="Footer">
+      <nav aria-label="{{ i18n "nav_footer_label" }}">
         {{ range site.Menus.footer }}
         <a href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}

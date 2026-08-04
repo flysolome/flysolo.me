@@ -1,6 +1,6 @@
 ---
 title: "FlySolo"
-description: "FlySolo maakt van een ruwe klantbriefing een voorstel, onderbouwd tarief, heldere scope en overeenkomst, terwijl jij de controle houdt."
+description: "FlySolo houdt elke klantaanvraag verbonden via voorstel, tarief, scope, contract, handtekening, factuuroverdracht en betaling."
 type: "landing"
 sitemap:
   priority: 1.0

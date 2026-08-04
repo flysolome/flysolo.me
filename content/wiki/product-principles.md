@@ -6,7 +6,7 @@ weight: 20
 
 - Automate before organize
 - AI drafts, humans approve
-- Every feature saves measurable time
+- Every feature must target measurable time savings
 - Integrate before building
 - Focus on lead-to-payment workflow
 - Never become accounting software

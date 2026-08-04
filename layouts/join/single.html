@@ -25,14 +25,14 @@
         </header>
 
         <div class="fs-form-panel">
-          <div class="fs-form-progress" aria-label="{{ i18n "join_progress_label" }}">
-            <span class="is-active" data-progress="1"><i>1</i>{{ i18n "join_step_1" }}</span>
-            <span data-progress="2"><i>2</i>{{ i18n "join_step_2" }}</span>
-          </div>
+          <ol class="fs-form-progress" aria-label="{{ i18n "join_progress_label" }}">
+            <li class="is-current" data-progress="1" aria-current="step"><i>1</i>{{ i18n "join_step_1" }}</li>
+            <li data-progress="2"><i>2</i>{{ i18n "join_step_2" }}</li>
+          </ol>
+          <p class="fs-form-error" data-form-error role="alert" tabindex="-1" hidden>{{ i18n "join_error" }}</p>
 
           <form class="fs-beta-form" action="/api/beta" method="post" data-beta-form>
             <input type="hidden" name="language" value="{{ .Language.Lang }}">
-            <input type="hidden" name="plan_interest" value="professional" data-plan-interest>
             <input type="hidden" name="started_at" value="" data-started-at>
             <div class="fs-honeypot" aria-hidden="true">
               <label for="website">Website</label>
@@ -40,7 +40,7 @@
             </div>
 
             <fieldset class="fs-form-step is-active" data-form-step="1">
-              <legend>{{ i18n "join_personal_legend" }}</legend>
+              <legend tabindex="-1">{{ i18n "join_personal_legend" }}</legend>
               <p>{{ i18n "join_personal_intro" }}</p>
               <div class="fs-field-grid">
                 <label class="fs-field fs-field--full">
@@ -51,14 +51,6 @@
                   <span>{{ i18n "join_email" }}</span>
                   <input name="email" type="email" autocomplete="email" maxlength="180" required>
                 </label>
-                <label class="fs-field">
-                  <span>{{ i18n "join_phone" }}</span>
-                  <input name="phone" type="tel" autocomplete="tel" maxlength="40">
-                </label>
-                <label class="fs-field fs-field--full">
-                  <span>{{ i18n "join_linkedin" }}</span>
-                  <input name="linkedin" type="url" inputmode="url" placeholder="https://linkedin.com/in/..." maxlength="240">
-                </label>
               </div>
               <div class="fs-form-actions">
                 <button class="fs-button fs-button--primary" type="button" data-next-step>{{ i18n "join_continue" }}</button>
@@ -66,34 +58,12 @@
             </fieldset>
 
             <fieldset class="fs-form-step" data-form-step="2">
-              <legend>{{ i18n "join_business_legend" }}</legend>
+              <legend tabindex="-1">{{ i18n "join_business_legend" }}</legend>
               <p>{{ i18n "join_business_intro" }}</p>
               <div class="fs-field-grid">
                 <label class="fs-field">
                   <span>{{ i18n "join_business_name" }}</span>
                   <input name="business_name" type="text" autocomplete="organization" minlength="2" maxlength="140" required>
-                </label>
-                <label class="fs-field">
-                  <span>{{ i18n "join_business_type" }}</span>
-                  <select name="business_type" required>
-                    <option value="">{{ i18n "join_select" }}</option>
-                    <option value="solo">{{ i18n "join_business_solo" }}</option>
-                    <option value="team">{{ i18n "join_business_team" }}</option>
-                    <option value="agency">{{ i18n "join_business_agency" }}</option>
-                  </select>
-                </label>
-                <label class="fs-field">
-                  <span>{{ i18n "join_specialty" }}</span>
-                  <input name="specialty" type="text" placeholder="{{ i18n "join_specialty_placeholder" }}" maxlength="140" required>
-                </label>
-                <label class="fs-field">
-                  <span>{{ i18n "join_country" }}</span>
-                  <select name="country" autocomplete="country-name" required>
-                    <option value="">{{ i18n "join_select" }}</option>
-                    <option value="NL">Nederland</option>
-                    <option value="BE">België / Belgium</option>
-                    <option value="Other">{{ i18n "join_country_other" }}</option>
-                  </select>
                 </label>
                 <label class="fs-field fs-field--full">
                   <span>{{ i18n "join_friction" }}</span>
@@ -106,13 +76,10 @@
                     <option value="invoice">{{ i18n "join_friction_invoice" }}</option>
                   </select>
                 </label>
-                <label class="fs-field fs-field--full">
-                  <span>{{ i18n "join_tools" }}</span>
-                  <input name="current_tools" type="text" placeholder="{{ i18n "join_tools_placeholder" }}" maxlength="240">
-                </label>
                 <label class="fs-field fs-field--full" id="workflow-notes">
                   <span>{{ i18n "join_trial_goal" }}</span>
                   <textarea name="trial_goal" rows="4" minlength="10" maxlength="1200" placeholder="{{ i18n "join_trial_goal_placeholder" }}" required></textarea>
+                  <small>{{ i18n "join_trial_goal_help" }}</small>
                 </label>
                 <label class="fs-consent fs-field--full">
                   <input name="consent" type="checkbox" value="yes" required>
@@ -123,7 +90,6 @@
                 <button class="fs-button fs-button--secondary" type="button" data-prev-step>{{ i18n "join_back_step" }}</button>
                 <button class="fs-button fs-button--primary" type="submit" data-submit-button data-submitting-label="{{ i18n "join_submitting" }}">{{ i18n "join_submit" }}</button>
               </div>
-              <p class="fs-form-error" data-form-error hidden>{{ i18n "join_error" }}</p>
             </fieldset>
           </form>
 

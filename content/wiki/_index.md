@@ -1,14 +1,14 @@
 ---
 title: "FlySolo Wiki"
-description: "Operating notes for the FlySolo product and workflow."
+description: "How FlySolo works today, what stays under your control, and what is planned next."
 bookCollapseSection: false
 ---
 
-FlySolo is the AI deal workflow for independent professionals. Otto is the AI agent inside FlySolo.
+FlySolo is the connected client-deal workflow for independent professionals. Otto is the AI agent inside FlySolo.
 
 ## Core Promise
 
-Otto helps turn a real lead into a proposal, defensible rate, scope check, contract-ready terms, e-signature, Moneybird invoice, and paid project.
+Otto keeps a real client request connected through proposal, rate, scope, contract-ready terms, e-signature, Moneybird invoice handoff, and payment tracking.
 
 ## Core Work
 
@@ -24,20 +24,19 @@ Otto helps turn a real lead into a proposal, defensible rate, scope check, contr
 
 - Otto-powered proposal generation
 - Otto-powered pricing suggestions and negotiation ranges
-- Scope and contract risk checks
-- End-to-end workflow
+- Scope checks and plain-language contract explanations
+- Connected request-to-payment workflow
 - Localized proposal and contract language where needed
 - Moneybird-ready invoice workflow
 
 ## Workflow Memory
 
-FlySolo works best when it starts with a real lead, rate guidance, proposal or client response, and a next step toward contract, signature, invoice, and payment.
+FlySolo works best when it starts with a real client request and keeps the approved decisions attached as the work moves toward contract, signature, invoice, and payment.
 
-Commercial memory makes the next workflow faster:
+The deal record keeps useful commercial context together:
 
-- Proposal follow-up reminders
-- Contract unsigned reminders
-- Invoice due and overdue reminders
-- Monthly rate review
-- Renewal proposal prompts
-- Scope creep and change request detection
+- The original brief and follow-up questions
+- Proposal versions and client responses
+- Approved rate, scope, assumptions, and exclusions
+- Contract explanation and signature status
+- Invoice handoff and payment context

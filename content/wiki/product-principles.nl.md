@@ -6,9 +6,9 @@ weight: 20
 
 - Automatiseer voordat je organiseert
 - AI schrijft concepten, mensen keuren goed
-- Elke feature bespaart meetbaar tijd
+- Elke functie moet gericht zijn op meetbare tijdwinst
 - Integreer voordat je bouwt
-- Focus op de lead-to-payment workflow
+- Focus op het proces van klantvraag tot betaling
 - Word nooit boekhoudsoftware
-- Gelokaliseerde uitvoering, global-ready architectuur
+- Lokale uitvoering, met een architectuur die internationaal kan meegroeien
 - Menselijke goedkeuring voordat iets wordt verstuurd

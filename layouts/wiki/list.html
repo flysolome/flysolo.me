@@ -14,21 +14,16 @@
       <h2 id="wiki-articles-title">{{ i18n "wiki_articles" }}</h2>
       <p>{{ i18n "wiki_articles_intro" }}</p>
     </header>
-    <div class="fs-wiki-search">
-      <label for="wiki-search">{{ i18n "wiki_search_label" }}</label>
-      <input id="wiki-search" type="search" placeholder="{{ i18n "wiki_search_placeholder" }}" autocomplete="off" data-wiki-search>
-    </div>
-    <div class="fs-wiki-index__grid" data-wiki-results>
+    <div class="fs-wiki-index__grid">
       {{ range .RegularPages.ByWeight }}
-        <article data-wiki-entry data-search="{{ printf "%s %s %s" .Title .Description .Plain | plainify }}">
+        <article>
           <span>{{ i18n "wiki_guide" }}</span>
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <h3>{{ .Title }}</h3>
           <p>{{ or .Description .Summary }}</p>
-          <a class="fs-wiki-index__read" href="{{ .RelPermalink }}">{{ i18n "wiki_read_guide" }}</a>
+          <a class="fs-wiki-index__read" href="{{ .RelPermalink }}" aria-label="{{ i18n "wiki_read_guide" }}: {{ .Title }}">{{ i18n "wiki_read_guide" }}</a>
         </article>
       {{ end }}
     </div>
-    <p class="fs-wiki-search__empty" data-wiki-empty hidden>{{ i18n "wiki_no_results" }}</p>
     {{ with .Content }}
       <div class="fs-wiki-index__about fs-wiki-content">{{ . }}</div>
     {{ end }}

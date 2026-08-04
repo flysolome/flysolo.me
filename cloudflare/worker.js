@@ -116,6 +116,7 @@ function shouldSkip(pathname) {
 }
 
 async function handleBetaApplication(request, env) {
+  const wantsJson = request.headers.get("Accept")?.includes("application/json") ?? false;
   if (request.method !== "POST") {
     return new Response("Method not allowed", {
       status: 405,
@@ -127,51 +128,40 @@ async function handleBetaApplication(request, env) {
   try {
     form = await request.formData();
   } catch {
-    return betaRedirect("en", "error");
+    return betaResult("en", "error", wantsJson, 400);
   }
 
   const language = formValue(form, "language") === "nl" ? "nl" : "en";
-  if (formValue(form, "website")) return betaRedirect(language, "submitted");
+  if (formValue(form, "website")) return betaResult(language, "submitted", wantsJson, 200);
 
-  const startedAt = Number(formValue(form, "started_at"));
-  const elapsed = Date.now() - startedAt;
-  if (!Number.isFinite(startedAt) || elapsed < 1500 || elapsed > 86_400_000) {
-    return betaRedirect(language, "error");
+  const startedAtValue = formValue(form, "started_at");
+  if (startedAtValue) {
+    const startedAt = Number(startedAtValue);
+    const elapsed = Date.now() - startedAt;
+    if (!Number.isFinite(startedAt) || elapsed < 1500 || elapsed > 86_400_000) {
+      return betaResult(language, "error", wantsJson, 400);
+    }
   }
 
   const application = {
     fullName: formValue(form, "full_name"),
     email: formValue(form, "email"),
-    phone: formValue(form, "phone"),
-    linkedin: formValue(form, "linkedin"),
     businessName: formValue(form, "business_name"),
-    businessType: formValue(form, "business_type"),
-    specialty: formValue(form, "specialty"),
-    country: formValue(form, "country"),
     biggestFriction: formValue(form, "biggest_friction"),
-    currentTools: formValue(form, "current_tools"),
     trialGoal: formValue(form, "trial_goal"),
-    planInterest: formValue(form, "plan_interest"),
     consent: formValue(form, "consent"),
   };
 
-  if (!isValidApplication(application)) return betaRedirect(language, "error");
+  if (!isValidApplication(application)) return betaResult(language, "error", wantsJson, 400);
 
   const body = [
     "New FlySolo trial application",
     "",
     `Name: ${application.fullName}`,
     `Email: ${application.email}`,
-    `Phone: ${application.phone || "Not provided"}`,
-    `LinkedIn: ${application.linkedin || "Not provided"}`,
     "",
     `Business: ${application.businessName}`,
-    `Business setup: ${application.businessType}`,
-    `Specialty: ${application.specialty}`,
-    `Country: ${application.country}`,
     `Biggest workflow friction: ${application.biggestFriction}`,
-    `Current tools: ${application.currentTools || "Not provided"}`,
-    `Plan interest: ${application.planInterest || "Professional"}`,
     "",
     "Trial goal:",
     application.trialGoal,
@@ -188,9 +178,9 @@ async function handleBetaApplication(request, env) {
       subject: "New FlySolo trial application",
       text: body,
     });
-    return betaRedirect(language, "submitted");
+    return betaResult(language, "submitted", wantsJson, 200);
   } catch {
-    return betaRedirect(language, "error");
+    return betaResult(language, "error", wantsJson, 502);
   }
 }
 
@@ -204,9 +194,6 @@ function isValidApplication(application) {
     application.fullName,
     application.email,
     application.businessName,
-    application.businessType,
-    application.specialty,
-    application.country,
     application.biggestFriction,
     application.trialGoal,
   ];
@@ -214,14 +201,14 @@ function isValidApplication(application) {
   if (application.consent !== "yes") return false;
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(application.email)) return false;
   if (application.fullName.length > 100 || application.email.length > 180) return false;
-  if (application.businessName.length > 140 || application.specialty.length > 140) return false;
-  if (application.phone.length > 40 || application.linkedin.length > 240) return false;
-  if (application.currentTools.length > 240 || application.trialGoal.length > 1200) return false;
-  if (!["starter", "professional", "business"].includes(application.planInterest)) return false;
+  if (application.businessName.length > 140 || application.trialGoal.length > 1200) return false;
   return !/[\r\n]/.test(application.email);
 }
 
-function betaRedirect(language, state) {
+function betaResult(language, state, wantsJson, status) {
+  if (wantsJson) {
+    return Response.json({ ok: state === "submitted" }, { status });
+  }
   const path = language === "nl" ? "/nl/join/" : "/join/";
   return Response.redirect(`https://flysolo.me${path}?${state}=1`, 303);
 }

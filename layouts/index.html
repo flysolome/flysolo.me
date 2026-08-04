@@ -5,169 +5,62 @@
 {{ $productURL := cond (eq .Language.Lang "nl") "/nl/product/" "/product/" }}
 {{ $pricingURL := cond (eq .Language.Lang "nl") "/nl/pricing/" "/pricing/" }}
 {{ $securityURL := cond (eq .Language.Lang "nl") "/nl/security/" "/security/" }}
-{{ $roadmapURL := cond (eq .Language.Lang "nl") "/nl/wiki/roadmap/" "/wiki/roadmap/" }}
 <div class="fs-site fs-home">
   <section class="fs-home-hero" id="home">
     <div class="fs-shell fs-home-hero__inner">
-      <div class="fs-home-lang" aria-label="{{ i18n "language_label" }}">
-        {{ range .AllTranslations }}
-          <a href="{{ .RelPermalink }}?lang={{ .Language.Lang }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}"{{ if eq .Language.Lang $.Language.Lang }} aria-current="page"{{ end }}>{{ .Language.Label }}</a>
-        {{ end }}
-      </div>
       <p class="fs-kicker">{{ i18n "home_hero_eyebrow" }}</p>
       <h1>{{ i18n "home_hero_title" }}</h1>
       <p class="fs-home-hero__lead">{{ i18n "home_hero_lead" }}</p>
       <div class="fs-actions fs-actions--center">
         <a class="fs-button fs-button--primary" href="{{ $joinURL }}">{{ i18n "home_hero_start" }}</a>
-        <a class="fs-button fs-button--quiet" href="https://app.flysolo.me">{{ i18n "home_hero_open" }}</a>
       </div>
       <p class="fs-home-hero__note">{{ i18n "home_hero_note" }}</p>
     </div>
   </section>
 
-  <section class="fs-home-flow" aria-label="{{ i18n "home_flow_label" }}">
-    <div class="fs-shell fs-home-flow__grid">
-      <article>
-        <span>{{ i18n "home_flow_request_label" }}</span>
-        <strong>{{ i18n "home_flow_request_title" }}</strong>
-        <p>{{ i18n "home_flow_request_body" }}</p>
-      </article>
-      <div class="fs-home-flow__otto" aria-label="Otto">
-        <img src="/images/flysolo-icon-gradient.svg" alt="">
-        <span>{{ i18n "home_flow_otto" }}</span>
-      </div>
-      <article>
-        <span>{{ i18n "home_flow_output_label" }}</span>
-        <strong>{{ i18n "home_flow_output_title" }}</strong>
-        <p>{{ i18n "home_flow_output_body" }}</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="fs-home-section fs-home-outcomes" id="product">
-    <div class="fs-shell">
-      <div class="fs-home-heading">
-        <p class="fs-kicker">{{ i18n "home_outcomes_kicker" }}</p>
-        <h2>{{ i18n "home_outcomes_title" }}</h2>
-      </div>
-      <div class="fs-home-outcomes__grid">
-        <article>
-          <span>01</span>
-          <h3>{{ i18n "home_outcome_1_title" }}</h3>
-          <p>{{ i18n "home_outcome_1_body" }}</p>
-        </article>
-        <article>
-          <span>02</span>
-          <h3>{{ i18n "home_outcome_2_title" }}</h3>
-          <p>{{ i18n "home_outcome_2_body" }}</p>
-        </article>
-        <article>
-          <span>03</span>
-          <h3>{{ i18n "home_outcome_3_title" }}</h3>
-          <p>{{ i18n "home_outcome_3_body" }}</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="fs-home-section fs-home-tour" id="tour">
+  <section class="fs-home-section fs-home-example" id="product">
     <div class="fs-shell">
       <div class="fs-home-heading fs-home-heading--center">
-        <p class="fs-kicker">{{ i18n "home_tour_kicker" }}</p>
-        <h2>{{ i18n "home_tour_title" }}</h2>
-        <p>{{ i18n "home_tour_intro" }}</p>
+        <p class="fs-kicker">{{ i18n "home_example_kicker" }}</p>
+        <h2>{{ i18n "home_example_title" }}</h2>
+        <p>{{ i18n "home_example_intro" }}</p>
       </div>
 
-      <div class="fs-tour" data-tabs>
-        <div class="fs-tour__tabs" role="tablist" aria-label="{{ i18n "home_tour_tabs_label" }}">
-          <button type="button" role="tab" id="tour-tab-qualify" aria-controls="tour-panel-qualify" aria-selected="true" tabindex="0" data-tab="qualify">{{ i18n "home_tour_tab_1" }}</button>
-          <button type="button" role="tab" id="tour-tab-propose" aria-controls="tour-panel-propose" aria-selected="false" tabindex="-1" data-tab="propose">{{ i18n "home_tour_tab_2" }}</button>
-          <button type="button" role="tab" id="tour-tab-close" aria-controls="tour-panel-close" aria-selected="false" tabindex="-1" data-tab="close">{{ i18n "home_tour_tab_3" }}</button>
+      <div class="fs-worked-example">
+        <article class="fs-worked-example__brief">
+          <header><span>01</span><strong>{{ i18n "home_example_brief_label" }}</strong></header>
+          <blockquote>{{ i18n "brief_message" }}</blockquote>
+        </article>
+
+        <div class="fs-worked-example__handoff" aria-label="Otto">
+          <img src="/images/flysolo-icon-gradient.svg" alt="">
+          <span>{{ i18n "home_example_handoff" }}</span>
         </div>
 
-        <div class="fs-tour__panel" role="tabpanel" id="tour-panel-qualify" aria-labelledby="tour-tab-qualify" data-tab-panel="qualify">
-          <div class="fs-tour__copy">
-            <span>01</span>
-            <h3>{{ i18n "home_tour_1_title" }}</h3>
-            <p>{{ i18n "home_tour_1_body" }}</p>
-            <ul>
-              <li>{{ i18n "home_tour_1_output_1" }}</li>
-              <li>{{ i18n "home_tour_1_output_2" }}</li>
-              <li>{{ i18n "home_tour_1_output_3" }}</li>
-            </ul>
+        <article class="fs-worked-example__result">
+          <header><span>02</span><strong>{{ i18n "home_example_result_label" }}</strong></header>
+          <h3>{{ i18n "home_flow_output_title" }}</h3>
+          <ul class="fs-worked-example__questions">
+            <li>{{ i18n "brief_gap_1" }}</li>
+            <li>{{ i18n "brief_gap_2" }}</li>
+            <li>{{ i18n "brief_gap_3" }}</li>
+          </ul>
+          <div class="fs-worked-example__proposal">
+            <strong>{{ i18n "home_example_proposal_label" }}</strong>
+            <p>{{ i18n "approval_document_body" }}</p>
+            <p>{{ i18n "approval_change_body" }}</p>
           </div>
-          {{ if fileExists "static/images/product/qualify.webp" }}
-            <figure class="fs-tour__media"><img src="/images/product/qualify.webp" alt="{{ i18n "home_tour_1_alt" }}" loading="lazy"></figure>
-          {{ else }}
-            <div class="fs-tour__proof" aria-label="{{ i18n "home_tour_outputs_label" }}">
-              <span>{{ i18n "home_tour_1_proof_1" }}</span>
-              <span>{{ i18n "home_tour_1_proof_2" }}</span>
-              <span>{{ i18n "home_tour_1_proof_3" }}</span>
-            </div>
-          {{ end }}
-        </div>
-
-        <div class="fs-tour__panel" role="tabpanel" id="tour-panel-propose" aria-labelledby="tour-tab-propose" data-tab-panel="propose" hidden>
-          <div class="fs-tour__copy">
-            <span>02</span>
-            <h3>{{ i18n "home_tour_2_title" }}</h3>
-            <p>{{ i18n "home_tour_2_body" }}</p>
-            <ul>
-              <li>{{ i18n "home_tour_2_output_1" }}</li>
-              <li>{{ i18n "home_tour_2_output_2" }}</li>
-              <li>{{ i18n "home_tour_2_output_3" }}</li>
-            </ul>
+          <div class="fs-worked-example__responsibility">
+            <div><strong>{{ i18n "home_responsibility_otto_title" }}</strong><span>{{ i18n "home_responsibility_otto_body" }}</span></div>
+            <div><strong>{{ i18n "home_responsibility_you_title" }}</strong><span>{{ i18n "home_responsibility_you_body" }}</span></div>
+            <div><strong>{{ i18n "home_responsibility_record_title" }}</strong><span>{{ i18n "home_responsibility_record_body" }}</span></div>
           </div>
-          {{ if fileExists "static/images/product/propose.webp" }}
-            <figure class="fs-tour__media"><img src="/images/product/propose.webp" alt="{{ i18n "home_tour_2_alt" }}" loading="lazy"></figure>
-          {{ else }}
-            <div class="fs-tour__proof" aria-label="{{ i18n "home_tour_outputs_label" }}">
-              <span>{{ i18n "home_tour_2_proof_1" }}</span>
-              <span>{{ i18n "home_tour_2_proof_2" }}</span>
-              <span>{{ i18n "home_tour_2_proof_3" }}</span>
-            </div>
-          {{ end }}
-        </div>
-
-        <div class="fs-tour__panel" role="tabpanel" id="tour-panel-close" aria-labelledby="tour-tab-close" data-tab-panel="close" hidden>
-          <div class="fs-tour__copy">
-            <span>03</span>
-            <h3>{{ i18n "home_tour_3_title" }}</h3>
-            <p>{{ i18n "home_tour_3_body" }}</p>
-            <ul>
-              <li>{{ i18n "home_tour_3_output_1" }}</li>
-              <li>{{ i18n "home_tour_3_output_2" }}</li>
-              <li>{{ i18n "home_tour_3_output_3" }}</li>
-            </ul>
-          </div>
-          {{ if fileExists "static/images/product/close.webp" }}
-            <figure class="fs-tour__media"><img src="/images/product/close.webp" alt="{{ i18n "home_tour_3_alt" }}" loading="lazy"></figure>
-          {{ else }}
-            <div class="fs-tour__proof" aria-label="{{ i18n "home_tour_outputs_label" }}">
-              <span>{{ i18n "home_tour_3_proof_1" }}</span>
-              <span>{{ i18n "home_tour_3_proof_2" }}</span>
-              <span>{{ i18n "home_tour_3_proof_3" }}</span>
-            </div>
-          {{ end }}
-        </div>
+        </article>
       </div>
-      <p class="fs-home-more"><a href="{{ $productURL }}">{{ i18n "home_tour_more" }}</a></p>
-    </div>
-  </section>
-
-  <section class="fs-home-section fs-home-control" id="control">
-    <div class="fs-shell fs-home-control__grid">
-      <div>
-        <p class="fs-kicker">{{ i18n "home_control_kicker" }}</p>
-        <h2>{{ i18n "home_control_title" }}</h2>
-        <p class="fs-home-control__lead">{{ i18n "home_control_body" }}</p>
-        <a class="fs-text-link" href="{{ $securityURL }}">{{ i18n "home_control_more" }}</a>
-      </div>
-      <div class="fs-home-control__points">
-        <article><span>01</span><div><h3>{{ i18n "home_control_1_title" }}</h3><p>{{ i18n "home_control_1_body" }}</p></div></article>
-        <article><span>02</span><div><h3>{{ i18n "home_control_2_title" }}</h3><p>{{ i18n "home_control_2_body" }}</p></div></article>
-        <article><span>03</span><div><h3>{{ i18n "home_control_3_title" }}</h3><p>{{ i18n "home_control_3_body" }}</p></div></article>
-      </div>
+      <p class="fs-home-more fs-home-more--split">
+        <a href="{{ $productURL }}">{{ i18n "home_tour_more" }}</a>
+        <a href="{{ $securityURL }}">{{ i18n "home_control_more" }}</a>
+      </p>
     </div>
   </section>
 
@@ -182,39 +75,6 @@
         <strong>€19<small>{{ i18n "home_price_period" }}</small></strong>
         <a class="fs-button fs-button--quiet" href="{{ $pricingURL }}">{{ i18n "home_price_more" }}</a>
       </div>
-    </div>
-  </section>
-
-  <section class="fs-home-section fs-home-roadmap" id="roadmap">
-    <div class="fs-shell">
-      <div class="fs-home-heading">
-        <p class="fs-kicker">{{ i18n "home_roadmap_kicker" }}</p>
-        <h2>{{ i18n "home_roadmap_title" }}</h2>
-        <p>{{ i18n "home_roadmap_intro" }}</p>
-      </div>
-      <div class="fs-home-roadmap__grid">
-        <article>
-          <span>{{ i18n "home_roadmap_phase_2" }}</span>
-          <h3>{{ i18n "home_roadmap_1_title" }}</h3>
-          <p>{{ i18n "home_roadmap_1_body" }}</p>
-        </article>
-        <article>
-          <span>{{ i18n "home_roadmap_phase_3" }}</span>
-          <h3>{{ i18n "home_roadmap_2_title" }}</h3>
-          <p>{{ i18n "home_roadmap_2_body" }}</p>
-        </article>
-        <article>
-          <span>{{ i18n "home_roadmap_phase_4" }}</span>
-          <h3>{{ i18n "home_roadmap_3_title" }}</h3>
-          <p>{{ i18n "home_roadmap_3_body" }}</p>
-        </article>
-        <article>
-          <span>{{ i18n "home_roadmap_phase_5" }}</span>
-          <h3>{{ i18n "home_roadmap_4_title" }}</h3>
-          <p>{{ i18n "home_roadmap_4_body" }}</p>
-        </article>
-      </div>
-      <a class="fs-text-link fs-home-roadmap__link" href="{{ $roadmapURL }}">{{ i18n "home_roadmap_more" }}</a>
     </div>
   </section>
 

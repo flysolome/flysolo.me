@@ -3,7 +3,7 @@
 
 <script>
   tarteaucitron.init({
-    "privacyUrl": "https://flysolo.me/privacy-policy/",
+    "privacyUrl": "{{ if eq .Language.Lang "nl" }}https://flysolo.me/nl/privacy-policy/{{ else }}https://flysolo.me/privacy-policy/{{ end }}",
     "bodyPosition": "top",
 
     "hashtag": "#tarteaucitron",

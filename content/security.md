@@ -1,6 +1,6 @@
 ---
-title: "Security and control"
-description: "How FlySolo keeps client-facing actions behind human approval, makes commercial decisions traceable, and fits into a European toolchain."
+title: "Control and data boundaries"
+description: "Who approves client-facing actions, what FlySolo records, and where specialist systems and professional advisers remain responsible."
 type: "marketing"
 eyebrow: "Trust is part of the workflow"
 ---
@@ -24,7 +24,7 @@ A rate, scope boundary, or contract term should not disappear into a chat transc
 
 ## European data handling
 
-FlySolo is designed around EU-region infrastructure and European privacy expectations. Product scope, retention, access controls, and integrations are treated as operational design decisions rather than left to individual prompts.
+FlySolo is designed around EU-region infrastructure and European privacy expectations.
 
 ## Integrations keep their boundaries
 

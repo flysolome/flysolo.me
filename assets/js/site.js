@@ -4,9 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const navToggle = document.querySelector("[data-nav-toggle]");
   const navMenu = document.querySelector("[data-nav-menu]");
 
-  const closeNavigation = () => {
+  const closeNavigation = (returnFocus = false) => {
     navToggle?.setAttribute("aria-expanded", "false");
     navMenu?.classList.remove("is-open");
+    if (returnFocus) navToggle?.focus();
   };
 
   navToggle?.addEventListener("click", () => {
@@ -14,45 +15,16 @@ document.addEventListener("DOMContentLoaded", () => {
     navToggle.setAttribute("aria-expanded", String(open));
     navMenu?.classList.toggle("is-open", open);
   });
-  navMenu?.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeNavigation));
+  navMenu?.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => closeNavigation()));
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") closeNavigation();
-  });
-
-  document.querySelectorAll("[data-tabs]").forEach((tabsRoot) => {
-    const tabs = [...tabsRoot.querySelectorAll('[role="tab"]')];
-    const panels = [...tabsRoot.querySelectorAll('[role="tabpanel"]')];
-
-    const selectTab = (nextTab, moveFocus = false) => {
-      tabs.forEach((tab) => {
-        const selected = tab === nextTab;
-        tab.setAttribute("aria-selected", String(selected));
-        tab.tabIndex = selected ? 0 : -1;
-      });
-      panels.forEach((panel) => {
-        panel.hidden = panel.dataset.tabPanel !== nextTab.dataset.tab;
-      });
-      if (moveFocus) nextTab.focus();
-    };
-
-    tabs.forEach((tab, index) => {
-      tab.addEventListener("click", () => selectTab(tab));
-      tab.addEventListener("keydown", (event) => {
-        let nextIndex;
-        if (event.key === "ArrowRight") nextIndex = (index + 1) % tabs.length;
-        if (event.key === "ArrowLeft") nextIndex = (index - 1 + tabs.length) % tabs.length;
-        if (event.key === "Home") nextIndex = 0;
-        if (event.key === "End") nextIndex = tabs.length - 1;
-        if (nextIndex === undefined) return;
-        event.preventDefault();
-        selectTab(tabs[nextIndex], true);
-      });
-    });
+    if (event.key === "Escape" && navToggle?.getAttribute("aria-expanded") === "true") {
+      closeNavigation(true);
+    }
   });
 
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   const revealTargets = document.querySelectorAll(
-    ".fs-home-heading, .fs-home-flow, .fs-home-outcomes__grid, .fs-tour, .fs-home-control__points, .fs-home-price__inner, .fs-home-roadmap__grid, .fs-home-final .fs-shell"
+    ".fs-home-heading, .fs-worked-example, .fs-home-price__inner, .fs-home-final .fs-shell"
   );
 
   if ("IntersectionObserver" in window && !reducedMotion.matches) {
@@ -69,23 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
     );
     revealTargets.forEach((target) => revealObserver.observe(target));
   }
-
-  document.querySelectorAll("[data-wiki-search]").forEach((search) => {
-    const entries = [...document.querySelectorAll("[data-wiki-entry]")];
-    const emptyState = document.querySelector("[data-wiki-empty]");
-    const normalize = (value) => value.toLocaleLowerCase().trim();
-
-    search.addEventListener("input", () => {
-      const query = normalize(search.value);
-      let visibleCount = 0;
-      entries.forEach((entry) => {
-        const visible = !query || normalize(entry.dataset.search || "").includes(query);
-        entry.hidden = !visible;
-        if (visible) visibleCount += 1;
-      });
-      if (emptyState) emptyState.hidden = visibleCount !== 0;
-    });
-  });
 
   document.querySelectorAll("[data-cookie-settings]").forEach((button) => {
     button.addEventListener("click", () => {
@@ -104,8 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const steps = [...form.querySelectorAll("[data-form-step]")];
   const progress = [...document.querySelectorAll("[data-progress]")];
   const success = document.querySelector("[data-form-success]");
-  const error = form.querySelector("[data-form-error]");
-  const planInterest = form.querySelector("[data-plan-interest]");
+  const error = document.querySelector("[data-form-error]");
   let currentStep = 1;
 
   if (startedAt) startedAt.value = String(Date.now());
@@ -118,7 +72,11 @@ document.addEventListener("DOMContentLoaded", () => {
       item.toggleAttribute("hidden", !active);
     });
     progress.forEach((item) => {
-      item.classList.toggle("is-active", Number(item.dataset.progress) <= step);
+      const itemStep = Number(item.dataset.progress);
+      item.classList.toggle("is-current", itemStep === step);
+      item.classList.toggle("is-complete", itemStep < step);
+      if (itemStep === step) item.setAttribute("aria-current", "step");
+      else item.removeAttribute("aria-current");
     });
     steps.find((item) => Number(item.dataset.formStep) === step)?.querySelector("legend")?.focus?.();
   };
@@ -140,26 +98,50 @@ document.addEventListener("DOMContentLoaded", () => {
     if (stepIsValid(currentStep)) showStep(2);
   });
   form.querySelector("[data-prev-step]")?.addEventListener("click", () => showStep(1));
-  form.addEventListener("submit", () => {
+  form.addEventListener("submit", async (event) => {
     const submit = form.querySelector("[data-submit-button]");
     if (!submit || !form.checkValidity()) return;
+    event.preventDefault();
+    const submitLabel = submit.textContent;
     submit.disabled = true;
     submit.textContent = submit.dataset.submittingLabel;
     form.setAttribute("aria-busy", "true");
+    if (error) error.hidden = true;
+
+    try {
+      const response = await fetch(form.action, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" },
+      });
+      if (!response.ok) throw new Error("application_not_sent");
+      form.hidden = true;
+      document.querySelector(".fs-form-progress")?.setAttribute("hidden", "");
+      if (success) {
+        success.hidden = false;
+        success.focus();
+      }
+    } catch {
+      submit.disabled = false;
+      submit.textContent = submitLabel;
+      form.removeAttribute("aria-busy");
+      if (error) {
+        error.hidden = false;
+        error.focus();
+      }
+    }
   });
 
   const params = new URLSearchParams(window.location.search);
-  if (planInterest && ["starter", "professional", "business"].includes(params.get("plan"))) {
-    planInterest.value = params.get("plan");
-  }
   if (params.get("submitted") === "1" && success) {
     form.hidden = true;
     document.querySelector(".fs-form-progress")?.setAttribute("hidden", "");
     success.hidden = false;
     success.focus();
   } else if (params.get("error") === "1" && error) {
-    showStep(2);
+    showStep(1);
     error.hidden = false;
+    error.focus();
   } else {
     showStep(1);
   }

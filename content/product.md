@@ -1,19 +1,25 @@
 ---
 title: "Product"
-description: "A closer look at how FlySolo carries one client request through qualification, proposal, pricing, agreement, signature, invoice handoff, and payment follow-up."
+description: "See how one rough brief becomes clear scope, an explainable price, a sendable proposal, and approved terms."
 type: "marketing"
 eyebrow: "The connected deal workflow"
 ---
 
-## One opportunity, one commercial record
+## Keep one client request connected from first reply to payment
 
-A client request rarely arrives complete. It starts as a recruiter message, an email thread, or notes from a call. FlySolo turns that material into an opportunity that keeps the commercial decisions together as the deal develops.
+A client request rarely arrives complete. It starts as an email, a short project brief, or notes from a call. FlySolo turns that material into an opportunity that keeps the commercial decisions together as the deal develops.
+
+## Clear responsibilities
+
+- **Otto prepares:** missing-information questions, proposal drafts, pricing rationale, and plain-language explanations.
+- **You decide:** price, scope, promises, edits, what reaches the client, and when professional advice is needed.
+- **Specialist systems remain responsible:** Moneybird handles accounting; your legal adviser provides legal advice; Google and Microsoft continue to handle their own documents and communication.
 
 ### 1. Qualify what actually arrived
 
 Paste or capture the brief. Otto identifies missing scope, unclear stakeholders, delivery risk, and the questions worth answering before you invest in a proposal.
 
-- Opportunity summary and qualification score
+- Structured summary of the request
 - Missing information and focused follow-up questions
 - Client, contact, timeline, budget, and decision context
 
@@ -23,7 +29,7 @@ Once the opportunity is clear enough, prepare the proposal without recreating th
 
 - Proposal structure and client-ready draft
 - Explicit deliverables, assumptions, and exclusions
-- Version history and your approval before sending
+- Version history attached to the opportunity
 
 ### 3. Make the rate explainable
 
@@ -43,7 +49,7 @@ Upload a received contract as a PDF or text file, or paste the clause you want t
 
 ### 5. Carry approved terms into the agreement
 
-When the client says yes, the accepted scope and terms should not be typed again from memory. FlySolo prepares the agreement from the approved deal context and keeps client-facing actions behind an approval gate.
+When the client says yes, the accepted scope and terms should not be typed again from memory. FlySolo prepares the agreement from the approved deal context.
 
 - Agreement draft based on accepted terms
 - Review before signature requests are sent
@@ -51,15 +57,11 @@ When the client says yes, the accepted scope and terms should not be typed again
 
 ### 6. Hand off cleanly to invoicing
 
-FlySolo is the commercial front office, not your accounting package. After signing, invoice preparation and payment status stay connected to the deal while Moneybird remains the accounting destination.
+FlySolo prepares the invoice handoff; Moneybird remains your accounting system. After signing, invoice preparation and payment status stay connected to the deal without rebuilding the context.
 
 - Moneybird invoice handoff
 - Payment status and follow-up context
 - No attempt to replace bookkeeping, payroll, or tax software
-
-## Where Otto helps
-
-Otto reads the commercial context, finds gaps, prepares drafts, and suggests next actions. It does not decide what you promise, what you charge, or what reaches a client. Those decisions remain yours.
 
 ## Tools around the workflow
 

@@ -1,6 +1,6 @@
 ---
-title: "Beveiliging en controle"
-description: "Hoe FlySolo acties richting de klant achter menselijk akkoord houdt, commerciële beslissingen terugvindbaar maakt en in een Europese toolketen past."
+title: "Controle en gegevensgrenzen"
+description: "Wie acties richting de klant goedkeurt, wat FlySolo vastlegt en waar specialistische systemen en professionele adviseurs verantwoordelijk blijven."
 type: "marketing"
 eyebrow: "Vertrouwen hoort in de workflow"
 ---
@@ -24,7 +24,7 @@ Een tarief, scopegrens of contractvoorwaarde hoort niet te verdwijnen in een cha
 
 ## Europese gegevensverwerking
 
-FlySolo is ontworpen rond infrastructuur in een EU-regio en Europese privacyverwachtingen. Productscope, bewaartermijnen, toegangscontrole en koppelingen worden behandeld als operationele ontwerpbeslissingen en niet overgelaten aan losse prompts.
+FlySolo is ontworpen rond infrastructuur in een EU-regio en Europese privacyverwachtingen.
 
 ## Koppelingen behouden hun grens
 

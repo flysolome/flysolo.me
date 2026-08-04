@@ -18,9 +18,4 @@
       <a href="{{ .RelPermalink }}"{{ if eq $current.RelPermalink .RelPermalink }} aria-current="page"{{ end }}>{{ .Title }}</a>
     {{ end }}
   </nav>
-  <div class="fs-wiki-sidebar__language" aria-label="{{ i18n "language_label" }}">
-    {{ range $current.AllTranslations }}
-      <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}"{{ if eq .Language.Lang $current.Language.Lang }} aria-current="true"{{ end }}>{{ .Language.Label }}</a>
-    {{ end }}
-  </div>
 </aside>

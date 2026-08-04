@@ -1,19 +1,25 @@
 ---
 title: "Product"
-description: "Bekijk hoe FlySolo één klantaanvraag meeneemt door kwalificatie, voorstel, prijsstelling, overeenkomst, ondertekening, factuuroverdracht en betaalopvolging."
+description: "Bekijk hoe een ruwe briefing verandert in een heldere afbakening, een onderbouwd tarief, een verstuurbaar voorstel en goedgekeurde voorwaarden."
 type: "marketing"
-eyebrow: "De verbonden dealworkflow"
+eyebrow: "Van klantvraag tot betaling"
 ---
 
-## Eén kans, één commercieel dossier
+## Volg één klantaanvraag van eerste reactie tot betaling
 
-Een klantaanvraag komt zelden compleet binnen. Het begint met een recruiterbericht, een e-mailwisseling of notities uit een gesprek. FlySolo maakt van dat materiaal een kans waarin de commerciële beslissingen bij elkaar blijven terwijl de deal zich ontwikkelt.
+Een klantaanvraag komt zelden compleet binnen. Het begint met een e-mail, een korte projectbriefing of notities uit een gesprek. FlySolo maakt daar een opdracht van waarin commerciële beslissingen bij elkaar blijven terwijl het klantproces verdergaat.
 
-### 1. Kwalificeer wat er echt binnenkwam
+## Heldere verantwoordelijkheden
 
-Plak of leg de briefing vast. Otto vindt ontbrekende scope, onduidelijke stakeholders, leveringsrisico en de vragen die je wilt beantwoorden voordat je tijd in een voorstel steekt.
+- **Otto bereidt voor:** vragen over ontbrekende informatie, voorstelconcepten, tariefonderbouwing en uitleg in gewone taal.
+- **Jij beslist:** prijs, afbakening, beloftes, wijzigingen, wat de klant ontvangt en wanneer professioneel advies nodig is.
+- **Specialistische systemen blijven verantwoordelijk:** Moneybird verzorgt de boekhouding; je juridisch adviseur geeft juridisch advies; Google en Microsoft blijven hun eigen documenten en communicatie verwerken.
 
-- Samenvatting en kwalificatiescore van de kans
+### 1. Breng de klantvraag in kaart
+
+Plak of leg de briefing vast. Otto vindt ontbrekende afbakening, onduidelijke beslissers, leveringsrisico en de vragen die je wilt beantwoorden voordat je tijd in een voorstel steekt.
+
+- Gestructureerd overzicht van de klantvraag
 - Ontbrekende informatie en gerichte vervolgvragen
 - Context over klant, contact, planning, budget en beslissers
 
@@ -23,13 +29,13 @@ Zodra de kans helder genoeg is, maak je het voorstel zonder het verhaal in een a
 
 - Structuur en klantklaar conceptvoorstel
 - Expliciete resultaten, aannames en uitsluitingen
-- Versiegeschiedenis en jouw akkoord vóór verzending
+- Versiegeschiedenis gekoppeld aan de opdracht
 
-### 3. Maak het tarief uitlegbaar
+### 3. Onderbouw je tarief
 
-FlySolo behandelt prijsstelling als een beslissing, niet als een los getal. Otto kan een range en onderbouwing voorbereiden vanuit de opdracht, jouw positionering, risico en de commerciële context die je hebt vastgelegd.
+FlySolo behandelt prijsstelling als een beslissing, niet als een los getal. Otto kan een bandbreedte en onderbouwing voorbereiden vanuit de opdracht, jouw positionering, risico en de commerciële context die je hebt vastgelegd.
 
-- Uur- of dagtariefrange
+- Bandbreedte voor uur- of dagtarief
 - Onderbouwing voor het tariefgesprek
 - Een zichtbaar dossier van de beslissing die jij goedkeurde
 
@@ -43,7 +49,7 @@ Upload een ontvangen contract als pdf- of tekstbestand, of plak de clausule die 
 
 ### 5. Neem goedgekeurde voorwaarden mee naar de overeenkomst
 
-Wanneer de klant akkoord gaat, wil je de geaccepteerde scope en voorwaarden niet opnieuw uit je hoofd invoeren. FlySolo bereidt de overeenkomst voor vanuit de goedgekeurde dealcontext en houdt acties richting de klant achter een akkoordmoment.
+Wanneer de klant akkoord gaat, wil je de geaccepteerde afbakening en voorwaarden niet opnieuw uit je hoofd invoeren. FlySolo bereidt de overeenkomst voor vanuit de goedgekeurde informatie over de opdracht.
 
 - Conceptovereenkomst op basis van geaccepteerde voorwaarden
 - Review voordat een ondertekenverzoek wordt verstuurd
@@ -51,16 +57,12 @@ Wanneer de klant akkoord gaat, wil je de geaccepteerde scope en voorwaarden niet
 
 ### 6. Draag netjes over naar facturatie
 
-FlySolo is je commerciële frontoffice, niet je boekhoudpakket. Na ondertekening blijven factuurvoorbereiding en betaalstatus verbonden met de deal, terwijl Moneybird de boekhoudkundige bestemming blijft.
+FlySolo bereidt de factuuroverdracht voor; Moneybird blijft je boekhoudsysteem. Na ondertekening blijven factuurvoorbereiding en betaalstatus bij de opdracht zonder dat je de informatie opnieuw invoert.
 
 - Overdracht van de factuur naar Moneybird
 - Betaalstatus en context voor opvolging
 - Geen poging om boekhouding, salarisadministratie of belastingsoftware te vervangen
 
-## Waar Otto helpt
+## Hulpmiddelen rond de opdracht
 
-Otto leest de commerciële context, vindt gaten, bereidt concepten voor en stelt volgende acties voor. Otto bepaalt niet wat jij belooft, wat je rekent of wat een klant ontvangt. Die beslissingen blijven van jou.
-
-## Tools rond de workflow
-
-FlySolo is ontworpen voor koppelingen met Google Workspace, Microsoft 365 en Moneybird. Het doel is de deal samenhangend te houden terwijl de specialistische tools die je al gebruikt hun eigen werk blijven doen.
+FlySolo is ontworpen voor koppelingen met Google Workspace, Microsoft 365 en Moneybird. Het doel is de opdracht samenhangend te houden terwijl de specialistische hulpmiddelen die je al gebruikt hun eigen werk blijven doen.

@@ -27,7 +27,7 @@ These capabilities build on Otto's current plain-language contract explanation. 
 - Reputation layer
 - Verified engagements and professional verification
 - Business insights
-- Belgium launch
+- Expanded language and regional support
 
 ## Phase 5: Proactive business guidance
 

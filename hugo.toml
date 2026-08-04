@@ -9,7 +9,7 @@ disablePathToLower = true
 
 [params]
   description = "FlySolo turns a rough client brief into a proposal, defensible rate, clear scope, and agreement while you stay in control."
-  keywords = ["FlySolo", "Otto AI agent", "tech freelancers", "ZZP", "freelance proposal", "rate checker", "scope check", "e-signature", "Moneybird", "Dutch freelance software"]
+  keywords = ["FlySolo", "Otto AI agent", "freelancers", "independent professionals", "freelance proposal software", "freelance pricing", "scope check", "e-signature", "Moneybird", "client workflow"]
   images = "/images/flysolo.png"
   extMeta = false
   DisableFootBar = false
@@ -95,21 +95,17 @@ disablePathToLower = true
       url = "/pricing/"
       weight = 2
     [[languages.en.menu.main]]
-      name = "Security"
-      url = "/security/"
-      weight = 3
-    [[languages.en.menu.main]]
       name = "Wiki"
       url = "/wiki/"
-      weight = 4
+      weight = 3
     [[languages.en.menu.main]]
       name = "Open App"
       url = "https://app.flysolo.me"
-      weight = 5
+      weight = 4
     [[languages.en.menu.main]]
-      name = "Start Trial"
+      name = "Apply for Trial"
       url = "/join/"
-      weight = 6
+      weight = 5
 
     [[languages.en.menu.after]]
       name = "Home"
@@ -135,7 +131,7 @@ disablePathToLower = true
       weight = 1
     [[languages.en.menu.footer]]
       identifier = "trial"
-      name = "Start Trial"
+      name = "Apply for Trial"
       url = "/join/"
       weight = 2
     [[languages.en.menu.footer]]
@@ -177,21 +173,17 @@ disablePathToLower = true
       url = "/nl/pricing/"
       weight = 2
     [[languages.nl.menu.main]]
-      name = "Beveiliging"
-      url = "/nl/security/"
-      weight = 3
-    [[languages.nl.menu.main]]
       name = "Wiki"
       url = "/nl/wiki/"
-      weight = 4
+      weight = 3
     [[languages.nl.menu.main]]
       name = "Open app"
       url = "https://app.flysolo.me"
-      weight = 5
+      weight = 4
     [[languages.nl.menu.main]]
-      name = "Proefmaand"
+      name = "Proefmaand aanvragen"
       url = "/nl/join/"
-      weight = 6
+      weight = 5
 
     [[languages.nl.menu.after]]
       name = "Home"
@@ -217,7 +209,7 @@ disablePathToLower = true
       weight = 1
     [[languages.nl.menu.footer]]
       identifier = "trial"
-      name = "Proefmaand"
+      name = "Proefmaand aanvragen"
       url = "/nl/join/"
       weight = 2
     [[languages.nl.menu.footer]]
@@ -241,7 +233,7 @@ disablePathToLower = true
     [[languages.nl.menu.footer]]
       identifier = "privacy"
       name = "Privacy"
-      url = "/privacy-policy/"
+      url = "/nl/privacy-policy/"
       weight = 30
 
 [markup]

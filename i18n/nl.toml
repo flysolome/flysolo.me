@@ -10,6 +10,15 @@ other = "Ga naar de hoofdinhoud"
 [nav_toggle]
 other = "Navigatie openen"
 
+[nav_main_label]
+other = "Hoofdnavigatie"
+
+[nav_footer_label]
+other = "Voettekstnavigatie"
+
+[brand_home_label]
+other = "FlySolo.me-startpagina"
+
 [cookie_settings]
 other = "Cookie-instellingen"
 
@@ -17,13 +26,13 @@ other = "Cookie-instellingen"
 other = "Actuele opdracht"
 
 [workflow_card_title]
-other = "Azure landing zone"
+other = "Websitevernieuwing"
 
 [workflow_card_step_1]
 other = "Klantbriefing"
 
 [workflow_card_step_1_state]
-other = "Opdracht van 4 maanden gelezen"
+other = "Project met 12 pagina's herkend"
 
 [workflow_card_step_2]
 other = "Voorstel"
@@ -35,7 +44,7 @@ other = "Scope en mijlpalen opgesteld"
 other = "Tarief"
 
 [workflow_card_step_3_state]
-other = "Bandbreedte €115-€130/uur"
+other = "Bandbreedte €95-€110/uur"
 
 [workflow_card_step_4]
 other = "Overeenkomst"
@@ -50,46 +59,46 @@ other = "Factuur"
 other = "Moneybird-overdracht klaar"
 
 [hero_eyebrow]
-other = "De Dutch-first AI-dealworkflow voor senior tech-zzp'ers"
+other = "De AI-dealworkflow voor zelfstandige professionals"
 
 [hero_title]
-other = "Van lead naar getekende opdracht, in professioneel Nederlands."
+other = "Maak van een klantaanvraag een voorstel dat je kunt onderbouwen en versturen."
 
 [hero_lead]
-other = "Plak het recruiterbericht of de klantbriefing. Otto maakt het voorstel, onderbouwt je tarief, wijst op gaten in de scope en houdt geaccepteerd werk in beweging via overeenkomst, handtekening, Moneybird-factuur en betaling."
+other = "Plak de e-mail van je klant of de projectbriefing. Otto maakt het voorstel, onderbouwt je tarief, wijst op gaten in de scope en houdt geaccepteerd werk in beweging via overeenkomst, handtekening, factuur en betaling."
 
 [hero_primary]
-other = "Start één maand gratis"
+other = "Proefmaand aanvragen"
 
 [hero_secondary]
 other = "Bekijk de workflow"
 
 [hero_trial_note]
-other = "Eén beperkte maand voordat de eerste betaling start."
+other = "We beoordelen elke aanvraag en mailen je wanneer de toegang klaarstaat."
 
 [product_preview_label]
-other = "FlySolo-opdrachtreview voor een Azure-landing-zone-opdracht"
+other = "FlySolo-opdrachtreview voor een websitevernieuwing"
 
 [product_preview_workspace]
-other = "Noordcloud-werkruimte"
+other = "Northstar Studio-werkruimte"
 
 [product_preview_status]
 other = "Concept klaar"
 
 [product_preview_client]
-other = "BluePeak Systems"
+other = "Brightwave Collective"
 
 [product_preview_duration]
-other = "4 maanden"
+other = "3 maanden"
 
 [product_preview_mode]
-other = "Hybride · Utrecht"
+other = "Op afstand · Twee reviewrondes"
 
 [product_preview_score_label]
 other = "Dealklaar"
 
 [product_preview_otto]
-other = "De oplevertermijn ondersteunt €125 per uur. Leg beslisrechten vast en sluit migraties buiten kantoortijd uit voordat je verstuurt."
+other = "De lanceringsperiode ondersteunt €105 per uur. Leg vast wie het werk goedkeurt en sluit ondersteuning na de lancering uit voordat je verstuurt."
 
 [product_preview_edit]
 other = "Concept bewerken"
@@ -98,7 +107,7 @@ other = "Concept bewerken"
 other = "Controleren en goedkeuren"
 
 [proof_label]
-other = "Gebouwd rond echte dealmomenten"
+other = "Gebouwd rond echte momenten in klantopdrachten"
 
 [proof_1]
 other = "Voorstel moet vandaag weg"
@@ -134,22 +143,22 @@ other = "Voorbeeld van een klantaanvraag met commerciële gaten die Otto heeft g
 other = "Nieuwe aanvraag"
 
 [brief_subject]
-other = "Ondersteuning Azure landing zone — tarief en aanpak?"
+other = "Websitevernieuwing — tarief en aanpak?"
 
 [brief_message]
-other = "We zoeken een senior Azure-engineer om een landing zone voor negen subscriptions te bouwen. Start 1 september, hybride in Utrecht, ongeveer vier maanden. Kun je vandaag je tarief en aanpak sturen?"
+other = "We willen onze website vernieuwen voor de najaarscampagne. We hebben 12 belangrijke pagina's, een bestaande huisstijl en een vaste lanceringsdatum over drie maanden. Kun je deze week je tarief en aanpak sturen?"
 
 [brief_gaps_label]
 other = "Otto vond drie vragen voordat je een prijs noemt"
 
 [brief_gap_1]
-other = "Wie beslist over architectuur en acceptatie?"
+other = "Wie keurt het werk en de uiteindelijke lancering goed?"
 
 [brief_gap_2]
-other = "Valt workloadmigratie binnen de opdracht?"
+other = "Valt het overzetten van bestaande content binnen de opdracht?"
 
 [brief_gap_3]
-other = "Worden stand-by en wijzigingen buiten kantoortijd verwacht?"
+other = "Vallen copy, SEO en analytics binnen de scope?"
 
 [brief_action_context]
 other = "De klant wacht"
@@ -236,7 +245,7 @@ other = "Losse klantinformatie die via Otto verbonden commerciële output wordt"
 other = "Wat binnenkomt"
 
 [workbench_input_1]
-other = "Recruitermail"
+other = "E-mail van klant"
 
 [workbench_input_2]
 other = "Oud voorstel"
@@ -383,7 +392,7 @@ other = "Eén briefing. Drie beslissingen. Jouw akkoord."
 other = "Plak de aanvraag"
 
 [workflow_1_body]
-other = "Gebruik een recruiterbericht, klantbriefing, gespreksnotities of een ruwe projectomschrijving uit een echte kans."
+other = "Gebruik een e-mail van een klant, projectbriefing, gespreksnotities of een ruwe projectomschrijving uit een echte kans."
 
 [workflow_2_title]
 other = "Vorm het aanbod"
@@ -431,13 +440,13 @@ other = "Wacht op controle"
 other = "Wijziging in voorstel"
 
 [approval_document_body]
-other = "Vier maanden oplevering van een Azure landing zone met mijlpalen voor architectuur, beleid en overdracht."
+other = "Drie maanden websitevernieuwing met mijlpalen voor verkenning, paginaproductie, review, lancering en overdracht."
 
 [approval_change_title]
 other = "Eén uitsluiting toegevoegd"
 
 [approval_change_body]
-other = "Workloadmigratie en wijzigingen buiten kantoortijd vallen buiten dit voorstel."
+other = "Betaalde media, vertalingen en onderhoud na de lancering vallen buiten dit voorstel."
 
 [approval_gate_body]
 other = "De klant kan dit concept pas ontvangen nadat jij het goedkeurt."
@@ -482,70 +491,103 @@ other = "Clausules, aannames en uitsluitingen die je hergebruikt"
 other = "Verlengdata en opvolgmomenten"
 
 [pricing_kicker]
-other = "Pakketten"
+other = "Pakketten na je proefmaand"
 
 [pricing_title]
-other = "Gebruik FlySolo één maand op echt werk voordat je kiest."
+other = "Test FlySolo één maand met echt klantwerk."
+
+[pricing_intro]
+other = "Meld je één keer aan, neem een echte klantopdracht mee en kies pas na gebruik welk pakket bij je past."
+
+[pricing_plans_label]
+other = "FlySolo-pakketten"
 
 [pricing_period]
-other = "/maand"
+other = "/maand na proefperiode"
+
+[pricing_business_price]
+other = "Op maat"
+
+[pricing_business_period]
+other = "bespreek na je proefmaand"
 
 [pricing_starter_label]
-other = "Incidentele deals"
+other = "Voor incidentele klantaanvragen"
 
 [pricing_professional_label]
-other = "Beste voor solo-consultants"
+other = "Voor regelmatig klantwerk"
 
 [pricing_business_label]
-other = "Teams en terugkerend werk"
+other = "Voor zakelijke behoeften op maat"
 
 [pricing_starter]
-other = "Voor incidentele voorstellen en tariefchecks wanneer een nieuwe opdracht meer structuur nodig heeft."
+other = "Verduidelijk een binnenkomende briefing, stel gerichte vervolgvragen en bereid het eerste voorstel voor."
 
 [pricing_starter_1]
 other = "Voorstelconcepten"
 
 [pricing_starter_2]
-other = "Basisadvies voor tarieven"
+other = "Kwalificatie en vervolgvragen"
 
 [pricing_starter_3]
-other = "Factuur- en betaalstatus"
+other = "Kernworkflow voor voorstellen"
 
 [pricing_professional]
-other = "Voor solo-consultants die voorstellen, tarieven, contracten, handtekeningen, Moneybird-overdracht, herinneringen en win/loss-historie in één workflow willen."
+other = "Verbind voorstel, tarief, scope, overeenkomst, handtekening en Moneybird-overdracht voor regelmatig klantwerk."
 
 [pricing_professional_1]
-other = "Uitgebreid voorstel- en tariefadvies"
+other = "Alles uit Starter"
 
 [pricing_professional_2]
-other = "Contractconcepten en e-signature"
+other = "Beslisondersteuning voor tarief en scope"
 
 [pricing_professional_3]
-other = "Moneybird-, Google- en Microsoft-overdracht"
+other = "Workflow voor overeenkomst, akkoord en ondertekening"
 
 [pricing_professional_4]
-other = "Betaalherinneringen en win/loss-historie"
+other = "Moneybird-overdracht en betaalcontext"
 
 [pricing_business]
-other = "Voor terugkerende klanten en kleine teams die gedeelde templates, samenwerkers, retainers en complexere akkoordroutes nodig hebben."
+other = "Gebruik de volledige werkwijze met een inrichting die aansluit op hoe jouw bedrijf klantopdrachten afhandelt."
 
 [pricing_business_1]
-other = "Toegang voor samenwerkers"
+other = "Alles uit Professional"
 
 [pricing_business_2]
-other = "Templates voor meerdere merken"
+other = "Zakelijke onboarding"
 
 [pricing_business_3]
-other = "Retainer- en statement-of-workflows"
+other = "Pakketdetails in overleg"
 
 [pricing_business_4]
-other = "Uitgebreide clausules en voorrang bij support"
+other = "Pakketdetails in overleg"
 
 [pricing_action]
-other = "Start met dit pakket"
+other = "Proefmaand aanvragen"
 
 [pricing_note]
-other = "Je beperkte maand komt eerst. Het gekozen betaalde pakket start daarna."
+other = "Vraag de proefmaand één keer aan. Kies alleen een betaald pakket als je doorgaat; aanvragen start geen betaalde periode."
+
+[pricing_recommended]
+other = "Volledige standaardwerkwijze"
+
+[pricing_assurance_1_title]
+other = "Proberen vóór betalen"
+
+[pricing_assurance_1_body]
+other = "Tijdens je proefmaand start geen betaalde periode."
+
+[pricing_assurance_2_title]
+other = "Jij keurt het werk goed"
+
+[pricing_assurance_2_body]
+other = "Acties richting de klant blijven achter jouw controle."
+
+[pricing_assurance_3_title]
+other = "Boekhouding blijft apart"
+
+[pricing_assurance_3_body]
+other = "FlySolo bereidt de overdracht voor; Moneybird blijft je boekhoudsysteem."
 
 [faq_kicker]
 other = "Voordat je je aanmeldt"
@@ -554,7 +596,7 @@ other = "Voordat je je aanmeldt"
 other = "De praktische vragen."
 
 [faq_intro]
-other = "FlySolo begint bewust smal: serieuze klantopdrachten voor senior tech-zzp'ers in Nederland en België."
+other = "FlySolo is gemaakt voor zelfstandige professionals die duidelijker van klantaanvraag naar getekend en betaald werk willen gaan."
 
 [faq_1_question]
 other = "Is FlySolo boekhoudsoftware?"
@@ -572,19 +614,19 @@ other = "Nee. Otto kan analyseren en een concept maken, maar acties richting de 
 other = "Wat neem ik mee naar de proefmaand?"
 
 [faq_3_answer]
-other = "Neem een recent recruiterbericht, klantbriefing, tariefvraag of geanonimiseerde kans mee. De beste eerste sessie eindigt met iets dat je echt zou gebruiken of versturen."
+other = "Neem een recente e-mail van een klant, projectbriefing, tariefvraag of geanonimiseerde kans mee. De beste eerste sessie eindigt met iets dat je echt zou gebruiken of versturen."
 
 [faq_4_question]
-other = "Is FlySolo alleen in het Nederlands beschikbaar?"
+other = "Welke talen ondersteunt FlySolo?"
 
 [faq_4_answer]
-other = "Nee. FlySolo is Dutch-first en ondersteunt Nederlandse en Engelse workflows. De eerste markt is senior freelance techprofessionals in Nederland; België staat op het uitbreidingspad."
+other = "FlySolo ondersteunt momenteel Nederlands en Engels voor klantwerk. De workflow is gemaakt voor zelfstandige professionals in verschillende vakgebieden, met meer taal- en lokalisatieondersteuning in de toekomst."
 
 [faq_5_question]
 other = "Wat gebeurt er na de proefmaand?"
 
 [faq_5_answer]
-other = "Je kiest Starter, Professional of Business op basis van de workflow die je gebruikte. Je eerste betaalde periode begint na de beperkte maand, niet voordat je het product hebt ervaren."
+other = "Je kiest Starter, Professional of Business op basis van de workflow die je gebruikte. Je eerste betaalde periode begint na de proefmaand, zodra je het product hebt ervaren."
 
 [cta_kicker]
 other = "Beperkte proefperiode van één maand"
@@ -596,7 +638,7 @@ other = "Neem de klantbriefing mee die nu in je inbox staat."
 other = "Gebruik FlySolo één maand op een recente of geanonimiseerde opdracht voordat de eerste betaling start. Je werkt met een echt voorstel, tariefbesluit, scopecheck en volgende stap, niet met een demoscript."
 
 [cta_button]
-other = "Start de proefmaand"
+other = "Proefmaand aanvragen"
 
 [cta_existing]
 other = "Open FlySolo"
@@ -611,22 +653,22 @@ other = "Jouw echte workflow moet het product vormen. Vertel ons waar een voorst
 other = "Deel je workflow"
 
 [home_hero_eyebrow]
-other = "Voor senior tech-zzp'ers"
+other = "Voor zelfstandigen die projectmatig voor klanten werken"
 
 [home_hero_title]
-other = "Van klantaanvraag naar een deal waar je achter staat."
+other = "Maak van een ruwe klantvraag een voorstel dat je kunt controleren en versturen."
 
 [home_hero_lead]
-other = "FlySolo maakt van een ruwe briefing een voorstel, tarief, scope en overeenkomst. Otto bereidt het werk voor; jij bepaalt wat de klant ontvangt."
+other = "FlySolo helpt je de vraag te verduidelijken, prijs en afbakening te bepalen en het voorstel voor te bereiden. Dezelfde klantopdracht blijft daarna bij je tot en met overeenkomst, handtekening en factuuroverdracht."
 
 [home_hero_start]
-other = "Start je proefmaand"
+other = "Proefmaand aanvragen"
 
 [home_hero_open]
 other = "Open FlySolo"
 
 [home_hero_note]
-other = "Eén beperkte maand voordat de betaling start. Voor Nederlands en Engels klantwerk."
+other = "Met je aanvraag begint geen betaalde periode. Na goedkeuring mailen we je toegang; dan begint je proefmaand."
 
 [home_flow_label]
 other = "Van binnenkomende aanvraag naar een werkbare deal"
@@ -635,22 +677,64 @@ other = "Van binnenkomende aanvraag naar een werkbare deal"
 other = "In je inbox"
 
 [home_flow_request_title]
-other = "Lead voor een Azure landing zone"
+other = "Een klant vraagt om een voorstel"
 
 [home_flow_request_body]
-other = "Zes maanden, drie stakeholders en geen heldere acceptatiecriteria."
+other = "De deadline staat vast, drie mensen moeten akkoord geven en de resultaten zijn nog onduidelijk."
 
 [home_flow_otto]
-other = "Vindt de beslissingen die nog in de briefing verstopt zitten"
+other = "Vindt ontbrekende beslissingen en bereidt de volgende stap voor"
 
 [home_flow_output_label]
 other = "Klaar voor jouw review"
 
 [home_flow_output_title]
-other = "Eén samenhangende deal"
+other = "Een voorstel dat klaarstaat voor jouw controle"
 
 [home_flow_output_body]
-other = "Voorstel, tariefonderbouwing, scopegrenzen en volgende actie."
+other = "Heldere resultaten, een onderbouwd tarief, duidelijke aannames en de vragen die nog openstaan."
+
+[home_example_kicker]
+other = "Uitgewerkt voorbeeld"
+
+[home_example_title]
+other = "Bekijk hoe een onvolledige klantvraag een controleerbaar voorstel wordt."
+
+[home_example_intro]
+other = "Dit voorbeeld gebruikt fictieve inhoud om de werkwijze te tonen. Het is geen klantresultaat of productscreenshot."
+
+[home_example_brief_label]
+other = "De klantvraag"
+
+[home_example_handoff]
+other = "Otto bereidt de ontbrekende vragen en een gestructureerd concept voor"
+
+[home_example_result_label]
+other = "Klaar voor jouw controle"
+
+[home_example_proposal_label]
+other = "Richting voor het voorstel"
+
+[home_example_review_note]
+other = "Er wordt niets verstuurd voordat jij de vragen, afbakening en uitsluitingen hebt gecontroleerd."
+
+[home_responsibility_otto_title]
+other = "Otto bereidt voor"
+
+[home_responsibility_otto_body]
+other = "Vragen, concepten, tariefonderbouwing en uitleg in gewone taal."
+
+[home_responsibility_you_title]
+other = "Jij beslist"
+
+[home_responsibility_you_body]
+other = "De uiteindelijke afbakening, prijs, beloftes, wijzigingen en wat de klant ontvangt."
+
+[home_responsibility_record_title]
+other = "FlySolo legt vast"
+
+[home_responsibility_record_body]
+other = "De broninformatie, goedgekeurde beslissingen, documentstatus en overdrachten."
 
 [home_outcomes_kicker]
 other = "Minder dealadministratie"
@@ -680,37 +764,37 @@ other = "Controleer klantwerk voordat het wordt verstuurd en houd daarna handtek
 other = "Eén verbonden workflow"
 
 [home_tour_title]
-other = "Gebruik FlySolo zodra een deal ingewikkeld wordt."
+other = "Bekijk hoe één klantaanvraag verbonden blijft."
 
 [home_tour_intro]
-other = "Wissel tussen de drie momenten waarop verspreide context normaal voor herstelwerk zorgt."
+other = "Verduidelijk de aanvraag, bereid het aanbod voor en begrijp het contract zonder de commerciële context opnieuw op te bouwen."
 
 [home_tour_tabs_label]
 other = "FlySolo-productworkflow"
 
 [home_tour_tab_1]
-other = "Kwalificeer"
+other = "Verduidelijk"
 
 [home_tour_tab_2]
-other = "Stel voor"
+other = "Prijs en voorstel"
 
 [home_tour_tab_3]
-other = "Rond af"
+other = "Contract en factuur"
 
 [home_tour_outputs_label]
 other = "Voorbereide uitkomsten"
 
 [home_tour_1_title]
-other = "Een recruiter stuurt een briefing van vijf regels door."
+other = "Een potentiële klant stuurt een briefing van vijf regels."
 
 [home_tour_1_body]
-other = "FlySolo maakt er een kans van en toont welke commerciële vragen nog beantwoord moeten worden."
+other = "FlySolo legt de aanvraag vast en toont welke commerciële vragen nog beantwoord moeten worden."
 
 [home_tour_1_output_1]
 other = "Ontbrekende scope en stakeholders"
 
 [home_tour_1_output_2]
-other = "Kwalificatiescore"
+other = "Overzicht van de klantvraag"
 
 [home_tour_1_output_3]
 other = "Vragen voor je antwoord"
@@ -731,19 +815,19 @@ other = "FlySolo-scherm voor het kwalificeren van een kans"
 other = "De klant vraagt om een voorstel en dagtarief."
 
 [home_tour_2_body]
-other = "Otto werkt vanuit de gekwalificeerde kans, zodat tarief, scope en voorwaarden hetzelfde verhaal vertellen."
+other = "Otto werkt vanuit de vastgelegde klantvraag, zodat tarief, afbakening en voorwaarden hetzelfde verhaal vertellen."
 
 [home_tour_2_output_1]
 other = "Conceptvoorstel"
 
 [home_tour_2_output_2]
-other = "Onderbouwde tariefrange"
+other = "Tariefrange met onderbouwing"
 
 [home_tour_2_output_3]
 other = "Expliciete aannames"
 
 [home_tour_2_proof_1]
-other = "Tarief: €115-€130 per uur"
+other = "Tariefbesluit: onderbouwing gekoppeld"
 
 [home_tour_2_proof_2]
 other = "Scope: 6 resultaten"
@@ -758,7 +842,7 @@ other = "FlySolo-scherm voor voorstel en prijsstelling"
 other = "De klant stuurt zijn contract."
 
 [home_tour_3_body]
-other = "Upload de pdf of plak een clausule. Otto legt de tekst in gewone taal uit voordat jij beslist wat je accepteert, bevraagt of meeneemt naar ondertekening."
+other = "Upload de pdf of plak een clausule. Otto legt de tekst in gewone taal uit, zodat je vragen kunt voorbereiden en kunt bepalen wanneer professioneel advies nodig is."
 
 [home_tour_3_output_1]
 other = "Uitleg in gewone taal"
@@ -812,16 +896,16 @@ other = "Je bestaande tools"
 other = "Koppel Google Workspace, Microsoft 365 en Moneybird waar ze thuishoren."
 
 [home_control_more]
-other = "Lees over beveiliging en controle"
+other = "Lees over controle en gegevensgrenzen"
 
 [home_price_kicker]
 other = "Eenvoudig beginnen"
 
 [home_price_title]
-other = "Probeer een echte deal voordat je betaalt."
+other = "Probeer FlySolo met een echte klantopdracht voordat je betaalt."
 
 [home_price_body]
-other = "Je beperkte maand komt eerst. Betaalde pakketten starten daarna vanaf €19 per maand."
+other = "Je proefmaand komt eerst. Betaalde pakketten starten daarna vanaf €19 per maand."
 
 [home_price_period]
 other = "/maand na de proefperiode"
@@ -833,10 +917,10 @@ other = "Vergelijk pakketten"
 other = "Wat hierna komt"
 
 [home_roadmap_title]
-other = "De dealworkflow is pas het begin."
+other = "Bekijk wat FlySolo hierna bouwt."
 
 [home_roadmap_intro]
-other = "FlySolo groeit van een verbonden dealworkflow naar een AI-besturingssysteem voor zelfstandige professionals. Deze mogelijkheden zijn gepland en nog niet beschikbaar."
+other = "Herbruikbare profielen, uitgebreidere contracthulp en meer taalondersteuning zijn gepland en nog niet beschikbaar."
 
 [home_roadmap_phase_2]
 other = "Fase 2 · Gepland"
@@ -866,7 +950,7 @@ other = "Voortbouwend op de huidige uitleg in gewone taal, met volledige contrac
 other = "Een reputatie die meereist"
 
 [home_roadmap_3_body]
-other = "Geverifieerde opdrachten, een reputatielaag, bedrijfsinzichten en uitbreiding naar België."
+other = "Geverifieerde opdrachten, een reputatielaag, overdraagbaar bewijs van werk en diepere bedrijfsinzichten."
 
 [home_roadmap_4_title]
 other = "Een AI-bedrijfsadviseur"
@@ -881,13 +965,13 @@ other = "Bekijk de gedocumenteerde roadmap"
 other = "Neem een echte klantbriefing mee"
 
 [home_final_title]
-other = "Ontdek in één maand wat FlySolo verandert."
+other = "Neem één actuele klantaanvraag mee. Test de workflow een maand."
 
 [home_final_body]
-other = "Gebruik een recente of geanonimiseerde kans en eindig met werk dat je echt zou controleren, versturen of ondertekenen."
+other = "Vertel waar het werk vastloopt. We beoordelen je aanvraag en mailen je wanneer de toegang klaarstaat."
 
 [home_final_start]
-other = "Start je proefmaand"
+other = "Proefmaand aanvragen"
 
 [home_final_open]
 other = "Al gebruiker? Open de app"
@@ -899,10 +983,10 @@ other = "Terug naar FlySolo"
 other = "Probeer de workflow met een echte kans."
 
 [detail_cta_body]
-other = "Je beperkte proefmaand begint voordat de betaling start."
+other = "Je proefmaand komt vóór een eventuele betaalde periode."
 
 [detail_cta_start]
-other = "Start je proefmaand"
+other = "Proefmaand aanvragen"
 
 [detail_cta_open]
 other = "Open FlySolo"
@@ -920,25 +1004,16 @@ other = "Wikinavigatie"
 other = "Overzicht"
 
 [wiki_articles]
-other = "Handleidingen"
+other = "Artikelen"
 
 [wiki_articles_intro]
 other = "Productrichting, werkprincipes en de grenzen achter FlySolo."
 
-[wiki_search_label]
-other = "Zoek in handleidingen"
-
-[wiki_search_placeholder]
-other = "Zoek in de wiki"
-
-[wiki_no_results]
-other = "Geen handleidingen gevonden voor deze zoekopdracht."
-
 [wiki_guide]
-other = "Handleiding"
+other = "Artikel"
 
 [wiki_read_guide]
-other = "Lees handleiding"
+other = "Lees artikel"
 
 [wiki_back]
 other = "Terug naar de wiki"
@@ -947,7 +1022,7 @@ other = "Terug naar de wiki"
 other = "Op deze pagina"
 
 [wiki_end]
-other = "Einde van handleiding"
+other = "Einde van artikel"
 
 [wiki_all_articles]
 other = "Bekijk alle handleidingen"
@@ -956,28 +1031,28 @@ other = "Bekijk alle handleidingen"
 other = "Terug naar FlySolo"
 
 [join_kicker]
-other = "Beperkte proefperiode van één maand"
+other = "Aanvraag voor een proefmaand"
 
 [join_title]
-other = "Gebruik FlySolo voor een deal die ertoe doet."
+other = "Probeer FlySolo met een echte klantaanvraag."
 
 [join_lead]
-other = "Vertel ons wie je bent, hoe je bedrijf werkt en waar je huidige dealproces vertraagt. Zo bereiden we een proefperiode rond echt werk voor in plaats van een algemene rondleiding."
+other = "Vertel waar je aan werkt en waar je vastloopt, van voorstel tot betaling. We beoordelen je aanvraag en mailen na goedkeuring de toegangsgegevens."
 
 [join_expectation_1]
-other = "We bekijken je workflow en doel voor de proefmaand."
+other = "We bekijken je klantproces en doel voor de proefmaand."
 
 [join_expectation_2]
-other = "Je ontvangt onboardingdetails op het e-mailadres dat je opgeeft."
+other = "Na goedkeuring ontvang je informatie over de start op het e-mailadres dat je opgeeft."
 
 [join_expectation_3]
-other = "Je beperkte maand start zodra je toegang klaarstaat."
+other = "Met je aanvraag begint geen betaalde periode. Je proefmaand begint zodra je toegang is geactiveerd."
 
 [join_existing_user]
 other = "Heb je al toegang? Open de app"
 
 [join_progress_label]
-other = "Voortgang aanmelding"
+other = "Voortgang aanvraag"
 
 [join_step_1]
 other = "Over jou"
@@ -1019,13 +1094,16 @@ other = "Bedrijfsnaam"
 other = "Bedrijfsvorm"
 
 [join_business_solo]
-other = "Solo-zzp'er / consultant"
+other = "Ik werk zelfstandig"
 
 [join_business_team]
-other = "Klein consultancyteam"
+other = "Ik werk met een klein team"
 
 [join_business_agency]
-other = "Bureau"
+other = "Ik run een bureau of studio"
+
+[join_business_other]
+other = "Anders"
 
 [join_select]
 other = "Kies een optie"
@@ -1034,16 +1112,16 @@ other = "Kies een optie"
 other = "Belangrijkste expertise"
 
 [join_specialty_placeholder]
-other = "bijv. cloudarchitectuur, DevOps, security"
+other = "bijv. strategie, ontwerp, ontwikkeling, advies"
 
 [join_country]
 other = "Land"
 
-[join_country_other]
-other = "Anders"
+[join_country_placeholder]
+other = "Vul je land in"
 
 [join_friction]
-other = "Waar vertraagt je dealworkflow het meest?"
+other = "Waar loop je het vaakst vast, van klantvraag tot betaling?"
 
 [join_friction_proposal]
 other = "Het voorstel schrijven"
@@ -1070,31 +1148,34 @@ other = "bijv. Moneybird, Word, Google Docs, e-mail"
 other = "Wanneer is de proefmaand voor jou geslaagd?"
 
 [join_trial_goal_placeholder]
-other = "Vertel ons over de opdracht of workflow die je naar FlySolo wilt brengen. Laat vertrouwelijke klantgegevens weg."
+other = "Vertel ons over de opdracht die je in FlySolo wilt gebruiken. Laat vertrouwelijke klantgegevens weg."
+
+[join_trial_goal_help]
+other = "Gebruik een geanonimiseerde opdracht. Deel geen klantnamen of vertrouwelijke informatie."
 
 [join_consent]
-other = "Ik ga ermee akkoord dat FlySolo deze gegevens gebruikt om contact met mij op te nemen over de proefperiode. Bekijk het <a href=\"/privacy-policy/\">privacybeleid</a>."
+other = "Ik ga ermee akkoord dat FlySolo deze gegevens gebruikt om contact met mij op te nemen over de proefperiode. Bekijk het <a href=\"/nl/privacy-policy/\">privacybeleid</a>."
 
 [join_back_step]
 other = "Terug"
 
 [join_submit]
-other = "Aanmelding versturen"
+other = "Aanvraag versturen"
 
 [join_submitting]
-other = "Aanmelding versturen..."
+other = "Aanvraag versturen..."
 
 [join_error]
-other = "We konden de aanmelding niet versturen. Controleer de velden en probeer het opnieuw."
+other = "We konden je aanvraag niet versturen. Probeer het opnieuw."
 
 [join_success_kicker]
-other = "Aanmelding ontvangen"
+other = "Aanvraag ontvangen"
 
 [join_success_title]
-other = "Je workflow ligt bij ons."
+other = "We hebben je aanvraag ontvangen."
 
 [join_success_body]
-other = "We hebben de aanmelding naar het FlySolo-betateam gestuurd. Houd het zakelijke e-mailadres dat je opgaf in de gaten voor de volgende stap."
+other = "Houd het e-mailadres dat je opgaf in de gaten voor de volgende stap."
 
 [join_success_home]
 other = "Terug naar FlySolo"

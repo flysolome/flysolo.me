@@ -10,6 +10,15 @@ other = "Skip to main content"
 [nav_toggle]
 other = "Open navigation"
 
+[nav_main_label]
+other = "Main navigation"
+
+[nav_footer_label]
+other = "Footer navigation"
+
+[brand_home_label]
+other = "FlySolo.me home"
+
 [cookie_settings]
 other = "Cookie settings"
 
@@ -17,13 +26,13 @@ other = "Cookie settings"
 other = "Live opportunity"
 
 [workflow_card_title]
-other = "Azure landing zone"
+other = "Website relaunch"
 
 [workflow_card_step_1]
 other = "Client brief"
 
 [workflow_card_step_1_state]
-other = "4-month project parsed"
+other = "12-page project parsed"
 
 [workflow_card_step_2]
 other = "Proposal"
@@ -35,7 +44,7 @@ other = "Scope and milestones drafted"
 other = "Pricing"
 
 [workflow_card_step_3_state]
-other = "€115-€130/hour range"
+other = "€95-€110/hour range"
 
 [workflow_card_step_4]
 other = "Agreement"
@@ -50,46 +59,46 @@ other = "Invoice"
 other = "Moneybird handoff ready"
 
 [hero_eyebrow]
-other = "The Dutch-first AI deal workflow for senior tech freelancers"
+other = "The AI deal workflow for independent professionals"
 
 [hero_title]
 other = "Turn a client request into a proposal you can price, defend, and send."
 
 [hero_lead]
-other = "Paste the recruiter message or client brief. Otto drafts the proposal, recommends a rate with rationale, flags scope gaps, and keeps the accepted work moving through agreement, signature, Moneybird invoice, and payment."
+other = "Paste the client email or project brief. Otto drafts the proposal, recommends a rate with rationale, flags scope gaps, and keeps the accepted work moving through agreement, signature, invoice, and payment."
 
 [hero_primary]
-other = "Start one month free"
+other = "Apply for a one-month trial"
 
 [hero_secondary]
 other = "See the workflow"
 
 [hero_trial_note]
-other = "One limited month before the first payment."
+other = "We review each application and email you when access is ready."
 
 [product_preview_label]
-other = "FlySolo opportunity review for an Azure landing-zone assignment"
+other = "FlySolo opportunity review for a website relaunch"
 
 [product_preview_workspace]
-other = "Noordcloud workspace"
+other = "Northstar Studio workspace"
 
 [product_preview_status]
 other = "Draft ready"
 
 [product_preview_client]
-other = "BluePeak Systems"
+other = "Brightwave Collective"
 
 [product_preview_duration]
-other = "4 months"
+other = "3 months"
 
 [product_preview_mode]
-other = "Hybrid · Utrecht"
+other = "Remote · Two review rounds"
 
 [product_preview_score_label]
 other = "Deal readiness"
 
 [product_preview_otto]
-other = "The delivery window supports €125/hour. Define decision rights and exclude out-of-hours migration before sending."
+other = "The launch window supports €105/hour. Confirm who approves the work and exclude post-launch support before sending."
 
 [product_preview_edit]
 other = "Edit draft"
@@ -134,22 +143,22 @@ other = "Example client request with commercial gaps identified by Otto"
 other = "New request"
 
 [brief_subject]
-other = "Azure landing zone support — rate and approach?"
+other = "Website relaunch — rate and approach?"
 
 [brief_message]
-other = "We need a senior Azure engineer to build a landing zone for nine subscriptions. Start 1 September, hybrid in Utrecht, approximately four months. Could you send your rate and approach today?"
+other = "We want to relaunch our website before the autumn campaign. We have 12 priority pages, an existing brand system, and a fixed launch date in three months. Could you send your rate and approach this week?"
 
 [brief_gaps_label]
 other = "Otto found three questions before you quote"
 
 [brief_gap_1]
-other = "Who owns architecture decisions and acceptance?"
+other = "Who approves the work and the final launch?"
 
 [brief_gap_2]
-other = "Does the assignment include workload migration?"
+other = "Does the assignment include moving the existing content?"
 
 [brief_gap_3]
-other = "Are on-call and out-of-hours changes expected?"
+other = "Are copy, SEO, and analytics included in the scope?"
 
 [brief_action_context]
 other = "Client is waiting"
@@ -236,7 +245,7 @@ other = "Scattered client inputs becoming connected commercial outputs through O
 other = "What arrives"
 
 [workbench_input_1]
-other = "Recruiter email"
+other = "Client email"
 
 [workbench_input_2]
 other = "Old proposal"
@@ -383,7 +392,7 @@ other = "One brief. Three decisions. Your approval."
 other = "Paste the request"
 
 [workflow_1_body]
-other = "Use a recruiter message, client brief, call notes, or a rough project description from a real opportunity."
+other = "Use a client email, project brief, call notes, or a rough project description from a real opportunity."
 
 [workflow_2_title]
 other = "Shape the offer"
@@ -431,13 +440,13 @@ other = "Waiting for review"
 other = "Proposal change"
 
 [approval_document_body]
-other = "Four-month Azure landing-zone delivery with architecture, policy, and handover milestones."
+other = "Three-month website relaunch with discovery, page production, review, launch, and handover milestones."
 
 [approval_change_title]
 other = "One exclusion added"
 
 [approval_change_body]
-other = "Workload migration and out-of-hours changes are outside this proposal."
+other = "Paid media, translations, and post-launch maintenance are outside this proposal."
 
 [approval_gate_body]
 other = "The client cannot receive this draft until you approve it."
@@ -482,70 +491,103 @@ other = "Clauses, assumptions, and exclusions you reuse"
 other = "Renewal dates and follow-up moments"
 
 [pricing_kicker]
-other = "Plans"
+other = "Plans after your trial"
 
 [pricing_title]
-other = "Use FlySolo on real work for one month before you choose."
+other = "Test FlySolo on real client work for one month."
+
+[pricing_intro]
+other = "Apply once, bring a real client request, and decide which workflow fits after you have used the product."
+
+[pricing_plans_label]
+other = "FlySolo plans"
 
 [pricing_period]
-other = "/month"
+other = "/month after trial"
+
+[pricing_business_price]
+other = "Tailored"
+
+[pricing_business_period]
+other = "discuss after your trial"
 
 [pricing_starter_label]
-other = "Occasional deals"
+other = "For occasional client requests"
 
 [pricing_professional_label]
-other = "Best for solo consultants"
+other = "For regular client work"
 
 [pricing_business_label]
-other = "Teams and repeat work"
+other = "For tailored business needs"
 
 [pricing_starter]
-other = "For occasional proposals and rate checks when you need structure around a new opportunity."
+other = "Clarify an incoming brief, ask focused follow-up questions, and prepare the first proposal."
 
 [pricing_starter_1]
 other = "Proposal drafts"
 
 [pricing_starter_2]
-other = "Basic pricing suggestions"
+other = "Qualification and follow-up questions"
 
 [pricing_starter_3]
-other = "Invoice and payment status"
+other = "Core proposal workflow"
 
 [pricing_professional]
-other = "For solo consultants who want proposals, pricing, contracts, signatures, Moneybird handoff, reminders, and win/loss history in one workflow."
+other = "Connect proposal, pricing, scope, agreement, signature, and Moneybird handoff for regular client work."
 
 [pricing_professional_1]
-other = "Advanced proposal and pricing guidance"
+other = "Everything in Starter"
 
 [pricing_professional_2]
-other = "Contract drafts and e-signature"
+other = "Pricing and scope decision support"
 
 [pricing_professional_3]
-other = "Moneybird, Google, and Microsoft handoffs"
+other = "Agreement, approval, and signature workflow"
 
 [pricing_professional_4]
-other = "Payment reminders and win/loss history"
+other = "Moneybird handoff and payment context"
 
 [pricing_business]
-other = "For repeat-client work and small teams that need shared templates, collaborators, retainers, and more complex approval paths."
+other = "Use the complete workflow with onboarding shaped around how your business handles client work."
 
 [pricing_business_1]
-other = "Collaborator access"
+other = "Everything in Professional"
 
 [pricing_business_2]
-other = "Multi-brand templates"
+other = "Business onboarding"
 
 [pricing_business_3]
-other = "Retainer and statement-of-work flows"
+other = "Plan details confirmed with you"
 
 [pricing_business_4]
-other = "Advanced clauses and priority support"
+other = "Plan details confirmed with you"
 
 [pricing_action]
-other = "Start with this plan"
+other = "Apply for a one-month trial"
 
 [pricing_note]
-other = "Your limited month comes first. The selected paid plan starts afterwards."
+other = "Apply once for the one-month trial. Choose a paid plan only if you continue; applying does not start a paid period."
+
+[pricing_recommended]
+other = "Full standard workflow"
+
+[pricing_assurance_1_title]
+other = "Trial before payment"
+
+[pricing_assurance_1_body]
+other = "No paid period starts during your one-month trial."
+
+[pricing_assurance_2_title]
+other = "You approve the work"
+
+[pricing_assurance_2_body]
+other = "Client-facing actions remain behind your review."
+
+[pricing_assurance_3_title]
+other = "Accounting stays separate"
+
+[pricing_assurance_3_body]
+other = "FlySolo prepares the handoff; Moneybird remains your accounting system."
 
 [faq_kicker]
 other = "Before you apply"
@@ -554,7 +596,7 @@ other = "Before you apply"
 other = "The practical questions."
 
 [faq_intro]
-other = "FlySolo is intentionally narrow at the start: serious client opportunities for senior tech freelancers in the Netherlands and Belgium."
+other = "FlySolo is built for independent professionals who want a clearer path from client request to signed and paid work."
 
 [faq_1_question]
 other = "Is FlySolo accounting software?"
@@ -572,19 +614,19 @@ other = "No. Otto can analyse and draft, but client-facing actions require your 
 other = "What should I bring to the trial?"
 
 [faq_3_answer]
-other = "Bring a recent recruiter message, client brief, pricing question, or anonymised opportunity. The best first session ends with something you would genuinely use or send."
+other = "Bring a recent client email, project brief, pricing question, or anonymised opportunity. The best first session ends with something you would genuinely use or send."
 
 [faq_4_question]
-other = "Is FlySolo only available in Dutch?"
+other = "Which languages does FlySolo support?"
 
 [faq_4_answer]
-other = "No. FlySolo is Dutch-first and supports Dutch and English workflows. The first market focus is senior freelance tech professionals in the Netherlands, with Belgium in the expansion path."
+other = "FlySolo currently supports Dutch and English client work. The workflow is designed for independent professionals across disciplines, with more language and localization support planned over time."
 
 [faq_5_question]
 other = "What happens after the one-month trial?"
 
 [faq_5_answer]
-other = "You choose Starter, Professional, or Business based on the workflow you used. Your first paid period begins after the limited month rather than before you have experienced the product."
+other = "You choose Starter, Professional, or Business based on the workflow you used. Your first paid period begins after the trial, once you have experienced the product."
 
 [cta_kicker]
 other = "One-month limited trial"
@@ -596,7 +638,7 @@ other = "Bring the client brief sitting in your inbox."
 other = "Use FlySolo on a recent or anonymised opportunity for one month before the first payment. You will work with a real proposal, rate decision, scope check, and next step, not a demo script."
 
 [cta_button]
-other = "Start the trial"
+other = "Apply for the trial"
 
 [cta_existing]
 other = "Open FlySolo"
@@ -611,22 +653,22 @@ other = "Your real workflow should shape the product. Tell us where a proposal, 
 other = "Share your workflow"
 
 [home_hero_eyebrow]
-other = "For senior tech freelancers"
+other = "For independent professionals who sell scoped client work"
 
 [home_hero_title]
-other = "From client request to a deal you can defend."
+other = "Turn a rough client brief into a proposal you can review and send."
 
 [home_hero_lead]
-other = "FlySolo turns a rough brief into a proposal, rate, scope, and agreement. Otto prepares the work; you decide what reaches the client."
+other = "FlySolo helps you clarify the request, decide on price and scope, and prepare the proposal. The same client record then stays with you through agreement, signature, and invoice handoff."
 
 [home_hero_start]
-other = "Start your trial month"
+other = "Apply for a one-month trial"
 
 [home_hero_open]
 other = "Open FlySolo"
 
 [home_hero_note]
-other = "One limited month before billing starts. Built for Dutch and English client work."
+other = "Applying does not start a paid period. If accepted, we email your access details; your trial month starts when access opens."
 
 [home_flow_label]
 other = "From incoming request to a ready deal"
@@ -635,22 +677,64 @@ other = "From incoming request to a ready deal"
 other = "In your inbox"
 
 [home_flow_request_title]
-other = "Azure landing-zone lead"
+other = "A client asks for a proposal"
 
 [home_flow_request_body]
-other = "Six months, three stakeholders, and no clear acceptance criteria."
+other = "The deadline is fixed, three people must approve it, and the deliverables are still unclear."
 
 [home_flow_otto]
-other = "Finds the decisions hiding in the brief"
+other = "Finds missing decisions and prepares the next step"
 
 [home_flow_output_label]
 other = "Ready for your review"
 
 [home_flow_output_title]
-other = "One coherent deal"
+other = "A proposal ready for your review"
 
 [home_flow_output_body]
-other = "Proposal, rate rationale, scope boundaries, and next action."
+other = "Clear deliverables, a reasoned rate, explicit assumptions, and the questions still open."
+
+[home_example_kicker]
+other = "Worked example"
+
+[home_example_title]
+other = "See an incomplete request become a proposal you can inspect."
+
+[home_example_intro]
+other = "This illustrative example uses sample content to show the transformation. It is not a customer result or product screenshot."
+
+[home_example_brief_label]
+other = "The client request"
+
+[home_example_handoff]
+other = "Otto prepares the missing questions and a structured draft"
+
+[home_example_result_label]
+other = "Prepared for your review"
+
+[home_example_proposal_label]
+other = "Proposal direction"
+
+[home_example_review_note]
+other = "Nothing is sent until you review the questions, scope, and exclusions."
+
+[home_responsibility_otto_title]
+other = "Otto prepares"
+
+[home_responsibility_otto_body]
+other = "Questions, drafts, pricing rationale, and plain-language explanations."
+
+[home_responsibility_you_title]
+other = "You decide"
+
+[home_responsibility_you_body]
+other = "Final scope, price, promises, edits, and what reaches the client."
+
+[home_responsibility_record_title]
+other = "FlySolo records"
+
+[home_responsibility_record_body]
+other = "The source context, approved decisions, document state, and handoffs."
 
 [home_outcomes_kicker]
 other = "Less deal admin"
@@ -680,37 +764,37 @@ other = "Review client-facing work before it is sent, then keep signature, invoi
 other = "One connected workflow"
 
 [home_tour_title]
-other = "Use FlySolo at the moment a deal gets difficult."
+other = "See how one client request stays connected."
 
 [home_tour_intro]
-other = "Switch between the three moments where scattered context usually turns into rework."
+other = "Clarify the request, prepare the offer, and understand the contract without rebuilding the commercial context."
 
 [home_tour_tabs_label]
 other = "FlySolo product workflow"
 
 [home_tour_tab_1]
-other = "Qualify"
+other = "Clarify"
 
 [home_tour_tab_2]
-other = "Propose"
+other = "Price & propose"
 
 [home_tour_tab_3]
-other = "Close"
+other = "Agree & invoice"
 
 [home_tour_outputs_label]
 other = "Prepared outputs"
 
 [home_tour_1_title]
-other = "A recruiter forwards a five-line brief."
+other = "A prospective client sends a five-line brief."
 
 [home_tour_1_body]
-other = "FlySolo turns it into an opportunity and surfaces the commercial questions that still need an answer."
+other = "FlySolo captures the request and surfaces the commercial questions that still need an answer."
 
 [home_tour_1_output_1]
 other = "Scope and stakeholder gaps"
 
 [home_tour_1_output_2]
-other = "Qualification score"
+other = "Structured brief summary"
 
 [home_tour_1_output_3]
 other = "Reply-ready questions"
@@ -731,19 +815,19 @@ other = "FlySolo opportunity qualification screen"
 other = "The client asks for a proposal and day rate."
 
 [home_tour_2_body]
-other = "Otto works from the qualified opportunity, so the rate, scope, and terms tell the same story."
+other = "Otto works from the captured client request, so the rate, scope, and terms tell the same story."
 
 [home_tour_2_output_1]
 other = "Proposal draft"
 
 [home_tour_2_output_2]
-other = "Defensible rate range"
+other = "Rate range with rationale"
 
 [home_tour_2_output_3]
 other = "Explicit assumptions"
 
 [home_tour_2_proof_1]
-other = "Rate: €115-€130 per hour"
+other = "Pricing decision: rationale attached"
 
 [home_tour_2_proof_2]
 other = "Scope: 6 deliverables"
@@ -758,7 +842,7 @@ other = "FlySolo proposal and pricing screen"
 other = "The client sends their contract."
 
 [home_tour_3_body]
-other = "Upload the PDF or paste a clause. Otto explains it in plain language before you decide what to accept, question, or carry into signing."
+other = "Upload the PDF or paste a clause. Otto explains the wording in plain language so you can prepare questions and decide what needs professional advice."
 
 [home_tour_3_output_1]
 other = "Plain-language explanation"
@@ -812,7 +896,7 @@ other = "Your existing tools"
 other = "Connect Google Workspace, Microsoft 365, and Moneybird where they belong."
 
 [home_control_more]
-other = "Read about security and control"
+other = "Read about control and data boundaries"
 
 [home_price_kicker]
 other = "Simple entry point"
@@ -821,7 +905,7 @@ other = "Simple entry point"
 other = "Try a real deal before you pay."
 
 [home_price_body]
-other = "Your limited month comes first. Paid plans start at €19 per month after the trial."
+other = "Your one-month trial comes first. Paid plans start at €19 per month after the trial."
 
 [home_price_period]
 other = "/month after trial"
@@ -833,10 +917,10 @@ other = "Compare plans"
 other = "What is next"
 
 [home_roadmap_title]
-other = "The deal workflow is only the beginning."
+other = "See what FlySolo is building next."
 
 [home_roadmap_intro]
-other = "FlySolo is growing from a connected deal workflow into an AI operating system for independent professionals. These capabilities are planned, not available today."
+other = "Reusable profiles, deeper contract support, and broader language support are planned, not available today."
 
 [home_roadmap_phase_2]
 other = "Phase 2 · Planned"
@@ -866,7 +950,7 @@ other = "Building on today's plain-language explanations with full contract revi
 other = "Reputation that travels"
 
 [home_roadmap_3_body]
-other = "Verified engagements, a reputation layer, business insights, and expansion into Belgium."
+other = "Verified engagements, a reputation layer, portable proof of work, and deeper business insights."
 
 [home_roadmap_4_title]
 other = "An AI business advisor"
@@ -881,13 +965,13 @@ other = "See the documented roadmap"
 other = "Bring a real client brief"
 
 [home_final_title]
-other = "See what FlySolo changes in one month."
+other = "Bring one live client request. Test the workflow for one month."
 
 [home_final_body]
-other = "Use a recent or anonymised opportunity and leave with work you would actually review, send, or sign."
+other = "Tell us where the work is stuck. We review the application and email you when trial access is ready."
 
 [home_final_start]
-other = "Start your trial month"
+other = "Apply for the trial"
 
 [home_final_open]
 other = "Already a user? Open the app"
@@ -899,10 +983,10 @@ other = "Back to FlySolo"
 other = "Try the workflow with a real opportunity."
 
 [detail_cta_body]
-other = "Your limited trial month starts before billing does."
+other = "Your one-month trial comes before any paid period."
 
 [detail_cta_start]
-other = "Start your trial month"
+other = "Apply for the trial"
 
 [detail_cta_open]
 other = "Open FlySolo"
@@ -924,15 +1008,6 @@ other = "Guides"
 
 [wiki_articles_intro]
 other = "Product direction, operating principles, and the boundaries behind FlySolo."
-
-[wiki_search_label]
-other = "Search guides"
-
-[wiki_search_placeholder]
-other = "Search the wiki"
-
-[wiki_no_results]
-other = "No guides match that search."
 
 [wiki_guide]
 other = "Guide"
@@ -956,22 +1031,22 @@ other = "Browse all guides"
 other = "Back to FlySolo"
 
 [join_kicker]
-other = "One-month limited trial"
+other = "One-month trial application"
 
 [join_title]
-other = "Use FlySolo on a deal that matters."
+other = "Try FlySolo with a real client request."
 
 [join_lead]
-other = "Tell us who you are, how your business works, and where the current deal process slows down. We use this to prepare a trial around real work rather than a generic tour."
+other = "Tell us what you are working on and where the client workflow is stuck. We review your application and, if accepted, email the access details."
 
 [join_expectation_1]
 other = "We review your workflow and trial goal."
 
 [join_expectation_2]
-other = "You receive onboarding details at the email you provide."
+other = "If accepted, you receive onboarding details at the email address you provide."
 
 [join_expectation_3]
-other = "Your limited month starts when access is ready."
+other = "Applying does not start a paid period. Your trial starts when access is activated."
 
 [join_existing_user]
 other = "Already have access? Open the app"
@@ -1019,13 +1094,16 @@ other = "Business name"
 other = "Business setup"
 
 [join_business_solo]
-other = "Solo freelancer / consultant"
+other = "I work independently"
 
 [join_business_team]
-other = "Small consulting team"
+other = "I work with a small team"
 
 [join_business_agency]
-other = "Agency"
+other = "I run an agency or studio"
+
+[join_business_other]
+other = "Other"
 
 [join_select]
 other = "Select an option"
@@ -1034,13 +1112,13 @@ other = "Select an option"
 other = "Primary specialty"
 
 [join_specialty_placeholder]
-other = "e.g. Cloud architecture, DevOps, security"
+other = "e.g. Strategy, design, development, consulting"
 
 [join_country]
 other = "Country"
 
-[join_country_other]
-other = "Other"
+[join_country_placeholder]
+other = "Enter your country"
 
 [join_friction]
 other = "Where does your deal workflow slow down most?"
@@ -1072,6 +1150,9 @@ other = "What would make the trial worthwhile?"
 [join_trial_goal_placeholder]
 other = "Tell us about the opportunity or workflow you want to bring into FlySolo. Please leave out confidential client details."
 
+[join_trial_goal_help]
+other = "Use an anonymised opportunity. Do not include client names or confidential information."
+
 [join_consent]
 other = "I agree that FlySolo may use these details to contact me about the trial. See the <a href=\"/privacy-policy/\">privacy policy</a>."
 
@@ -1085,16 +1166,16 @@ other = "Send trial application"
 other = "Sending application..."
 
 [join_error]
-other = "We could not send the application. Please check the fields and try again."
+other = "We could not send your application. Please try again."
 
 [join_success_kicker]
 other = "Application received"
 
 [join_success_title]
-other = "Your workflow is on our desk."
+other = "Your trial request has been received."
 
 [join_success_body]
-other = "We sent the application to the FlySolo beta team. Watch the work email you provided for the next step."
+other = "Check the email address you provided for the next step."
 
 [join_success_home]
 other = "Return to FlySolo"

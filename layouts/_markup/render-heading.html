@@ -1,0 +1,6 @@
+<h{{ .Level }} id="{{ .Anchor }}" {{- with .Attributes.class -}}class="{{ . }}"{{- end -}}>
+  {{- .Text -}}
+  {{- if default true .Attributes.anchor -}}
+  <a class="anchor" href="#{{ .Anchor }}" aria-label="{{ if eq .Page.Language.Lang "nl" }}Permanente link naar {{ .PlainText }}{{ else }}Permalink to {{ .PlainText }}{{ end }}"><span aria-hidden="true">#</span></a>
+  {{- end -}}
+</h{{ .Level }}>

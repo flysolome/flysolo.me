@@ -1,0 +1,83 @@
+{{ define "main" }}
+{{ $joinURL := cond (eq .Language.Lang "nl") "/nl/join/" "/join/" }}
+<div class="fs-site fs-pricing-page">
+  <section class="fs-pricing-hero">
+    <div class="fs-shell">
+      <p class="fs-kicker">{{ i18n "pricing_kicker" }}</p>
+      <h1>{{ i18n "pricing_title" }}</h1>
+      <p>{{ i18n "pricing_intro" }}</p>
+    </div>
+  </section>
+
+  <section class="fs-pricing-plans" aria-label="{{ i18n "pricing_plans_label" }}">
+    <div class="fs-shell fs-pricing-grid">
+      <article class="fs-price-card">
+        <div class="fs-price-card__recommended" aria-hidden="true">{{ i18n "pricing_recommended" }}</div>
+        <header>
+          <p>{{ i18n "pricing_starter_label" }}</p>
+          <h2>Starter</h2>
+          <span>{{ i18n "pricing_starter" }}</span>
+        </header>
+        <div class="fs-price-card__price"><strong>€19</strong><span>{{ i18n "pricing_period" }}</span></div>
+        <ul>
+          <li>{{ i18n "pricing_starter_1" }}</li>
+          <li>{{ i18n "pricing_starter_2" }}</li>
+          <li>{{ i18n "pricing_starter_3" }}</li>
+        </ul>
+      </article>
+
+      <article class="fs-price-card fs-price-card--featured">
+        <div class="fs-price-card__recommended">{{ i18n "pricing_recommended" }}</div>
+        <header>
+          <p>{{ i18n "pricing_professional_label" }}</p>
+          <h2>Professional</h2>
+          <span>{{ i18n "pricing_professional" }}</span>
+        </header>
+        <div class="fs-price-card__price"><strong>€39</strong><span>{{ i18n "pricing_period" }}</span></div>
+        <ul>
+          <li>{{ i18n "pricing_professional_1" }}</li>
+          <li>{{ i18n "pricing_professional_2" }}</li>
+          <li>{{ i18n "pricing_professional_3" }}</li>
+          <li>{{ i18n "pricing_professional_4" }}</li>
+        </ul>
+      </article>
+
+      <article class="fs-price-card">
+        <div class="fs-price-card__recommended" aria-hidden="true">{{ i18n "pricing_recommended" }}</div>
+        <header>
+          <p>{{ i18n "pricing_business_label" }}</p>
+          <h2>Business</h2>
+          <span>{{ i18n "pricing_business" }}</span>
+        </header>
+        <div class="fs-price-card__price"><strong>{{ i18n "pricing_business_price" }}</strong><span>{{ i18n "pricing_business_period" }}</span></div>
+        <ul>
+          <li>{{ i18n "pricing_business_1" }}</li>
+          <li>{{ i18n "pricing_business_2" }}</li>
+          <li>{{ i18n "pricing_business_3" }}</li>
+        </ul>
+      </article>
+    </div>
+    <div class="fs-pricing-apply">
+      <p class="fs-pricing-note">{{ i18n "pricing_note" }}</p>
+      <a class="fs-button fs-button--primary" href="{{ $joinURL }}">{{ i18n "pricing_action" }}</a>
+    </div>
+  </section>
+
+  <section class="fs-pricing-assurance">
+    <div class="fs-shell">
+      <div>
+        <strong>{{ i18n "pricing_assurance_1_title" }}</strong>
+        <span>{{ i18n "pricing_assurance_1_body" }}</span>
+      </div>
+      <div>
+        <strong>{{ i18n "pricing_assurance_2_title" }}</strong>
+        <span>{{ i18n "pricing_assurance_2_body" }}</span>
+      </div>
+      <div>
+        <strong>{{ i18n "pricing_assurance_3_title" }}</strong>
+        <span>{{ i18n "pricing_assurance_3_body" }}</span>
+      </div>
+    </div>
+  </section>
+</div>
+{{ end }}

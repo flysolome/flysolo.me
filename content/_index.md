@@ -1,6 +1,6 @@
 ---
 title: "FlySolo"
-description: "FlySolo turns a rough client brief into a proposal, defensible rate, clear scope, and agreement while you stay in control."
+description: "FlySolo keeps each client request connected through proposal, pricing, scope, contract, signature, invoice handoff, and payment."
 type: "landing"
 sitemap:
   priority: 1.0

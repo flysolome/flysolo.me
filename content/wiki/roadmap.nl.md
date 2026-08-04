@@ -27,7 +27,7 @@ Deze mogelijkheden bouwen voort op Otto's huidige uitleg van contracten in gewon
 - Reputatielaag
 - Geverifieerde opdrachten en professionele verificatie
 - Bedrijfsinzichten
-- Lancering in België
+- Uitgebreidere taal- en regio-ondersteuning
 
 ## Fase 5: Proactieve bedrijfsbegeleiding
 
