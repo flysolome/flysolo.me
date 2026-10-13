@@ -21,6 +21,16 @@ You can accept, deny, or change analytics preferences from the cookie settings c
 
 When you request a trial, FlySolo uses the contact, business, and workflow details you submit to review your application and contact you about access. Do not include confidential client information in the form.
 
+## MCP connection
+
+When you connect FlySolo to an MCP client such as ChatGPT, the client receives
+only the workspace data returned by the tools you explicitly invoke. FlySolo
+uses OAuth to identify your account and verify workspace membership. The MCP
+gateway does not expose internal service credentials, and the initial release
+does not provide billing, purchasing, signing, deletion, or administrative
+actions. Requests and audit records follow the retention and security practices
+described in the FlySolo product and security documentation.
+
 ## Contact
 
 If you email FlySolo, we use your message and contact details only to respond to your request.
